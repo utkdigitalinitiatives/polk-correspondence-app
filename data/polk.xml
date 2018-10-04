@@ -43,12 +43,9 @@
           <pubPlace>Knoxville, Tennessee</pubPlace>
         </docImprint>
       </titlePage>
-      <div>
-        <p>
-          <pb/>
-          <hi rend="italics">Sponsored by</hi>
-          <lb/>
-        </p>
+      <div type="sponsors">
+        <pb/>
+        <head>Sponsored by</head>
         <p>Department of History, <name type="org">University of Tennessee</name>, <name type="place">Knoxville</name>
                 </p>
         <p>
@@ -73,7 +70,7 @@
       </div>
       <div type="ack">
         <pb/>
-        <head>ACKNOWLEDGMENTS</head>
+        <head>Acknowledgments</head>
         <p>Many organizations and individuals have made this digital volume possible. For financing
           the <name type="person">James K. Polk</name> Project, I thank the Department of History,
           the College of Arts and Sciences, and the Office of the Chancellor at the <name type="org">University of Tennessee</name>, <name type="place">Knoxville</name>; the <name type="org">National Historical Publications and Records Commission
@@ -175,7 +172,7 @@
       </div>
       <div type="introduction">
         <pb/>
-        <head>INTRODUCTION</head>
+        <head>Introduction</head>
         <p>
                     <name type="person">James K. Polk</name> presided over four years of rapid scientific
           innovation. New technologies transformed the ways Americans preserved and disseminated
@@ -311,7 +308,7 @@
       </div>
       <div type="editorialpractice">
         <pb/>
-        <head>EDITORIAL PRACTICE</head>
+        <head>Editorial Practice</head>
         <p>The current editor of the <hi rend="italics">Correspondence of <name type="person">James
               K. Polk</name>
                     </hi> has, in most regards, retained the editorial policies of his
@@ -446,7 +443,7 @@
       </div>
       <div type="symbols">
         <pb/>
-        <head>SYMBOLS</head>
+        <head>Symbols</head>
         <p>
                     <hi rend="italics">Document Classifications</hi>
                 </p>
@@ -1017,7 +1014,7 @@
       </div>
       <div type="chronology">
         <pb/>
-        <head>CHRONOLOGY</head>
+        <head>Chronology</head>
         <table>
           <row>
             <cell>
@@ -1301,7 +1298,7 @@
       </div>
       <div type="contents">
         <pb/>
-        <head>CONTENTS</head>
+        <head>Contents</head>
         <list type="simple">
           <item>
                         <ref target="ch001">From <name type="person">William McLain</name>, <date when="1848-04-01">April 1, 1848</date>
@@ -2799,9 +2796,8 @@
     </front>
     <body>
       <div type="letter" xml:id="ch001">
-        <pb/>
-        <head>FROM WILLIAM McLAIN</head>
         <opener>
+          <title>From William McLain</title>
           <dateline>
             <abbr>Colo.</abbr> Rooms <date when="1848-04-01">1 April 1848</date>
           </dateline>
