@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="xar" name="polk-papers">
     <xmlproperty file="expath-pkg.xml"/>
-    <property name="project.version" value="${package(version)}"/>
     <property name="project.app" value="polk-papers"/>
     <property name="build.dir" value="build"/>
-    <target name="xar">
+
+    <target name="xar" depends="git.rev-count">
         <mkdir dir="${build.dir}"/>
-        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/*"/>
+        <zip basedir="." destfile="${build.dir}/${project.app}-${git.rev-count}.xar" excludes="${build.dir}/*"/>
+    </target>
+
+    <available file=".git" type="dir" property="git.present"/>
+
+    <target name="git.rev-count" description="Calculate the number of commits." if="git.present">
+        <exec executable="git" outputproperty="git.rev-count" failifexecutionfails="false" errorproperty="">
+            <arg value="rev-list"/>
+            <arg value="--count"/>
+            <arg value="HEAD"/>
+        </exec>
+        <condition property="git.rev-count" value="${git.rev-count}" else="unknown">
+            <and>
+                <isset property="git.rev-count"/>
+            </and>
+        </condition>
     </target>
 </project>
