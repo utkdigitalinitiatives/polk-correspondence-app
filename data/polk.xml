@@ -1598,10 +1598,6 @@
                         </ref>
                     </item>
           <item>
-                        <ref target="ch074">From <name type="person">Thomas Ritchie</name>, <date when="1848-06-14">June 14, 1848</date>
-                        </ref>
-                    </item>
-          <item>
                         <ref target="ch075">To <name type="person">George Bancroft</name>, <date when="1848-06-17">June 17, 1848</date>
                         </ref>
                     </item>
@@ -1649,6 +1645,10 @@
                         <ref target="ch085">From <name type="person">Thomas G. Clinton</name>, <date when="1848-06-26">June 26, 1848</date>
                         </ref>
                     </item>
+          <item>
+            <ref target="ch074">From <name type="person">Thomas Ritchie</name>, <date when="1848-06-28">June 28, 1848</date>
+            </ref>
+          </item>
           <item>
                         <ref target="ch086">From <name type="person">John S. Barbour</name>, <date when="1848-06-29">June 29, 1848</date>
                         </ref>
@@ -6435,7 +6435,7 @@
           <address>
             <addrLine>[Washington City]</addrLine>
           </address>
-          <date when="1848-06-14">Wednesday Night [June 14, 1848]<note place="foot" n="1">Place and
+          <date when="1848-06-28">Wednesday Night [June 28, 1848]<note place="foot" n="1">Place and
               date identified through content analysis.</note>
                     </date>
         </dateline>
