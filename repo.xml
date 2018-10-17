@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <meta xmlns="http://exist-db.org/xquery/repo">
     <description>Polk Papers</description>
-    <website/>
+    <website>https://github.com/utkdigitaliniatives/polk-correspondence-app</website>
     <status/>
     <license>GNU-LGPL</license>
     <copyright>true</copyright>
