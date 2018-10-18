@@ -250,14 +250,14 @@
           Project is making the eleventh president’s letters even easier to find. As of January
             <date when="2016">2016</date>, the first twelve volumes of the <hi rend="italics">Correspondence</hi> are available, at no charge to the user, at <ref target="http://trace.tennessee.edu/utk_polk/">http://trace.tennessee.edu/utk_polk/</ref>. (They also can be found through our project
           website, <ref target="http://polkproject.utk.edu">http://polkproject.utk.edu</ref>.)
-          Volume 13, only recently published in hardcover, will join them in <date when="2018">2018</date>. These <abbr>PDF</abbr> volumes include all contents of the hardcover ones,
+          Volume 13, only recently published in hardcover, will join them in late <date when="2018">2018</date>. These <abbr>PDF</abbr> volumes include all contents of the hardcover ones,
           plus they are full-text searchable. Users can download them to any device with access to
           the World Wide Web.</p>
         <p>The volume you are now reading represents a step further still. Work continues on Volume
           14 of the <hi rend="italics">Correspondence</hi>, which will complete the series. In the
-          meantime, though, as we prepare that volume’s annotation and letter summaries, we see no
+          meantime, as we prepare that volume’s annotation and letter summaries, we see no
           reason not to share the transcriptions. Here you can read 107 letters that <name type="person">Polk</name> wrote and 266 that he received between <date when="1848-04-01">April 1, 1848</date>, and his death on <date when="1849-06-15">June 15, 1849</date>.
-          They contain few notes, chiefly describing the texts and identifying enclosures. But they
+          They contain few notes, chiefly describing the texts, identifying enclosures, and citing other Polk letters referenced. But they
           are accurate, carefully proofread reproductions of the primary documents.</p>
         <p>
                     <name type="org">Newfound Press</name> publishes this early edition of <hi rend="italics">Correspondence of <name type="person">James K. Polk</name>
@@ -284,7 +284,7 @@
           since publishing their chronologically appropriate volumes. Soon the <hi rend="italics">Correspondence of <name type="person">James K. Polk</name>
                     </hi>, with all the
           annotations and supplementary materials that readers have come to expect, will be
-          completed in both print and digital formats.</p>
+          complete in both print and digital formats.</p>
         <p>So please dive in. The letters on this site help to illuminate the aftermath of the
           Mexican War, including <name type="person">Polk</name>’s unsuccessful effort to establish
           territorial governments for the lands acquired from <name type="place">Mexico</name>; the
@@ -1598,10 +1598,6 @@
                         </ref>
                     </item>
           <item>
-                        <ref target="ch074">From <name type="person">Thomas Ritchie</name>, <date when="1848-06-14">June 14, 1848</date>
-                        </ref>
-                    </item>
-          <item>
                         <ref target="ch075">To <name type="person">George Bancroft</name>, <date when="1848-06-17">June 17, 1848</date>
                         </ref>
                     </item>
@@ -1649,6 +1645,10 @@
                         <ref target="ch085">From <name type="person">Thomas G. Clinton</name>, <date when="1848-06-26">June 26, 1848</date>
                         </ref>
                     </item>
+          <item>
+            <ref target="ch074">From <name type="person">Thomas Ritchie</name>, <date when="1848-06-28">June 28, 1848</date>
+            </ref>
+          </item>
           <item>
                         <ref target="ch086">From <name type="person">John S. Barbour</name>, <date when="1848-06-29">June 29, 1848</date>
                         </ref>
@@ -2316,7 +2316,7 @@
                         </ref>
                     </item>
           <item>
-                        <ref target="ch249">From <name type="person">Gwinn H. Heap</name>, <date when="1849-01-08">January 8, 1849</date>
+                        <ref target="ch249">From <name type="person">Gwinn Harris Heap</name>, <date when="1849-01-08">January 8, 1849</date>
                         </ref>
                     </item>
           <item>
@@ -2381,7 +2381,7 @@
                         </ref>
                     </item>
           <item>
-                        <ref target="ch265">To <name type="person">Gwinn H. Heap</name>, <date when="1849-01-19">January 19, 1849</date>
+                        <ref target="ch265">To <name type="person">Gwinn Harris Heap</name>, <date when="1849-01-19">January 19, 1849</date>
                         </ref>
                     </item>
           <item>
@@ -2482,7 +2482,7 @@
                         </ref>
                     </item>
           <item>
-                        <ref target="ch290">From <name type="person">Auguste G. V. D’Avezac</name>, <date when="1849-02-20">February 20, 1849</date>
+                        <ref target="ch290">From <name type="person">Auguste G. V. Davezac</name>, <date when="1849-02-20">February 20, 1849</date>
                         </ref>
                     </item>
           <item>
@@ -2511,7 +2511,7 @@
                     </item>
           <item>
                         <ref target="ch297">
-                            <pb/>From <name type="person">Walter T.</name> and <name type="person">Harriet M. Ross Colquitt</name>, <date when="1849-02-24">February 24,
+                            <pb/>From <name type="person">Walter T.</name> and <name type="person">Harriet Matilda Ross Colquitt</name>, <date when="1849-02-24">February 24,
                 1849</date>
                         </ref>
                     </item>
@@ -2572,7 +2572,7 @@
                         </ref>
                     </item>
           <item>
-                        <ref target="ch312">From <name type="person">Pallie Harrison Wilson Stewart</name>,
+                        <ref target="ch312">From <name type="person">Palatia Harrison Wilson Stewart</name>,
                 <date when="1849-03-12">March 12, 1849</date>
                         </ref>
                     </item>
@@ -2593,7 +2593,7 @@
                         </ref>
                     </item>
           <item>
-                        <ref target="ch317">From <name type="person">Chauncy Barnes</name> to <name type="person">James K.</name> and <name type="person">Sarah Childress Polk</name>,
+                        <ref target="ch317">From <name type="person">Chauncey Barnes</name> to <name type="person">James K.</name> and <name type="person">Sarah Childress Polk</name>,
                 <date when="1849-03-19">March 19, 1849</date>
                         </ref>
                     </item>
@@ -6423,7 +6423,7 @@
         <postscript>
           <p>
                         <abbr>ALS. DNA–RG</abbr> 59. Probably addressed to <name type="place">Washington
-              City</name>. From <name type="person">William Hunter, Jr.</name>’s <abbr>AE</abbr>:
+              City</name>. From <name type="person">William Hunter, Jr.</name>’s <abbr>AE</abbr> at top of letter:
             received <date when="1848-09-11">September 11, 1848</date>; “Original.”</p>
         </postscript>
       </div>
@@ -6435,7 +6435,7 @@
           <address>
             <addrLine>[Washington City]</addrLine>
           </address>
-          <date when="1848-06-14">Wednesday Night [June 14, 1848]<note place="foot" n="1">Place and
+          <date when="1848-06-28">Wednesday Night [June 28, 1848]<note place="foot" n="1">Place and
               date identified through content analysis.</note>
                     </date>
         </dateline>
@@ -7544,14 +7544,14 @@
           individuals are now basking in the sunshine of the best offices at your disposal
           abroad.</p>
         <p>I never wanted to get into the vortex of our State elections &amp; I never wanted office
-          under your administration. But I did seek a connection with the New paper to be establish
-          as your organ at Washington, but <name type="person">Mr. <pb/>A. J. D.</name> seemed to be
+          under your administration. But I did seek a connection with the New paper to be establishd
+          as your organ at Washington<note place="foot" n="4"><name type="person">Brown</name> to <name type="person">Polk</name>, <date when="1845-01-05">January 5, 1845</date> (first such letter); <name type="person">Brown</name> to <name type="person">Polk</name>, <date when="1845-01-06">January 6, 1845</date> (second such letter).</note>, but <name type="person">Mr. <pb/>A. J. D.</name> seemed to be
           preferd. &amp; the idea was abandond, &amp; I thrown into the Tennessee arena. But no
           matter I am in it &amp; will go through with it against Baylie Peiyton if he come <name type="person">Jno. Bell</name>
-          <name type="person">Govr. Jones</name> &amp; the De.....ls<note place="foot" n="4">Ellipsis in manuscript.</note>: But when I do, I whilst I am doing it, I mean to hold
+          <name type="person">Govr. Jones</name> &amp; the De.....ls<note place="foot" n="5">Ellipsis in manuscript.</note>: But when I do, I whilst I am doing it, I mean to hold
           the state in my own hands ready and able to throw it at any moment against our nominees if
           I discover one particle of the Van Buren spirit, to truckle with the powers of the north
-          &amp; to sacrafice our principles, our in[te]rest<note place="foot" n="5">Letters
+          &amp; to sacrafice our principles, our in[te]rest<note place="foot" n="6">Letters
             obliterated, ink blot.</note> or our honor in order to propitiate the God of numbers. I
           will give them up at the very last moment of the contest. With the close of your
           administration I shall care less than ever about <hi rend="italics">men</hi> &amp; will
@@ -8318,19 +8318,16 @@
           Department, relating to the seizure or capture of the American ship Admittance on the
           Coast of <name type="place">California</name>, by a vessel of war of the United States.
           The papers and documents transmitted show “what proceedings have occurred in regard to the
-          said vessel or her cargo,” so far as they are known at this Department.<note place="foot" n="1">On <date when="1848-04-07">April 7, 1847</date>, <name type="person">Cmdr. John A.
-              Montgomery</name>, of the <abbr>USS</abbr>
-            <hi rend="italics">Portsmouth</hi>, seized the merchant ship <hi rend="italics">Admittance</hi> and its cargo at <name type="place">San José de Cabo, Baja
-              California, Mexico</name>. He charged the owners, charterers, and captain with the
-            intention illegally to deliver the cargo to <name type="place">San Blas, Mexico</name>.
-            After the <abbr>U.S.</abbr> Court of Admiralty for <name type="place">California</name>
-            and the Navy Department upheld Montgomery’s action, the Senate, on <date when="1848-07-18">July 18, 1848</date>, requested all information and documents <name type="person">Polk</name> had on the topic. <name type="person">Polk</name> included
-              <name type="person">Mason</name>’s letter and its enclosures in his August 10 message
-            to the Senate. <name type="person">Mason</name> enclosed numerous documents, including
-            his correspondence with the ship’s owners and Montgomery, documents regarding the ship’s
-            voyage from both <abbr>U.K.</abbr> and <abbr>U.S.</abbr> investigations, and the
-            proceedings of the admiralty court. <abbr>PLs, PDs, PNs</abbr>, and <abbr>PC</abbr>.
-            Published in Senate Executive Document No. 72, 30th Congress, 1st Session.</note>
+          said vessel or her cargo,” so far as they are known at this Department.<note place="foot" n="1">The merchant ship <hi rend="italics">Admittance</hi> left <name type="place">New Orleans</name> on <date when="1846-10-02">October 2, 1846</date>,
+            carrying cotton, iron, paper, and silk. Owned by Bostonians <name type="person">Charles
+              B. Fessenden</name> and <name type="person">Richard S. Fay</name>, it was captained
+            by <name type="person">Peter Peterson</name> and chartered by Wyllie &amp; Egana, of
+            <name type="place">New Orleans</name>, agents for Rubio, Brother &amp; <abbr>Co.</abbr>, a firm
+            of Spaniards in <name type="place">Mexico</name>. Ownership of at least the cotton
+            transferred, en route, to Barron, Forbes &amp; <abbr>Co.</abbr>, a British firm in <name type="place">Tepic, Mexico</name>. On <date when="1847-04-07">April 7, 1847</date>, 
+            <name type="person">Cmdr. John A. Montgomery</name>, of the <abbr>USS</abbr> <hi rend="italics">Portsmouth</hi>, seized the ship and cargo at <name type="place">San José de Cabo, Baja California,
+              Mexico</name>. He charged the owners, charterers, and captain with the intention illegally to
+            deliver the cargo to <name type="place">San Blas, Mexico</name>. After the <abbr>U.S.</abbr> Court of Admiralty....</note>
                 </p>
         <closer>
           <signed>J. Y. M<hi rend="sc">ASON</hi>
@@ -8428,7 +8425,7 @@
             enclosed a telegram of <date when="1848-08-17">August 17, 1848</date>, from <name type="person">James W. Wymer</name>, in reply to <name type="person">Johnson</name>’s
             of <date when="--08-15">August 15</date>, communicating <name type="person">James
               Shields</name>’s declining the Oregon Territory governorship due to his Mexican War
-            wounds “and other reasons.” “His recovery,” Hymer explains, “is not such as to enable
+          wounds “and other reasons.” “His recovery,” <name type="person">Wymer</name> explains, “is not such as to enable
             him to undertake an arduous journey at this season of the year, or the arduous duties in
             such an office.” Partly printed L, telegram. <abbr>DLC–JKP</abbr>.</note> about one
           Oclock to day (Friday). It has turned out as I apprehended. Any directions you may give
@@ -8802,10 +8799,10 @@
                         <name type="person">Mr McK.</name>
                     </hi>
           left, I have seen in the Pennsylvanian of the 22nd (yesterday) the statement which I
-            enclose.<note place="foot" n="2">The enclosed clipping from the <name type="place">Philadelphia</name>
-            <hi rend="italics">Pennsylvanian</hi> contains a statement signed by <name type="person">Robert Emmet</name>, <name type="person">Horace Greeley</name>, <name type="person">John McKeon</name>, and five other members of the Directory of the Friends of <name type="place">Ireland</name>. They assert that news brought to <name type="place">New
-              York City</name> by the <hi rend="italics">Cambria</hi>, from “Tory papers, is
-            intended to deceive the public, and to depress the cause of Ireland. Collisions have
+          enclose.<note place="foot" n="2">The enclosed clipping from the <name type="place">Philadelphia</name>
+            <hi rend="italics">Pennsylvanian</hi> contains a statement signed by <name type="person">John McKeon</name>, <name type="person">O'Conor</name>, <name type="person">Horace Greeley</name>, and five other members of the Directory of the Friends of <name type="place">Ireland</name>. They assert that news brought to <name type="place">New
+              York City</name> by the <hi rend="italics">Cambria</hi>, from British “Tory papers, is
+            intended to deceive the public, and to depress the cause of <name type="place">Ireland</name>. Collisions have
             occurred, the precise result of which cannot be stated, as the patriotic journals are
             all suppressed. But known events ... are all eocouraging. The whole Government force has
             been employed for a week in attempts to arrest the leaders without effecting a single
@@ -9147,7 +9144,7 @@
           the existence of a conspiracy between these three to assail and slander you &amp; make
           capital if possible in the Presidential election. It occurs to me as the best possible
           course to meet such villany, is to stand still &amp; keep <name type="person">Mr.
-            K.</name> quiet until the Presidential election is over. They will make themselves <hi rend="italics">voluntary</hi> witnesses in behalf of Blair before that is over, probably
+            R.</name> quiet until the Presidential election is over. They will make themselves <hi rend="italics">voluntary</hi> witnesses in behalf of Blair before that is over, probably
           as soon as <abbr>B. F. B.</abbr> is removed. I could not leave without making this
           communication. I wished also to make an additional suggestion upon the removal of <abbr>B.
             F. B.</abbr> to tender of it to Chancellor <name type="person">Walworth. McK.</name>
@@ -9225,9 +9222,9 @@
           their Explosions, A further Befferice<note place="foot" n="1">Wheeler may have meant to
             write “Buffer” or “Buffing apparatus.”</note> of which is Most Respectfully Made to said
           Specifications as filed. Authority to draw the same from the pattent office for the time
-          being is hereby Transmitted.<note place="foot" n="2">Enclosure not found.</note> The
+          being is hereby Transmitted. The
           Commissioner of Pattents will Deliver to the Order of his Excellency <name type="person">James K Polk</name> the above cited Specifications as Filed in Scroll Schedule &amp;c
-            <date when="1848-08-11">Aug 11th 1848</date>.<note place="foot" n="3">Wheeler probably
+            <date when="1848-08-11">Aug 11th 1848</date>.<note place="foot" n="2">Wheeler probably
             meant to write “1846.”</note>
                 </p>
         <p>G<hi rend="sc">EORGE</hi> C. W<hi rend="sc">HEELER</hi>
@@ -9242,7 +9239,7 @@
           has appropriated 100000 Dollars as a premium to him or them who shall attain certain
           maximus in the Steam Improvements, as I am fully aware I have attained the whole I am
           willing to give the whole of this premium Up for $2500. which will be an outfit Sufficient
-          to enable me to attend to the whole matter Untill ready for Use &amp; Sale &amp;c.<note place="foot" n="4">Sentence divisions unclear in this paragraph up to this point.</note>
+          to enable me to attend to the whole matter Untill ready for Use &amp; Sale &amp;c.<note place="foot" n="3">Sentence divisions unclear in this paragraph up to this point.</note>
           Remember poor Fulton, &amp; that, as Fulton made so great and powerfull an Improvement
           Yet, as much more, is now made if not 3. times as much tho. Fulton, must always, have the
           honour of the, application &amp;c. I am Constrained to believe that on my Inventions going
@@ -9669,7 +9666,7 @@
           are.</p>
         <closer>
           <signed>
-                        <abbr>B.B.</abbr> F<hi rend="sc">RENCH</hi>
+                        <abbr>B. B.</abbr> F<hi rend="sc">RENCH</hi>
                     </signed>
         </closer>
         <postscript>
@@ -9788,7 +9785,7 @@
           the agency of commissioners, which as I was informed had been suggested, should be the one
           adopted by Congress, or if the measure should pass in the alterrnative, and that <hi rend="italics">form</hi> should be selected by the President, that then thee ablest men
           in the country should be appointed the commissioners. But that I ever decided in advance,
-          and before I had examined the compared the different propositions which were spoken of, in
+          and before I had examined and compared the different propositions which were spoken of, in
           favour of the <hi rend="italics">form</hi> by negotiation, in preference to that of the
           House, or authorized such a purpose to be communicated to Senators, is wholly
           inconceivable under the circumstances which existed. If I was so understood by any one
@@ -9929,7 +9926,7 @@
           Democratic paper at <name type="place">Washington</name>, and as I had reason to believe
           he had been dissatisfied at this circumstance, I regarded the voluntary opinion which he
           expressed, as <pb/>magnanimous, and I was gratified to hear it. It made so deep an
-          impression on my mind, that one the same evening, I made a note of it. It may not have
+          impression on my mind, that on the same evening, I made a note of it. It may not have
           made so deep an impression on you, and you may not remember it. I will recal to your
           recollection the occasion on which it was made. On the afternoon of the <date when="1846-08-15">15th of August 1846</date>, I took a ride with you in your carriage.
           We drove to <hi rend="italics">
@@ -9975,7 +9972,7 @@
             embarrassed, if not defeated annexation. It was not until after I had entered upon my
             duties as President, that I had an opportunity deliberately to consider of the two
             propositions and to decide between them. When I decided I had <hi rend="italics">
-                            <name type="person">Mr Tyler</name>’s</hi> instuctions and <hi rend="italics">
+                            <name type="person">Mr Tyler</name>’s</hi> instructions and <hi rend="italics">
                             <name type="person">Mr Almonte</name>’s</hi> letter before me, and the dangers of delay by
             protracted negotiations, had that mode been selected, were apparent. I acted upon my own
             best <pb/>judgment, and in conformity with the unanimous advice of my Cabinet, and the
@@ -10004,10 +10001,10 @@
         <salute>Dear Sir</salute>
         <p>The Last Leter I receved Frome you was dated 5the of June.</p>
         <p>Sir We have had some sickness but We are all oup at this Time. The corn crop is good But
-          the coten crop will Not turn out as well as I exspected whene I rought to you last.<note place="foot" n="2">
+          the coten crop will Not turn out as well as I exspected whene I rought to you last<note place="foot" n="2">
                         <name type="person">Mairs</name> to <name type="person">Polk</name>,
               <date when="1848-08-13">August 13, 1848</date>.</note> Oughing to the bold worm<note place="foot" n="3">Mairs probably meant to write “boll worm.”</note> which has ingerred
-          it some the coten is nough opening fast We are picking out coten. We have bin clearing
+          it some. The coten is nough opening fast we are picking out coten. We have bin clearing
           making the wi[n]ter<note place="foot" n="4">Letter inserted to complete probable
             meaning.</note> clothing.</p>
         <p>Put oup some cabins for the negros.</p>
@@ -10599,8 +10596,8 @@
           the case. I have however seen no explanation in any of the <name type="place">New
             York</name> papers. On the contrary I find in the “New York Daily Sun” of yesterday, the
           article which I enclose to you herewith.<note place="foot" n="1">Enclosure not found. The
-            New York <hi rend="italics">Sun</hi> article, titled “Turning the Tables,” reported that
-            Scott had led a committee of Democrats from <name type="place">New York</name>’s Old
+            New York <hi rend="italics">Sun</hi> article, titled “Turning the Tables,” reports that
+            Scott led a committee of Democrats from <name type="place">New York</name>’s Old
             Hunker faction of the party in asking Collector <name type="person">Cornelius W.
               Lawrence</name> to fire customs house employees who supported Free Soil party
             presidential nominee <name type="person">Martin Van Buren</name>. The article quotes, in
@@ -10795,7 +10792,7 @@
               1848</date>. Besides endorsing nominees for governor and lieutenant governor, those
             resolutions call on <name type="person">Polk</name> and Collector <name type="person">Lawrence</name> to remove all customs house employees who oppose Democratic
             presidential nominee <name type="person">Lewis Cass</name>’s election, particularly
-            members of the Barnburner faction of <name type="place">New York</name>’s Democratic
+            members of the Free Soilers of <name type="place">New York</name>’s Democratic
             party. The association, led by president and lead signer Scott, would view <name type="place">Lawrence</name>’s placing this “responsibility in any other quarter, as
             such an evidence of insincerity and imbecility as would disqualify him for the further
             occupancy of the place he himself now holds.” The resolutions accuse some customs house
@@ -11000,7 +10997,7 @@
           </address>
           <date when="1848-09-25">Sept. 25th 1848</date>
         </dateline>
-        <salute>Deae Marshall:</salute>
+        <salute>Dear Marshall:</salute>
         <p>I have received through the Engineer Department, the “conduct Report,” in your case, for
           the last month,<note place="foot" n="1">Report and any accompanying letter from the War
             Department’s Engineer Department, probably by <name type="person">Joseph G.
@@ -11614,7 +11611,7 @@
           I have lookd on with the deepest interest upon yr measures, &amp; yr career &amp; I am
           constraind to express my highest pleasure at the signal ability, the high integrity &amp;
           the <pb/>devoted patriotism with which you have sustaind yrself. As long as the history of
-          the Country shall ensure, yr Administration &amp; yr name will occupy a high &amp;
+          the Country shall endure, yr Administration &amp; yr name will occupy a high &amp;
           enviable position. And in a few years, when the full benefits of some of the measures of
           yr Administration will be developed, there will be but few who will not mention yr name
           with love &amp; with reverence.</p>
@@ -11642,7 +11639,7 @@
           Post-Master General thinks favourably of it. The unborn generations of coming centuries
           will mention with the deepest affection, the name of the man, who will be fortunate enough
           to confer such a blessing upon the Country &amp; upon the World.</p>
-        <p>It hope yr retirement, will be peacefu[l]<note place="foot" n="3">Letter cut off side of
+        <p>I hope yr retirement, will be peacefu[l]<note place="foot" n="3">Letter cut off side of
             page.</note> tranquil &amp; happy, &amp; that belovd &amp; respected you will enjoy many
           years &amp; have the grateful satisfaction of seeing all yr measures crownd with abundant
           success &amp; at length with the approbation of an entire People.</p>
@@ -12509,7 +12506,7 @@
           Resolution for annexing <name type="place">Texas</name> made war with <name type="place">Mexico</name> more likely than the other. <name type="person">Tappan</name> had in his
           memory confused a motion of <name type="person">Benton</name>’s of an earlier day for
           negotiations with <name type="place">Mexico</name>. His own statement destroys itself. It
-          is [whid]<note place="foot" n="3">Word here and below illegible or uncertain, blurred ink
+          is [whird]<note place="foot" n="3">Word here and below illegible or uncertain, blurred ink
             transfer.</note> only to give annoyance. No one can attach moment to it.</p>
         <p>The eyes of the world are on you. I am very anxious that your final message should be a
           faultless document: every way suited to the condition of a country which is looked to as
@@ -12862,7 +12859,7 @@
         <postscript>
           <p>
                         <abbr>ALS</abbr>. <abbr>DNA</abbr>–RG 76. Probably addressed to <name type="place">Washington City</name>. From <name type="person">William Hunter, Jr.</name>’s
-              <abbr>AE</abbr> at top of letter: received, presumably at State Department, <date when="1848-12-13">December 13, 1848</date>.</p>
+              <abbr>AE</abbr> at top of letter: received at State Department <date when="1848-12-13">December 13, 1848</date>.</p>
         </postscript>
       </div>
       <div type="letter" xml:id="ch189">
@@ -12973,8 +12970,8 @@
         </opener>
         <dateline>
           <address>
-            <addrLine>[Dancyville, Tenn.]<note place="foot" n="1">Place identified from
-                postmark.</note>
+            <addrLine>[Haywood County, Tenn.]<note place="foot" n="1">Place identified from
+                postmark of Dancyville, Tenn.</note>
                         </addrLine>
           </address>
           <date when="1848-11-01">Nov. 1st 1848</date>
@@ -13542,7 +13539,7 @@
             March</date> &amp; obtained your approval of it on the same evening, &amp; sent it off
           to <name type="person">Mr. Donelson</name> by the late Governor Yell of Arkansas.</p>
         <p>[In all our subsequent intercourse, I have never heard you utter a sentiment inconsistent
-          with the strong opinion which you expressed, at the first [c]abinet meeting, in favor of
+          with the strong opinion which you expressed, at the first Cabinet meeting, in favor of
           the House Resolutions.]<note place="foot" n="1">
                         <name type="person">Buchanan</name> struck
             out this paragraph in the <abbr>ALS</abbr>. It has been transcribed from the
@@ -13601,7 +13598,7 @@
         </opener>
         <dateline>
           <address>
-            <addrLine>[Rich] land [Ky.]<note place="foot" n="1">Town name uncertain, light ink
+            <addrLine>[Beech] land [Ky.]<note place="foot" n="1">Town name uncertain, light ink
                 transfer; state identified from <name type="person">Polk</name>’s
                 <abbr>AE</abbr>.</note>
                         </addrLine>
@@ -14297,7 +14294,7 @@
           dedicated the 50 feet avenue as a public street—that by this dedication he divested
           himself of all title and therefore that there was no title in his heirs on which the
           Chancellor could make any decree. He rested his case mainly on this point and read the
-          cases in 6 Peters 431. to sustain it. I feared at one moment that he was making an
+          case in 6 Peters 431. to sustain it. I feared at one moment that he was making an
           impression on <name type="person">Judge Cahal. Mr. Ewing</name> took the same ground
           besides insisting very earnestly that the avenue was not embraced in the terms of the
           contract. Having the conclusion of the case I first took up <name type="person">Mr.
@@ -14440,7 +14437,7 @@
         </opener>
         <dateline>
           <address>
-            <addrLine>[Dancyville, Tenn.]<note place="foot" n="1">Place identified through content
+            <addrLine>[Haywood County, Tenn.]<note place="foot" n="1">Place identified through content
                 analysis.</note>
                         </addrLine>
           </address>
@@ -14472,9 +14469,8 @@
           hurt. The Mewl they took is equally as good a one but not quite so Large. I purchased them
           alltogether and my Neighbors got out of the same Drove at the same price. Your Buisness
             <name type="person">Mr Fort</name> says is going on well. I was satisfied of the fact
-          after you wrote me<note place="foot" n="2">
-                        <name type="person">Polk</name> to <name type="person">Caldwell</name>, <date when="1848-10-14">October 14, 1848</date>.</note>
-          and I shewed Addison no [Havening]<note place="foot" n="3">Word uncertain.</note> nor did
+          after you wrote me
+          and I shewed Addison no [Faving]<note place="foot" n="2">Word uncertain; Caldwell may have meant to write "Favoring."</note> nor did
           I allow him after your letter to ever speak to me. <name type="person">Mr Fort</name> says
           he will never try it again.</p>
         <p>I furnished him with good woollen Suit of cloathes good shoes and socks Hat Blanket as he
@@ -14502,12 +14498,12 @@
           has a fine Library ad studies all the times and proposes to <name type="person">James</name> the use of his Library and his Office. <name type="person">James</name>
           speaks of exepting it if so I will spend next Summer with Mother. My Health is very good
           all the time. Oh I am such a <hi rend="italics">farmer</hi> could you see me.</p>
-        <p>Tell <name type="person">Sister Sarah</name> to write me if she has time. Th[ere i]s<note place="foot" n="4">Text uncertain, obliterated by hole.</note> but one thing gratifyig
+        <p>Tell <name type="person">Sister Sarah</name> to write me if she has time. Th[ere i]s<note place="foot" n="3">Text uncertain, obliterated by hole.</note> but one thing gratifyig
           in the Defeat of <hi rend="italics">Cass to</hi> me and that is that those that have lived
           of the fatt of the Land will have to come home or root Hog or <pb/>Die, and others get in
           that cant be more undeserveing than many that are in now. Every day shews me more and more
           the ingratitude of Man.</p>
-        <p>I stayed at your old friend <name type="person">Dr [Baleys]</name>.<note place="foot" n="5">Name uncertain.</note> He was a school mate of <hi rend="italics">Brother <name type="person">Marshalls</name>. I</hi> had a Big 2 yrs. Note in Dyers Burg; I got some
+        <p>I stayed at your old friend <name type="person">Dr Barbys</name>.<note place="foot" n="4">Name uncertain.</note> He was a school mate of <hi rend="italics">Brother <name type="person">Marshalls</name>. I</hi> had a Big 2 yrs. Note in Dyers Burg; I got some
           money and took what pork I needed ad a <hi rend="italics">Mewl</hi>. I am like my father.
           I do believe I can out trade Samuel but not <name type="person">Jim</name> he can trade
           well.</p>
@@ -14596,7 +14592,7 @@
                 </p>
         <p>This style of finish is adopted in St Louis &amp; is now being adopted in all new houses
           of Style here but as you do not think it worth the Cost I have this morning ordered it
-          discontinued though they had Commenced <pb/>to work und[er] your[r]<note place="foot" n="2">Letters inserted to complete probable meaning.</note> letter of the 11th Inst.</p>
+          discontinued though they had Commenced <pb/>to work und[er] you[r]<note place="foot" n="2">Letters inserted to complete probable meaning.</note> letter of the 11th Inst.</p>
         <p>I Should not have thought of it but that <name type="person">Mr Hughs</name> has his
           pride up about your wood work &amp; has made it much finer than the understanding for it
           is finer than any house here &amp; I felt disposed for the small expense not to fail to
@@ -14983,7 +14979,7 @@
                     <name type="person">Thomas Jefferson</name> said that the fathers who had fought the
           battles of the revolution when they had achieved our liberty felt as though they might
           retire and allow their sons, who had sucked at the paps of liberty, to carry out the
-          principles of liberty. But alas he says our sons want to sleep and the dark spirit of
+          principles of liberty. But alas he says our sons went to sleep and the dark spirit of
           slavery instead of being annihilated increased upon us. I give this sentiment of <name type="person">Jeffersons</name> from reccollection. The fathers knew that slavery was
           opposd to the principles which they were wishing to establish, and they simply allowed it
           to remain temporarily supposing it would gradually be abolished in the states one by one
@@ -15285,7 +15281,7 @@
           in the <hi rend="italics">
                         <name type="person">Nicholson</name>
                     </hi> letter. Your political
-          opponents calculate that you would be placed in this dilemmma, and that take what course
+          opponents calculate that you would be placed in this dilemma, and that take what course
           you might, your political destruction, they would calculate, would be certain. If you
           obeyed you would utterly ruin yourself throughout the whole South, if not throughout the
           Union, because that would be a departure from the ground on which you were supported by
@@ -15993,7 +15989,7 @@
           Triumphant as your inauguration and it is thought by many that your Country will again
           Call you to the helm in: 52. I will nevertheless pray for the Best Notwithstanding I
           should be Truly gratified to see you re Elected in, <date when="1852">1852</date>
-                    <note place="foot" n="2">New sentence may begin before or after “Nevertheless ... <date when="1852">1852</date>.”</note> yet in the intervening Time I Truly hope that the
+                    <note place="foot" n="2">New sentence may begin before or after “Notwithstanding ... <date when="1852">1852</date>.”</note> yet in the intervening Time I Truly hope that the
           Councils of the Nation may be Such as to favourably promote the advancement and interest
           of those that are governed and that you in common may rejoice <pb/>to see the policy of
           your wise Administration looked to for a precedent for the Succeeding 4 years. I cannot
@@ -16039,14 +16035,13 @@
             <addrLine>Mays Landing <abbr>N.J.</abbr>
                         </addrLine>
           </address>
-          <date when="1848-12-31">[December 31, 1848]<note place="foot" n="1">Date identified
-              through content analysis.</note>
+          <date when="1848-12-31">[December 31, 1848]
                     </date>
         </dateline>
         <p>It is near the last sunset of <date when="1848">1848</date>. and we are yet one nation.
             <name type="person">John C. Calhoun</name> the same restless spirit who troubled <name type="person">Andrew Jackson</name> is now troubling you. Mr. President The North will
           sustain you in any legal method to preserve the Union and the Constitution, whether by
-          veto or by armys. I wrote you in the commencement of the Mexican war to fear not.<note place="foot" n="2">Letter not found.</note> Again I say fear not. Fear not the political
+          veto or by armys. I wrote you in the commencement of the Mexican war to fear not.<note place="foot" n="1">Letter not found.</note> Again I say fear not. Fear not the political
           earthquakes of Europe fear not, the pestilence which has just visited our shores; fear not
           the nullification of <name type="person">John C. Calhoun</name>, fear only God. And God
           Almighty grant that neither you nor I may ever see The Union dissolved.</p>
@@ -16061,7 +16056,7 @@
           <p>
                         <abbr>ALI. DLC–JKP</abbr>. Addressed to <name type="place">Washington City</name>. From
               <name type="person">Polk</name>’s <abbr>AE</abbr>: received <date when="1848-01-03">January 3, 1849</date>. E possibly in Washington Curran Whitthorne’s or Lunsford L.
-            Loving’s hand: “amusing.”</p>
+            Loving Jr.’s hand: “amusing.”</p>
         </postscript>
       </div>
       <div type="letter" xml:id="ch242">
@@ -16281,7 +16276,7 @@
           fraud I do not doubt. Indeed I have never known a [public]-man who professed to belong to
             <hi rend="italics">no party</hi>, who was not when he obtained power a proscriptive, if
           not a vindictive partisan. Your case would test the <hi rend="italics">no party</hi>
-          professions of the President elect, and of his leading frieds. If [...]<note place="foot" n="4">Word or letters here and below cut off side of page.</note> shall prescribe “<hi rend="italics">for opinion’s sake</hi>,” the early [an]d friend of <hi rend="italics">Jackson</hi>, one who fell wounded in battle by his side, and who of all the officers,
+          professions of the President elect, and of his leading frieds. If [...]<note place="foot" n="4">Word or letters here and below cut off side of page.</note> shall prescribe “<hi rend="italics">for opinion’s sake</hi>,” the early [an]d constant friend of <hi rend="italics">Jackson</hi>, one who fell wounded in battle by his side, and who of all the officers,
           of all grades who had been under his command, was deemed by him most worthy to intrust his
             <hi rend="italics">war sword</hi>, the public will be at no loss to understand and to
           appreciate the insincerity of the professions of moderation, which were made before the
@@ -16490,7 +16485,7 @@
       </div>
       <div type="letter" xml:id="ch249">
         <opener>
-          <title>FROM GWINN H. HEAP</title>
+          <title>FROM GWINN HARRIS HEAP</title>
         </opener>
         <dateline>
           <address>
@@ -16616,7 +16611,7 @@
           agreeable to you, and you will so signify to me, it would give me sincere pleasure to
           apoint you on the commission with these gentlemen, or any other whom I may finally make up
           my mind to appoint. The office of commissioner will be one of dignity and high
-          responsibility. It will be such a commission as was filled by <hi rend="italics">White</hi>, <hi rend="italics">Taswell</hi> &amp; <hi rend="italics">King</hi>, under
+          responsibility. It will be such a commission as was filled by <hi rend="italics">White</hi>, <hi rend="italics">Tazewell</hi> &amp; <hi rend="italics">King</hi>, under
           the <name type="place">Spanish</name> Treaty, by which we acquired the Floridas; and such
           as was filled by <hi rend="italics">
                         <name type="person">Judge Campbell</name>
@@ -16652,7 +16647,7 @@
                         <name type="person">Polk</name> to
               <name type="person">Brown</name>, <date when="1848-09-06">September 6, 1848</date>
             (both such letters).</note> &amp; thank you for it. There is one point, probably from
-          inadventence upon which you are silent. It is in <pb/>relation to any conversation you may
+          inadvertence upon which you are silent. It is in <pb/>relation to any conversation you may
           have had with me on the subject of annexation, after my arrival in <name type="place">Washington</name> in <date when="1845-02">February 1845</date>. As however it is not
           now probable that any thing will be done on the subject until after I retiree, I will have
           an opportunity to see you on this point.</p>
@@ -17222,7 +17217,7 @@
       </div>
       <div type="letter" xml:id="ch265">
         <opener>
-          <title>TO GWINN H. HEAP</title>
+          <title>TO GWINN HARRIS HEAP</title>
         </opener>
         <dateline>
           <address>
@@ -17548,7 +17543,7 @@
           trade &amp; all for the colonies. This, I think, would do away with the colonial system
             <hi rend="italics">in toto</hi>, &amp; make the colonies virtually independent. It would
           open to our people all the trade on Lake Ontario, &amp; all the trade down the St.
-          Lawrence. Think of this &amp; write me a letter about it. I meant to have written to <name type="person">Mr Buchanan</name> about it today, but have had not time. And pray say to
+          Lawrence. Think of this &amp; write me a letter about it. I meant to have written to <name type="person">Mr Buchanan</name> about it today, but have had no time. And pray say to
             <name type="person">Mr Johnson</name> I wanted very much to send him a private letter,
           but I have not had a moment.</p>
         <p>
@@ -17819,7 +17814,7 @@
           handled except the box containing the copiying press, which was only opened and seemed
           safe and instantly reclosed. No books or papers were touched and the boxes containing them
           secured against the injuries incurred, so as to make them safe for the balance of the way.
-          On the 29" inst they were shipped on the Steamer Geneva diret for <name type="place">Nashville</name>.</p>
+          On the 29" inst they were shipped on the Steamer Geneva dirct for <name type="place">Nashville</name>.</p>
         <p>Should you send any more goods before you leave, if you will inform me of the probable
           time of their arrival here I will, if possible, see to them.</p>
         <p>I fear I shall not be able to see you on your return through this place as I will
@@ -17862,7 +17857,7 @@
         <p>Agreeably to your direction,<note place="foot" n="1">
                         <name type="person">Polk</name>’s
             letter, if any, not found.</note> I required the Bureau of Construction, Equipment &amp;
-          Repair to collection &amp; communicate the information called for by the Resolution of the
+          Repair to collect &amp; communicate the information called for by the Resolution of the
           Senate of the <date when="--01-15">15th of January</date> ultimo, in regard to the use of
             <name type="person">J. B. Emerson</name>’s patented spiral propellor on vessels of the
             <name type="place">United States</name>.</p>
@@ -18412,7 +18407,7 @@
       </div>
       <div type="letter" xml:id="ch290">
         <opener>
-          <title>FROM AUGUSTE G. V. D’AVEZAC</title>
+          <title>FROM AUGUSTE G. V. DAVEZAC</title>
         </opener>
         <dateline>
           <address>
@@ -18718,7 +18713,7 @@
       </div>
       <div type="letter" xml:id="ch297">
         <opener>
-          <title>FROM WALTER T. AND HARRIET M. ROSS COLQUITT</title>
+          <title>FROM WALTER T. AND HARRIET MATILDA ROSS COLQUITT</title>
         </opener>
         <dateline>
           <address>
@@ -18865,7 +18860,7 @@
         </dateline>
         <salute>Gentlemen:</salute>
         <p>I have the honour to acknowledge the receipt of your letter of the 23rd ultimo, inviting
-          me on behalf of the citizens of <name type="place">Columbia, Georgia</name>, to spend a
+          me on behalf of the citizens of <name type="place">Columbus, Georgia</name>, to spend a
           day at that place, on my journey from this City to my residence in <name type="place">Tennessee</name>.<note place="foot" n="2">Letter not found.</note> I will set out on my
           journey on the morning of the 6th Instant, but am unable to inform you as you request, on
           what day, I will probably, pass through Columbus. On my arrival there, it will afford me
@@ -18928,7 +18923,7 @@
           conduct a Mercantile &amp; Mining establishment in that Country, I am desirous of
           procuring letters &amp; testimonials to such officers of the Govt. of that territory, as
           it may serve me to become acquainted with.</p>
-        <p>I particularly desire letters to <name type="person">Genl. P. P Smith</name>, <name type="person">Col. Mason</name>, <name type="person">Capt. Marcy</name>, and the
+        <p>I particularly desire letters to <name type="person">Genl. P. F Smith</name>, <name type="person">Col. Mason</name>, <name type="person">Capt. Marcy</name>, and the
           Commanding officer of the Squadron at <name type="place">San-Francisco</name>.</p>
         <p>I had intended to have called upon your Excellency, before your departure from
           Washington. But business engagements, will not permmit me to leave so soon.</p>
@@ -19162,7 +19157,7 @@
           expressly required: but I trust that if a ray of that partiality which you have always
           evinced for the general interests of Cuba falls to the lot of one of her sons, you will
           excuse the liberty of this step. I also feel confident that the circumstance of my being a
-          stranger to party distinctions will enable you to recommend me without that <hi rend="italics">constrainte</hi> you might otherwise experience.</p>
+          stranger to party distinctions will enable you to recommend me without that <hi rend="italics">contrainte</hi> you might otherwise experience.</p>
         <p>Enclosed are two letters which I merely adjoin for the purpose of making myself better
           known to you.<note place="foot" n="2">Letters not found.</note> I beg of you, Sir, to
           return them after their perusal, under cover to me, to the keeper of the Irving House,
@@ -19298,7 +19293,7 @@
       </div>
       <div type="letter" xml:id="ch312">
         <opener>
-          <title>FROM PALLIE HARRISON WILSON STEWART</title>
+          <title>FROM PALATIA HARRISON WILSON STEWART</title>
         </opener>
         <dateline>
           <address>
@@ -19562,7 +19557,7 @@
       </div>
       <div type="letter" xml:id="ch317">
         <opener>
-          <title>FROM CHAUNCY BARNES TO JAMES K. AND SARAH CHILDRESS POLK</title>
+          <title>FROM CHAUNCEY BARNES TO JAMES K. AND SARAH CHILDRESS POLK</title>
         </opener>
         <dateline>
           <address>
@@ -19614,7 +19609,6 @@
         </closer>
         <postscript>
           <p>
-                        <abbr>N</abbr> probably in <name type="person">Moulton</name>’s hand.
               <abbr>DLC–JKP</abbr>. Addressed to “<name type="person">J. K. Polk</name> &amp;
             company” <pb/>beneath the letter and to “<name type="person">Hon James K
             Polk</name>/Present” on the cover; probably delivered by Moulton in Mobile.</p>
@@ -19712,7 +19706,7 @@
           smaller horse and I shall probably sell mine. <name type="person">Clayton</name> offered
           me $450. <name type="person">Mr. Buchanan</name> sold his for $150 &amp; his carriage for
           $350. Reverdy <name type="person">Johnson</name>’s son in law (Dangerfield) has rented
-          Gadsbys horse &amp; Madam called to see my horses on yesterday. The other Secretaries are
+          Gadsbys house &amp; Madam called to see my horses on yesterday. The other Secretaries are
           not located. <name type="person">Judge Mason</name> has been at his farm and expected to
           return to day.</p>
         <closer>
@@ -19964,7 +19958,7 @@
           to unite with my fellow citizens in your reception. My disappointment is however in a
           great measure relieved, on learning, the good feeling by which your greeted, by men of all
           parties. You could not have failed to be gratified had you been present, and heard the
-          sentiments which were uttered, at the collection, which took place, at the Gayoso, after
+          sentiments which were uttered, at the collation, which took place, at the Gayoso, after
           your departure; but I fear, that you would not be as much pained, to learn the expressions
           of dissappointment, which will flow from the fair lips, of our lady friends, at the soiráe
           to night, when they find that by your precipitated departure that you have deprived them
@@ -20097,7 +20091,7 @@
           <date when="1849-04-12">April 12th 1849</date>
         </dateline>
         <salute>Dear Sir</salute>
-        <p>At recent respective meetings of the Amasagassion and Philomathian Societies of
+        <p>At recent respective meetings of the Amasagassian and Philomathian Societies of
           Cumberland University, you were unanimously elected to deliver an address before them, the
           last week of next July, which will be the Commencement of our University.</p>
         <p>Nothing would be more delightful to us, or our citizens here; nothing would give us
@@ -20147,7 +20141,7 @@
           injuring the wheat crop. The Cotten was not sufficiently up to be injured. I fear it may
           have been up a little further south &amp; may have suffered.</p>
         <closer>
-          <signed>E P M<hi rend="sc">CNEAL</hi>
+          <signed>E P M<hi rend="sc">cNEAL</hi>
                     </signed>
         </closer>
         <postscript>
@@ -20155,7 +20149,7 @@
                         <abbr>ALS. DLC–JKP</abbr>. Addressed to <name type="person">Nashville</name> and
             forwarded to <name type="person">Murfreesboro, Tenn</name>. Postmarked <name type="place">Bolivar</name>, April 18, and <name type="place">Nashville</name>, April
             22. From <name type="person">Polk</name>’s <abbr>AE</abbr>: received <date when="1849-04-23">April 23, 1849</date>; answered <date when="1849-04-25">April 25,
-              1849</date>; “Relates to my Private business.”</p>
+              1849</date> (reply not found); “Relates to my Private business.”</p>
         </postscript>
       </div>
       <div type="letter" xml:id="ch331">
@@ -20408,7 +20402,7 @@
         <postscript>
           <p>
                         <abbr>LS</abbr> partly in author’s but mostly in an unknown hand. <abbr>DLC–JKP</abbr>.
-            On reverse of first page of <name type="person">Ellsworth</name> to <name type="person">Polk</name>, <date when="1849-05-07">May 7, 1849</date>. Probably addressed to <name type="place">Nashville</name>.</p>
+            On reverse is first page of <name type="person">Ellsworth</name> to <name type="person">Polk</name>, <date when="1849-05-07">May 7, 1849</date>. Probably addressed to <name type="place">Nashville</name>.</p>
         </postscript>
       </div>
       <div type="letter" xml:id="ch336">
@@ -20528,7 +20522,7 @@
         <postscript>
           <p>
                         <abbr>ALS</abbr>, press copy. <abbr>DLC–JKP</abbr>. Addressed to <name type="place">New
-              York</name> City.</p>
+                          York City</name>. Published in <name type="place">New York</name> <hi rend="italics">Literary American</hi>, <date when="1849-09-01">September 1, 1849</date>.</p>
         </postscript>
       </div>
       <div type="letter" xml:id="ch339">
