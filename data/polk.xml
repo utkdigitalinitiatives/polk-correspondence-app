@@ -61,12 +61,12 @@
         <p>
                     <name type="org">Tennessee Historical Commission</name>
                 </p>
-        <figure>
-          <graphic url="nationalarchives.jpg"/>
-        </figure>
-        <figure>
-          <graphic url="humanities.jpg"/>
-        </figure>
+        <!--<figure>-->
+          <!--<graphic url="nationalarchives.jpg"/>-->
+        <!--</figure>-->
+        <!--<figure>-->
+          <!--<graphic url="humanities.jpg"/>-->
+        <!--</figure>-->
       </div>
       <div type="ack">
         <pb/>
