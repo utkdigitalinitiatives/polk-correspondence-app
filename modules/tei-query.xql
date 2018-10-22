@@ -75,9 +75,11 @@ declare function teis:get-parent-section($node as node()) {
 declare function teis:get-breadcrumbs($config as map(*), $hit as element(), $parent-id as xs:string) {
     let $work := root($hit)/*
     let $work-title := nav:get-document-title($config, $work)
+    let $title-of-document := if($hit/tei:opener/tei:title)
+                              then ($hit/tei:opener/tei:title/string())
+                              else ($hit/tei:head[1]/string())
     return
         <ol class="headings breadcrumb">
-            <li><a href="{$parent-id}">{$work-title}</a></li>
             {
                 for $parentDiv in $hit/ancestor-or-self::tei:div[tei:head]
                 let $id := util:node-id(
@@ -85,7 +87,17 @@ declare function teis:get-breadcrumbs($config as map(*), $hit as element(), $par
                 )
                 return
                     <li>
-                        <a href="{$parent-id}?action=search&amp;root={$id}&amp;view={$config?view}&amp;odd={$config?odd}">{$parentDiv/tei:head/string()}</a>
+                        <a href="{$parent-id}?action=search&amp;root={$id}&amp;view={$config?view}&amp;odd={$config?odd}" class="mat-test">{$parentDiv/tei:head/string()}</a>
+                    </li>
+            }
+            {
+                for $letter in $hit/ancestor-or-self::tei:div[tei:opener]
+                let $id := util:node-id(
+                    if ($config?view = "page") then $letter/preceding::tei:pb[1] else $letter
+                )
+                return
+                    <li>
+                        <a href="{$parent-id}?action=search&amp;root={$id}&amp;view={$config?view}&amp;odd={$config?odd}" class="third-test">{$title-of-document}</a>
                     </li>
             }
         </ol>
