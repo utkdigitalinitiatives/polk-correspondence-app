@@ -4,6 +4,42 @@
         <div class="container-fluid" data-template="browse:fix-links">
             <div class="navbar-collapse collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav">
+                    <li class="dropdown" data-template="browse:show-if-logged-in">
+                        <a href="#" class="dropdown-toggle tp-menu-item" data-toggle="dropdown" aria-haspopup="true"
+                           role="button" aria-expanded="false" title="i18n(admin)">
+                            <div>
+                                <!--<i class="material-icons md-dark">build</i>-->
+                                <i18n:text key="admin"/>
+                                <span class="caret"/>
+                            </div>
+                            <!--<i class="material-icons">create</i>-->
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            <li>
+                                <a class="recompile" data-template="browse:recompile-link">
+                                    <i18n:text key="recompile"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="reindex" href="#">
+                                    <i18n:text key="metadata-update"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-template="pages:edit-odd-link" target="_new">
+                                    <i18n:text key="edit-odd"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="logout" href="#" title="i18n(logout)">
+                                    <i18n:text key="logout"/>
+                                    <span class="browse:current-user"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav">
                     <li>
                         <form id="searchPageForm" class="navbar-form" role="search" action="search.html">
                             <div class="input-group">
