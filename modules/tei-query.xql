@@ -87,7 +87,7 @@ declare function teis:get-breadcrumbs($config as map(*), $hit as element(), $par
                 )
                 return
                     <li>
-                        <a href="{$parent-id}?action=search&amp;root={$id}&amp;view={$config?view}&amp;odd={$config?odd}" class="mat-test">{$parentDiv/tei:head/string()}</a>
+                        <a href="{$parent-id}?action=search&amp;root={$id}&amp;view={$config?view}&amp;odd={$config?odd}" class="not-a-letter">{$parentDiv/tei:head/string()}</a>
                     </li>
             }
             {
@@ -97,7 +97,7 @@ declare function teis:get-breadcrumbs($config as map(*), $hit as element(), $par
                 )
                 return
                     <li>
-                        <a href="{$parent-id}?action=search&amp;root={$id}&amp;view={$config?view}&amp;odd={$config?odd}" class="third-test">{$title-of-document}</a>
+                        <a href="{$parent-id}?action=search&amp;root={$id}&amp;view={$config?view}&amp;odd={$config?odd}" class="letter">{$title-of-document}</a>
                     </li>
             }
         </ol>
