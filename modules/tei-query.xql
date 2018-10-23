@@ -76,8 +76,8 @@ declare function teis:get-breadcrumbs($config as map(*), $hit as element(), $par
     let $work := root($hit)/*
     let $work-title := nav:get-document-title($config, $work)
     let $title-of-document := if($hit/tei:opener/tei:title)
-                              then ($hit/tei:opener/tei:title/string())
-                              else ($hit/tei:head[1]/string())
+                              then ($hit/tei:opener/tei:title/text())
+                              else ($hit/tei:head[1]/text())
     return
         <ol class="headings breadcrumb">
             {
