@@ -33,6 +33,7 @@ import module namespace nav="http://www.tei-c.org/tei-simple/navigation" at "../
 import module namespace browse="http://www.tei-c.org/tei-simple/templates" at "browse.xql";
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "../config.xqm";
 import module namespace console="http://exist-db.org/xquery/console" at "java:org.exist.console.xquery.ConsoleModule";
+import module namespace functx ="http://www.functx.com";
 
 (:~
 : Execute the query. The search results are not output immediately. Instead they
@@ -55,6 +56,14 @@ function search:query($node as node()*, $model as map(*), $query as xs:string?, 
         if (empty($query))
         then
             map {
+                "hits" : session:get-attribute("apps.simple"),
+                "hitCount" : session:get-attribute("apps.simple.hitCount"),
+                "query" : session:get-attribute("apps.simple.query"),
+                "docs" : session:get-attribute("apps.simple.docs")
+            }
+        else if (functx:number-of-matches($query, '"') mod 2 != 0)
+        then
+                map {
                 "hits" : session:get-attribute("apps.simple"),
                 "hitCount" : session:get-attribute("apps.simple.hitCount"),
                 "query" : session:get-attribute("apps.simple.query"),
