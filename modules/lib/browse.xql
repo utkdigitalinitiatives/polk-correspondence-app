@@ -386,3 +386,11 @@ declare function app:dispatch-action($node as node(), $model as map(*), $action 
         default return
             ()
 };
+
+declare
+    %templates:wrap
+    %templates:default("key", "query")
+function app:show-query-text($node as node()*, $model as map(*), $key as xs:string) {
+    let $query := $model?($key)
+    return $query
+};
