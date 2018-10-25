@@ -112,7 +112,7 @@ declare
 function search:show-hits($node as node()*, $model as map(*), $start as xs:integer, $per-page as xs:integer, $view as xs:string?) {
     if ($model?error)
         then
-            let $loc := <span id="error-message"><strong>Invalid Search</strong><p>There is something wrong with the phrase you searched for. If using quotes for multi-word, exact phrase searching, please check that you have properly closed the quotes around the phrase, ex: "San Francisco", and then try again.</p></span>
+            let $loc := <div id="error-message" role="alert"><strong>Invalid Search</strong><p>There is something wrong with the phrase you searched for. If using quotes for multi-word, exact phrase searching, please check that you have properly closed the quotes around the phrase, ex: "San Francisco", and then try again.</p></div>
             return ($loc)
     else
     for $hit at $p in subsequence($model("hits"), $start, $per-page)
