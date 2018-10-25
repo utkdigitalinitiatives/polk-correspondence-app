@@ -33,6 +33,7 @@ import module namespace nav="http://www.tei-c.org/tei-simple/navigation" at "../
 import module namespace browse="http://www.tei-c.org/tei-simple/templates" at "browse.xql";
 import module namespace config="http://www.tei-c.org/tei-simple/config" at "../config.xqm";
 import module namespace console="http://exist-db.org/xquery/console" at "java:org.exist.console.xquery.ConsoleModule";
+import module namespace functx ="http://www.functx.com";
 
 (:~
 : Execute the query. The search results are not output immediately. Instead they
@@ -60,6 +61,15 @@ function search:query($node as node()*, $model as map(*), $query as xs:string?, 
                 "query" : session:get-attribute("apps.simple.query"),
                 "docs" : session:get-attribute("apps.simple.docs")
             }
+        else if (functx:number-of-matches($query, '"') mod 2 != 0)
+        then
+             map {
+                "hits" : session:set-attribute("apps.simple", map{}),
+                "hitCount": 0,
+                "error": "Invalid query!  Try again.",
+                "query" : $query,
+                "docs" : session:set-attribute("apps.simple.docs", "")
+             }
         else
             (:Otherwise, perform the query.:)
             (: Here the actual query commences. This is split into two parts, the first for a Lucene query and the second for an ngram query. :)
@@ -100,6 +110,11 @@ declare
     %templates:default("start", 1)
     %templates:default("per-page", 10)
 function search:show-hits($node as node()*, $model as map(*), $start as xs:integer, $per-page as xs:integer, $view as xs:string?) {
+    if ($model?error)
+        then
+            let $loc := <div id="error-message" role="alert"><strong>Invalid Search</strong><p>There is something wrong with the phrase you searched for. If using quotes for multi-word, exact phrase searching, please check that you have properly closed the quotes around the phrase, ex: "San Francisco", and then try again.</p></div>
+            return ($loc)
+    else
     for $hit at $p in subsequence($model("hits"), $start, $per-page)
     let $config := tpu:parse-pi(root($hit), $view)
     let $parent := query:get-parent-section($config, $hit)
