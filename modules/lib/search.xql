@@ -63,12 +63,12 @@ function search:query($node as node()*, $model as map(*), $query as xs:string?, 
             }
         else if (functx:number-of-matches($query, '"') mod 2 != 0)
         then
-                map {
-                "hits" : session:get-attribute("apps.simple"),
-                "hitCount" : session:get-attribute("apps.simple.hitCount"),
-                "query" : session:get-attribute("apps.simple.query"),
-                "docs" : session:get-attribute("apps.simple.docs")
-            }
+             map {
+                "hits" : session:set-attribute("apps.simple", map{}),
+                "hitCount": 0,
+                "query" : "Invalid query!  Try again.",
+                "docs" : session:set-attribute("apps.simple.docs", "")
+             }
         else
             (:Otherwise, perform the query.:)
             (: Here the actual query commences. This is split into two parts, the first for a Lucene query and the second for an ngram query. :)
