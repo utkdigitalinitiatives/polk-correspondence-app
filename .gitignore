@@ -5,5 +5,5 @@ repo.xml
 expath-pkg.xml
 node_modules
 
-# react header dist folder
 resources/ut-header/dist
+resources/ut-header/dist/*
