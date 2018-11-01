@@ -8,6 +8,7 @@ import findIndex from "lodash/findIndex"
 import {Menu} from "./components/Menu";
 import {Search} from "./components/Search";
 
+/* media */
 import primary_logo from './media/ut-knoxville.svg';
 import square_logo from './media/ut-square.svg';
 import {PolkHero} from "./components/custom/PolkHero";
