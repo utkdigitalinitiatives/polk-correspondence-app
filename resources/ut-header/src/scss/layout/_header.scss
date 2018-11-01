@@ -1,0 +1,116 @@
+.utk-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 129px;
+  z-index: 100;
+  width: 100%;
+  border-top: 6px solid $orange;
+  box-shadow: $box-shadow;
+  font-family: $sans;
+  color: $smokeyx;
+  font-size: 15px;
+
+  .utk-header-main {
+    background-color: $white;
+    height: 76px;
+    width: 100%;
+    box-shadow: $box-shadow;
+    top: 0;
+    z-index: 97;
+    transition: $transition-all;
+    margin-top: $golden-ratio-4;
+
+    > .container {
+    }
+  }
+  .utk-header-super {
+    width: 100%;
+    background-color: $gray-1;
+    height: $golden-ratio-4;
+    position: absolute;
+    z-index: 96;
+    top: 0px;
+    overflow: hidden;
+  }
+}
+
+body.utk-menu-open {
+  .utk-header-super {
+    background-color: $white;
+
+    &--url {
+      left: 20px;
+    }
+
+    .utk-header-super--menu--options {
+      right: 0;
+      opacity: 1;
+      width: auto;
+      margin-left: $golden-ratio-2;
+    }
+  }
+}
+
+
+
+@include respond(xs, sm, md) {
+  .utk-header.utk-header-expand-menu .utk-header-actions {
+    right: 25px;
+    margin-top: 16px;
+  }
+}
+
+.utk-header-actions {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  transition: $transition-all;
+  padding-top: 3px;
+  height: $golden-ratio-5;
+
+  .utk-header-actions {
+    &--item {
+      display: block;
+      width: auto; /* Or whatever */
+      height: auto; /* Or whatever */
+      margin: auto; /* Magic! */
+      font-weight: 400;
+      line-height: $type-3;
+      font-size: $type-3;
+
+      @include respond(xs) {
+        &.utk-header-actions--utk {
+          display: none;
+        }
+
+        &.utk-header-actions--home {
+          display: none;
+        }
+      }
+
+      em {
+        font-style: normal;
+
+        @include respond(xs) {
+          display: none;
+        }
+      }
+
+      a {
+        display: inline-block;
+        padding: calc((#{$golden-ratio-4} - #{$golden-ratio-0} - #{$type-2}) / 2) calc(#{$golden-ratio-3} / 2);
+        transition: $transition-all;
+        color: $smokeyx !important;;
+
+        @include respond(xs) {
+          > span {
+            font-size: $type-4;
+          }
+        }
+      }
+    }
+  }
+}

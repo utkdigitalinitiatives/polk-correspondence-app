@@ -1,0 +1,344 @@
+.utk-header-resources {
+  width: 100%;
+  background-color: $white;
+  transition: none !important;
+  top: -600px;
+  opacity: 1;
+  z-index: 98;
+  position: fixed;
+  box-shadow: $box-shadow;
+
+  &::before {
+    width: 100%;
+    height: 1px;
+    content: ' ';
+    position: absolute;
+  }
+
+  /*
+   * menu on tablet and down
+   */
+
+  @include respond(xs, sm, md) {
+    height: 100vh;
+    background-color: $gray-0;
+    max-width: 100%;
+    transition: none !important;
+    width: $golden-ratio-8;
+    right: 0;
+    top: 0;
+    padding-top: 81px;
+    right: -$golden-ratio-8;
+
+    &.utk-menu-depth--1 {
+      background-color: $gray-2;
+    }
+
+    > .container {
+      padding: 0;
+    }
+  }
+
+  &.utk-header-expand-menu {
+    top: 53px;
+    opacity: 1;
+
+    @include respond(xs, sm, md) {
+      height: 100vh;
+      right: 0;
+      top: 0;
+      padding-top: 81px;
+      background-color: $gray-0;
+    }
+
+    @include respond(xs) {
+      width: 100% !important;
+      margin-left: 25px;
+      right: calc(-25px);
+    }
+
+    .utk-resources-contact {
+      height: auto;
+    }
+  }
+}
+
+.utk-header.utk-header-shrink:not(.utk-header-expand-menu) .utk-header-expand-menu {
+  top: 81px;
+}
+
+.utk-resources-menu {
+  position: relative;
+  width: 100%;
+  max-width: 819px;
+  margin-left: 380px;
+  display: flex;
+  flex-direction: row;
+  padding: 33px 0 3rem;
+
+  @include respond(md, sm, xs) {
+    margin-left: 0;
+    display: block;
+    padding: 25px;
+  }
+
+  &--col {
+    width: 33%;
+    display: block;
+
+    @include respond(md, sm, xs) {
+      width: 100%;
+
+      .utk-resources-menu--submenu {
+        display: none;
+      }
+
+    }
+
+    .utk-resources-menu--section {
+      > h3 {
+        margin: 1rem 0 0.25rem;
+        font-weight: 400;
+        font-family: $sans;
+        padding: 0;
+        font-size: $type-3;
+        color: $smokey;
+
+        @include respond(md, sm, xs) {
+          margin-top: 0;
+          margin-bottom: $type-4;
+          cursor: pointer;
+
+        }
+      }
+
+      @include respond(lg, xl, xxl) {
+        &:first-child > h3 {
+          margin-top: 0;
+        }
+      }
+
+      a,
+      a:visited {
+        color: $globe;
+        display: block;
+        line-height: 1.6rem;
+        font-size: $type-2;
+        padding: 0.25rem 0 0.125rem;
+        font-weight: 700;
+        font-family: $sans;
+      }
+
+      a:focus,
+      a:hover {
+        color: $leconte;
+      }
+    }
+  }
+
+}
+
+  .utk-header-expand-menu .utk-resources-contact {
+  opacity: 1;
+}
+
+.utk-resources-contact {
+  position: fixed;
+  max-width: 360px;
+  margin: 0 47px;
+  top: 170px;
+  transition: $transition-all;
+  opacity: 0;
+  z-index: 1;
+  height: 0;
+  overflow: hidden;
+
+  @include respond(xs, sm, md) {
+    display: none;
+    //top: 88px;
+    //left: 33%;
+    //max-width: 66%;
+    //width: 66%;
+    //display: flex;
+    //flex-direction: row;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
+    font-size: $type-2;
+    font-weight: 300;
+
+    @include respond(xs, sm, md) {
+      //width: 50%;
+    }
+
+    > a {
+      display: inline-block;
+    }
+  }
+
+  &--social {
+    margin-top: $golden-ratio-4;
+    margin-left: -0.35rem;
+
+    @include respond(xs, sm, md) {
+      //margin-top: $golden-ratio-2;
+      //width: 50%;
+    }
+
+    > a,
+    > a:visited {
+      color: $smokey;
+      padding: 0.35rem;
+      font-size: $type-4;
+
+      &:first-child {
+        margin-left: -0.5rem;
+      }
+    }
+
+    > a:hover,
+    > a:focus {
+      color: $globe;
+    }
+  }
+}
+
+.utk-header-actions--resources {
+
+  a,
+  a:visited,
+  a:hover,
+  a:focus {
+    font-weight: 700;
+    color: $smokey !important;
+  }
+
+  .icon-menu {
+    opacity: 1;
+    font-size: 15px;
+    margin-right: 2px;
+    transition: $transition-all;
+  }
+
+  .icon-cancel {
+    opacity: 0;
+    transition: $transition-all;
+    position: absolute;
+    margin-left: -26px;
+  }
+
+  .utk-header-expand-menu {
+
+    .icon-menu {
+      opacity: 0;
+      transition: $transition-all;
+    }
+
+    .icon-cancel {
+      opacity: 1;
+      color: $rock;
+    }
+  }
+}
+
+.utk-header.active {
+
+  .utk-header-main {
+    background-color: $white;
+  }
+
+  .utk-logo-wrapper {
+    border-bottom: none;
+    box-shadow: none;
+
+    .utk-logo {
+      margin-top: 53px;
+    }
+
+    &::before {
+      width: 100%;
+      display: block;
+      top: 0;
+    }
+  }
+}
+
+
+@include respond(xs, sm, md) {
+  .utk-header.utk-header-expand-menu .utk-resources-close {
+    width: $golden-ratio-3;
+    height: $golden-ratio-3;
+    bottom: 27px;
+    right: 27px;
+    padding-top: 7px;
+    padding-left: 1px;
+    left: auto;
+
+    > span {
+      font-size: $type-2;
+    }
+  }
+}
+
+.utk-resources-close {
+  display: block;
+  width: $golden-ratio-4;
+  height: $golden-ratio-4;
+  background-color: $torch;
+  position: absolute;
+  right: 50%;
+  margin-left: calc(-#{$golden-ratio-4 / 2});
+  bottom: calc(-#{$golden-ratio-4 / 2});
+  border-radius: $golden-ratio-4;
+  text-align: center;
+  padding-top: 15px;
+  box-shadow: $box-shadow-float;
+  cursor: pointer;
+  z-index: 1;
+
+  span {
+    font-size: $type-3;
+    color: $white;
+  }
+}
+
+.utk-search-active {
+  .utk-menu-help {
+    opacity: 1;
+    bottom: 15px;
+    left: -5px;
+    right: auto;
+    position: fixed;
+    width: auto;
+
+    @include respond(sm, md, lg, xl) {
+      left: auto;
+      right: 15px;
+    }
+  }
+  .utk-resources-close {
+    width: 29px;
+    height: 29px;
+    bottom: 27px;
+    right: 27px;
+    padding-top: 7px;
+    padding-left: 1px;
+    left: auto;
+    position: fixed;
+    bottom: 24px !important;
+    right: 25px !important;
+    z-index: 11;
+
+    @include respond(sm, md, lg, xl) {
+      right: -200px !important;
+    }
+
+    > span {
+      font-size: 15px;
+      color: #FFFFFF;
+    }
+  }
+}

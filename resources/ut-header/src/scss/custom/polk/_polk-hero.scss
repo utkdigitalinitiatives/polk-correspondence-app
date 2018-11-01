@@ -1,0 +1,135 @@
+html {
+  margin-top: 205px;
+  font-size: $type-3;
+}
+
+.utk-custom-hero {
+  background-color: $rock;
+  width: 100%;
+  height: 375px;
+  position: relative;
+  z-index: 2;
+  margin-top: -76px;
+
+  > .container {
+    height: inherit;
+  }
+}
+
+.utk-custom-hero--wrap {
+  //margin-left: calc(304px + #{$golden-ratio-3});
+  position: absolute;
+  z-index: 1;
+  bottom: $golden-ratio-5;
+  width: 61.8%;
+  text-align: center;
+  color: $limestone;
+
+  h1,
+  h2 {
+    color: $white;
+    font-weight: 400;
+  }
+
+  h1 {
+    font-size: $type-5;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-family: $serif-generic !important;
+    margin-bottom: 4rem;
+    color: $limestone;
+    letter-spacing: 0.02em;
+
+    > .font-script {
+      text-transform: none;
+      margin-top: 3rem;
+      font-size: 6rem;
+      line-height: 1rem;
+      display: block;
+      letter-spacing: 0;
+    }
+  }
+
+  h2 {
+    font-size: $type-3;
+    margin: 0;
+    font-family: $sans !important;
+    letter-spacing: 0.02em;
+    opacity: 0.76;
+    text-transform: uppercase;
+  }
+
+}
+
+.utk-custom-hero--background {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 45%;
+  background-size: auto 375px;
+  background-color: $polk;
+}
+
+.utk-custom-hero.utk-custom-hero-shrink {
+  height: $golden-ratio-5;
+  background-color: $polk;
+  position: fixed;
+  top: 129px;
+  margin-top: 0;
+
+  .utk-custom-hero--wrap {
+    margin-left: calc(#{304px + $golden-ratio-3});
+    bottom: auto;
+    text-align: left !important;
+
+    h1 {
+      margin: 0;
+      margin-top: 13px;
+      font-size: $type-4;
+      font-weight: 400;
+      padding: 0;
+      font-family: $serif;
+      color: $limestone;
+      letter-spacing: 0.02em;
+      display: block;
+    }
+
+    h1 > em {
+      font-size: $type-7;
+      font-weight: 400;
+      margin: 0;
+      font-weight: 400 !important;
+      padding: 0;
+      font-style: normal;
+      color: $limestone;
+      letter-spacing: 0;
+      display: inline;
+    }
+
+    h2 {
+      margin-top: 5px;
+      font-size: $type-2;
+      color: $limestone;
+    }
+  }
+
+  .utk-custom-hero--background {
+    background-size: auto $golden-ratio-7;
+    background-position: 105% 0;
+    opacity: 0;
+    background-color: $polk;
+
+  }
+}
+
+#utk-hero-polk-trigger {
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+}
