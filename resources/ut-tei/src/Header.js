@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 /* libraries */
-import debounce from "lodash/debounce"
 import findIndex from "lodash/findIndex"
 
 /* components */
@@ -12,7 +11,6 @@ import {Search} from "./components/Search";
 import primary_logo from './media/ut-knoxville.svg';
 import square_logo from './media/ut-square.svg';
 import {PolkHero} from "./components/custom/PolkHero";
-import {Placeholder} from "./components/Placeholder";
 
 /* header component */
 class Header extends Component {
@@ -180,7 +178,6 @@ class Header extends Component {
             </header>
             <div className="utk-body-overlay"></div>
             <PolkHero headerCollapse={this.headerCollapse} />
-            <Placeholder/>
             </div>
         );
     }

@@ -4,6 +4,7 @@ const DefinePlugin = webpack.DefinePlugin;
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const CompressionPlugin = require('compression-webpack-plugin');
 
 module.exports = {
     context: path.resolve(__dirname, 'resources/ut-tei/src'),
@@ -30,7 +31,7 @@ module.exports = {
                 use: ExtractTextPlugin.extract({
                         use: [
                             {
-                                loader: "css-loader", options: { minimize: true } // translates CSS into CommonJS
+                                loader: "css-loader", options: {minimize: true} // translates CSS into CommonJS
                             },
                             {
                                 loader: "sass-loader" // compiles Sass to CSS
@@ -71,15 +72,17 @@ module.exports = {
             }
         }),
 
-        new UglifyJsPlugin({
-            sourceMap: false
-        }),
-
         new ExtractTextPlugin({filename: 'ut-tei.css', allChunks: true}),
 
         new HtmlWebPackPlugin({
             template: path.join(__dirname, "./resources/ut-tei/src/index.html"),
             filename: "./index.html"
-        })
+        }),
+
+        new UglifyJsPlugin({
+            sourceMap: false
+        }),
+
+        new CompressionPlugin()
     ],
 };
