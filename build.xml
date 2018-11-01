@@ -17,6 +17,10 @@
                 <filter token="git.short-hash" value="${git.short-hash}"/>
             </filterset>
         </copy>
+        <exec executable="yarn" failifexecutionfails="true" logError="true"/>
+        <exec executable="yarn" failifexecutionfails="true" logError="true">
+            <arg value="build"/>
+        </exec>
         <zip basedir="." destfile="${build.dir}/${project.app}-${git.rev-count}.xar" excludes="**${node.dir}/**, ${build.dir}/*"/>
     </target>
 
@@ -47,4 +51,5 @@
             </and>
         </condition>
     </target>
+
 </project>
