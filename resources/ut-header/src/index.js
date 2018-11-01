@@ -1,11 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-console.log('.');
-
-import Header from "./Header";
-
-console.log('!');
+import Header from './Header';
 
 import './scss/utk-lib-header.scss';
 import './vendor/bootstrap/bootstrap-grid.scss';
