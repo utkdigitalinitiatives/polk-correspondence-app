@@ -1,0 +1,36 @@
+html {
+  font-size: $rem-standard;
+}
+
+body {
+  background-color: $white;
+  color: $smokeyx;
+  font-family: $serif-generic;
+}
+
+#document-wrapper {
+  font-family: $serif-generic;
+}
+
+#content {
+  background-color: $smokey;
+}
+
+#main-wrapper {
+  margin-top: 0;
+}
+
+#tp-canvas {
+
+  #main-wrapper {
+    opacity: 1;
+    transition: $transition-all;
+    background-color: $white;
+  }
+
+  &.canvas-sliding #main-wrapper,
+  &.canvas-slid #main-wrapper {
+    opacity: 0.57;
+    background-color: $white;
+  }
+}

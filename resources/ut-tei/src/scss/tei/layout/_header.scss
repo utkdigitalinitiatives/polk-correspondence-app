@@ -1,0 +1,99 @@
+nav.navbar {
+  
+}
+
+.utk_header {
+  .navbar {
+    background-color: #e0e0e0;
+    padding-top: 6px;
+    height: auto;
+
+    ul.nav {
+      display: block;
+      float: none;
+      width: 100%;
+
+      .dropdown {
+        background-color: $white;
+        margin: 11px 0 18px;
+        font-family: $sans !important;
+        width: auto !important;
+        display: inline-block;
+
+        > a {
+          color: $smokeyx !important;
+          background-color: #e0e0e0 !important;
+        }
+      }
+
+      li {
+        display: block;
+        float: none;
+        width: 100%;
+      }
+    }
+
+    form {
+      width: 100%;
+
+      .form-group .form-control,
+      .form-group.is-focused .form-control {
+        background-image: linear-gradient(#cacaca, #cacaca), linear-gradient(#cacaca, #cacaca) !important;
+      }
+    }
+
+    .input-group {
+      position: relative;
+      width: calc(100% - 120px);
+      z-index: 0;
+    }
+
+    #searchPageForm .input-group .form-group,
+    #searchPageForm .input-group .form-group input{
+      width: calc(100% - 30px);
+    }
+
+    input {
+      color: $smokeyx !important;
+      font-family: $sans !important;
+      width: 100%;
+      background-image: $smokeyx !important;
+
+      &::placeholder {
+        color: $smokey !important;
+      }
+    }
+
+    .glyphicon {
+      width: 20px;
+      color: $rock !important;
+      margin-right: 10px;
+    }
+
+    input[type="submit"] {
+      border:none;
+      background-color: $globe !important;
+      color: $white !important;
+      width: 100px !important;
+      height: 35px;
+      padding-top: 4px;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+
+    }
+  }
+}
+
+.navbar-brand,
+.navbar-brand:focus,
+.navbar-brand:hover {
+  background-image: none !important;
+
+  &::before {
+    color: $smokey !important;
+    content: 'TEI';
+    font-weight: 700;
+    font-family: $sans;
+  }
+}

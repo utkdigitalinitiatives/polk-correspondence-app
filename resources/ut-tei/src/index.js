@@ -13,7 +13,7 @@ import './scripts/teiEvents';
 /*
  * Handles all stylesheets
  */
-import './scss/utk-lib-header.scss';
+import './scss/ut-tei.scss';
 import './vendor/bootstrap/bootstrap-grid.scss';
 import './vendor/fontello/css/fontello.scss';
 

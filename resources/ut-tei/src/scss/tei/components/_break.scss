@@ -1,0 +1,13 @@
+.tei-pb {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  display: none;
+
+  &::before {
+    content: '[Page';
+  }
+
+  &::after {
+    content: ']';
+  }
+}

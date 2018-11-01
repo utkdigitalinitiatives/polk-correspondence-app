@@ -58,7 +58,7 @@ module.exports = {
                 include: path.resolve(__dirname, 'resources/ut-tei/src/media'),
                 use: [
                     {
-                        loader: 'file-loader?name=dist/media/[name].[ext]'
+                        loader: 'file-loader?name=media/[name].[ext]'
                     }
                 ]
             }

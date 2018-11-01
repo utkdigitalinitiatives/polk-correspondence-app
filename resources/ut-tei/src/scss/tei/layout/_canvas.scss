@@ -1,0 +1,136 @@
+.tp-document-title-wrapper {
+  margin-bottom: 2rem;
+  border-bottom: solid 2px $limestone;
+  display: none;
+
+  h1 , h2, h3, h4, h5, h6 {
+    font-size: 1.25rem;
+    font-weight: 700 !important;
+    font-family: $smokey;
+    letter-spacing: -0.03em;
+    padding: 2rem 1rem;
+  }
+}
+
+.content  {
+  padding: 4rem 0 8rem;
+
+  a,
+  a:visited {
+    color: $globe;
+    cursor: pointer;
+  }
+
+  a:hover,
+  a:focus {
+    color: $leconte;
+    text-decoration: none;
+  }
+}
+.tei-opener {
+  font-size: 2rem;
+
+  .tei-title5 {
+    display: block;
+    font-weight: 700;
+    color: $smokeyx;
+    font-style: normal;
+    margin-bottom: 2rem;
+  }
+}
+
+.tei-closer {
+  font-size: 23px;
+
+  .tei-signed1 {
+    display: block;
+    color: $smokeyx;
+    margin-bottom: 2rem;
+    font-style: normal;
+
+    .tei-hi2 {
+      font-style: normal;
+    }
+  }
+}
+
+#document-wrapper .alternate {
+  color: $globe;
+}
+
+.tei-salute2 {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  padding-top: 1rem;
+  font-size: 18px;
+  font-family: $serif-generic;
+  color: $smokeyx;
+}
+
+.tei-dateline {
+  margin: 1rem 0;
+  text-align: right !important;
+
+  @extend p.tei-p;
+}
+
+.tei-date3 {
+}
+
+.tei-address {
+  margin: 0 !important;
+}
+
+.tei-name {
+}
+
+.tei-abbr {
+  white-space: nowrap;
+}
+
+.tei-postscript {
+  display: inline-block;
+  background-color: #e0e0e0;
+  color: $smokeyx;
+  margin-top: 3rem;
+  font-family: $sans;
+  font-weight: 400;
+  font-style: italic;
+  width: auto;
+  max-width: 70%;
+  padding: 1.5rem 2rem;
+  font-size: 15px !important;
+
+  &::before {
+    content: 'Notes';
+    font-family: $sans;
+    font-weight: 700;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-style: normal;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .tei-p {
+    text-align: left;
+    color: inherit;
+    font-size: 15px !important;
+    font-family: inherit;
+    font-style: inherit;
+    hyphens: none;
+  }
+}
+
+.tei-note2 {
+  margin: 2rem 0 0;
+}
+
+//#document-wrapper .content>*>section {
+//  border-top: 0;
+//  box-shadow: 0.15rem 0.15rem 0.75rem rgba($smokey, 0.125);
+//  background-color: lighten($limestone, 7);
+//  padding: 2rem;
+//}

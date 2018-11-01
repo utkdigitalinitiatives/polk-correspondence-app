@@ -1,0 +1,30 @@
+.pagination {
+  font-family: $sans;
+  margin: 11px;
+
+  > li {
+
+    a,
+    a:visited {
+      color: $globe;
+      border: 1px solid #cacaca;
+    }
+
+    a:focus,
+    a:hover {
+      background-color: #e0e0e0;
+      border: 1px solid #cacaca;
+    }
+
+    &.active {
+      a,
+      a:visited,
+      a:focus,
+      a:hover {
+        color: $white;
+        background-color: $globe;
+        border-color: $globe;
+      }
+    }
+  }
+}
