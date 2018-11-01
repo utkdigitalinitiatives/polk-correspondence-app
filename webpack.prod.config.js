@@ -30,7 +30,7 @@ module.exports = {
                 use: ExtractTextPlugin.extract({
                         use: [
                             {
-                                loader: "css-loader" // translates CSS into CommonJS
+                                loader: "css-loader", options: { minimize: true } // translates CSS into CommonJS
                             },
                             {
                                 loader: "sass-loader" // compiles Sass to CSS
