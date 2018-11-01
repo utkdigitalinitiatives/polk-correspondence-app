@@ -6,15 +6,15 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-    context: path.resolve(__dirname, 'resources/ut-header/src'),
+    context: path.resolve(__dirname, 'resources/ut-tei/src'),
     entry: [
         './index.js'
         // the entry point of our app
     ],
     output: {
-        filename: 'header-scripts.js',
-        path: path.resolve(__dirname, 'resources/ut-header/dist'),
-        publicPath: 'resources/ut-header/dist/'
+        filename: 'ut-tei.js',
+        path: path.resolve(__dirname, 'resources/ut-tei/dist'),
+        publicPath: 'resources/ut-tei/dist/'
     },
     devtool: false,
     module: {
@@ -55,10 +55,10 @@ module.exports = {
             },
             {
                 test: /\.(png|gif|jpg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-                include: path.resolve(__dirname, 'resources/ut-header/src/media'),
+                include: path.resolve(__dirname, 'resources/ut-tei/src/media'),
                 use: [
                     {
-                        loader: 'file-loader'
+                        loader: 'file-loader?name=dist/media/[name].[ext]'
                     }
                 ]
             }
@@ -75,10 +75,10 @@ module.exports = {
             sourceMap: false
         }),
 
-        new ExtractTextPlugin({filename: 'header-styles.css', allChunks: true}),
+        new ExtractTextPlugin({filename: 'ut-tei.css', allChunks: true}),
 
         new HtmlWebPackPlugin({
-            template: path.join(__dirname, "./resources/ut-header/src/index.html"),
+            template: path.join(__dirname, "./resources/ut-tei/src/index.html"),
             filename: "./index.html"
         })
     ],
