@@ -1,0 +1,19 @@
+.tei-item {
+  @extend p.tei-p;
+  margin-bottom: 4px;
+
+  .tei-ref3,
+  .tei-ref3:hover,
+  .tei-ref3:focus {
+    cursor: pointer !important;
+
+    .alternate {
+      cursor: pointer !important;
+    }
+  }
+
+  .altcontent {
+    display: none !important;
+    background-color: $torch !important;
+  }
+}

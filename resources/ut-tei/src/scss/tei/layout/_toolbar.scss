@@ -1,0 +1,68 @@
+.tp-toolbar {
+  background-color: $smokeyx;
+  padding: 0.5rem 0;
+  margin-top: 62px;
+  box-shadow: 0.15rem 0.15rem 0.75rem rgba($smokey, 0.125);
+  bottom: 0;
+  top: auto;
+  font-family: $sans;
+
+  @include respond(lg, xl) {
+    margin-top: 72px; /* +10px */
+  }
+
+  .dropdown-menu {
+    background-color: $smokey;
+    top: auto;
+    bottom: calc(100% + 0.5rem);
+    left: -1.5rem;
+    padding: 0 0 !important;
+    z-index: 0;
+    box-shadow: none;
+
+    li {
+      a,
+      a:visited {
+        margin: 0 !important;
+        color: $gray-1 !important;
+        padding: 0.75rem 1.5rem !important;
+        line-height: 1.5rem !important;
+        border-right: 6px solid $smokey;
+      }
+
+      a:focus,
+      a:hover {
+        background-color: $smokey !important;
+        color: $white !important;
+        border-right: 6px solid $orange;
+      }
+    }
+  }
+
+  button,
+  button.btn {
+    color: $white !important;
+  }
+
+  .btn-default.active,
+  .btn-default.focus,
+  .btn-default:active,
+  .btn-default:focus,
+  .btn-default:hover,
+  .open > .dropdown-toggle.btn-default {
+    background-color: transparent !important;
+    color: $orange !important;
+  }
+
+  > a.btn {
+    color: $white !important;
+
+    button {
+      color: inherit !important;
+    }
+  }
+}
+
+nav + * {
+  //margin-top: 9px;
+}

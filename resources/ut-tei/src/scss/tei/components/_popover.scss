@@ -1,0 +1,31 @@
+.popover {
+  border-radius: 3px !important;
+  border: none !important;
+  background-color: $smokey !important;
+  color: $white !important;
+  font-weight: 400;
+  padding: 10px 15px !important;
+
+  div, em, span {
+    display: inline !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: $smokey !important;
+    color: $white !important;
+  }
+}
+
+.note {
+  border-radius: 100%;
+  display: inline-block;
+  min-width: 10px;
+  text-align: center;
+  line-height: 100%;
+  font-family: $sans !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+
+  em, span {
+    display: inline;
+  }
+}

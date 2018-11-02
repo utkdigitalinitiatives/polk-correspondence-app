@@ -1,0 +1,12 @@
+a,
+a:visited {
+  cursor: pointer;
+  color: $smokey;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: $globe;
+  text-decoration: none;
+}

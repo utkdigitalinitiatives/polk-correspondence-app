@@ -1,0 +1,16 @@
+/*
+ * define bootstrap vars according to externally hosted bootstrap library
+ */
+
+// Breakpoints
+// -upr = Upper breakpoint   -lwr = Lower breakpoint
+$xxs-upr:               360px;
+$xs-upr:                767px;
+$sm-lwr:                768px;
+$sm-upr:                991px;
+$md-lwr:                992px;
+$md-upr:                1199px;
+$lg-lwr:                1200px;
+$lg-upr:                1439px;
+$xl-lwr:                1440px;
+$xl-upr:                4200px;

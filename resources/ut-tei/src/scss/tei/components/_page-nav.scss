@@ -1,0 +1,158 @@
+#content > div {
+  position: relative;
+}
+
+footer.tp-footer-nav {
+  background-color: $limestone;
+  height: 2rem;
+  position: absolute;
+  bottom: 100%;
+
+  a.page-nav,
+  a.page-nav:visited {
+    height: 2rem;
+    width: 2rem;
+
+    i {
+      color: inherit !important;
+      font-size: 1.25rem !important;
+      line-height: 2rem !important;
+      height: 2rem;
+      width: 2rem;
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none !important;
+      transition: $transition-all;
+    }
+
+    &.nav-prev {
+      left: 0;
+
+      &:hover,
+      &:focus {
+        i {
+          left: -5px;
+        }
+      }
+    }
+
+    &.nav-next {
+      right: 0;
+
+      &:hover,
+      &:focus {
+        i {
+          left: 5px;
+        }
+      }
+    }
+
+    @include respond(md, lg, xl) {
+      background-color: $globe !important;
+      border-radius: 0 !important;
+      color: $white;
+      padding: 0;
+      clear: both;
+      text-decoration: none;
+      overflow: visible;
+
+      &:hover,
+      &:focus {
+        background-color: $leconte !important;
+      }
+
+      &.nav-prev {
+        left: 0;
+
+        &::after {
+          right: -5px;
+          top: 0;
+          position: absolute;
+          display: block;
+          width: 0px;
+          height: 100%;
+          background-color: $smokey;
+          content: ' ';
+        }
+
+        &:hover,
+        &:focus {
+          left: -5px;
+
+          &::after {
+            width: 5px;
+            background-color: transparent;
+          }
+
+          i {
+            left: 0;
+          }
+        }
+      }
+
+      &.nav-next {
+        right: 0;
+
+        &::before {
+          left: -5px;
+          top: 0;
+          position: absolute;
+          display: block;
+          width: 0px;
+          height: 100%;
+          background-color: $smokey;
+          content: ' ';
+        }
+
+        &:hover,
+        &:focus {
+          right: -5px;
+
+          &::before {
+            width: 5px;
+            background-color: transparent;
+          }
+
+          i {
+            left: 0;
+          }
+        }
+      }
+
+      i {
+        color: $white !important;
+        font-size: 1.25rem !important;
+        line-height: 2rem !important;
+        height: 2rem;
+        width: 2rem;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none !important;
+        transition: $transition-all;
+      }
+    }
+  }
+
+  a,
+  a:visited {
+    background-color: transparent !important;
+    color: $smokey !important;
+    transition: $transition-all;
+  }
+
+  a:hover,
+  a:focus {
+    color: $globe !important;
+  }
+}
+
+.ripple-container {
+  border-radius: 0 !important;
+  display: none !important;
+
+  .ripple {
+    border-radius: 0 !important;
+  }
+}

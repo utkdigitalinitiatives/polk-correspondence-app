@@ -3,3 +3,7 @@ build/*
 .idea/*
 repo.xml
 expath-pkg.xml
+node_modules
+
+resources/ut-header/dist
+resources/ut-header/dist/*

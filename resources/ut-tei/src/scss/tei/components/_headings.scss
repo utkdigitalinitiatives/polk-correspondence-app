@@ -1,0 +1,36 @@
+#document-wrapper .content {
+  h1 {
+    font-size: 29px !important;
+    font-weight: 700 !important;
+    margin-bottom: 1rem;
+
+    &.tei-head6 {
+      /* inherit */
+      font-size: 2rem;
+    }
+  }
+
+  h2 {
+    font-size: 23px !important;
+  }
+
+}
+
+.utk-custom-hero--title {
+  h1 {
+    font-family: $serif-generic !important;
+  }
+  h2 {
+    font-family: $serif-generic !important;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .documents .header-short {
+  font-family: $serif-generic !important;
+}
+
+.tei-opener .tei-title5{
+  text-align: center;
+  padding: 0 15%;
+  font-size: 29px;
+}

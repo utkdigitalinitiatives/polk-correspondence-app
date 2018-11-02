@@ -1,0 +1,116 @@
+.utk-menu-open  {
+  .utk-menu-help {
+    opacity: 1;
+    bottom: $golden-ratio-2;
+    position: fixed;
+  }
+
+  @include respond(sm, md) {
+
+    .utk-menu-options {
+      opacity: 1;
+      bottom: $golden-ratio-2;
+      position: fixed;
+      right: 0;
+      z-index: 10;
+
+      .utk-resources-close {
+        bottom: 9px !important;
+        right: 25px !important;
+        z-index: 11;
+      }
+    }
+
+    .utk-menu-help {
+      opacity: 1;
+      bottom: auto;
+      position: relative;
+      padding-right: 76px;
+    }
+  }
+
+  @include respond(xs) {
+
+    .utk-menu-help {
+      opacity: 1;
+      bottom: 15px;
+      left: -5px;
+      right: auto;
+      position: fixed;
+      width: auto;
+    }
+
+    .utk-resources-close {
+      position: fixed;
+      bottom: 24px !important;
+      right: 25px !important;
+      z-index: 11;
+    }
+  }
+}
+
+.utk-menu-help {
+  position: fixed;
+  width: 100%;
+  bottom: -200px;
+  display: flex;
+  flex-direction: row-reverse;
+  opacity: 0;
+  transition: $transition-all;
+  max-width:  1199px;
+  z-index: 10;
+
+  &--item {
+    display: block;
+    height: $golden-ratio-4;
+    background-color: $white;
+    box-shadow: $box-shadow-float;
+    border-radius: $golden-ratio-4;
+    margin-left: $golden-ratio-2;
+    position: relative;
+    line-height: $golden-ratio-4;
+    padding: 0 $golden-ratio-4 0 $golden-ratio-2;
+
+    > h4 {
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+      font-size: $type-2;
+
+      > em {
+        font-weight: 400;
+        font-style: normal;
+      }
+    }
+
+    &--icon {
+      position: absolute;
+      right: 9px;
+      top: 9px;
+      width: $golden-ratio-3;
+      height: $golden-ratio-3;
+      border-radius: $golden-ratio-3;
+      background-color: $rock;
+      text-align: center;
+
+      > span {
+        color: $white;
+        display: block;
+        margin-top: 6px;
+        margin-left: 1px;
+      }
+    }
+  }
+}
+
+.utk-menu-help--help-me {
+  .utk-menu-help--item--icon {
+    background-color: $globe;
+  }
+}
+
+.utk-menu-help--chat {
+  .utk-menu-help--item--icon {
+    background-color: $switchgrass;
+  }
+}

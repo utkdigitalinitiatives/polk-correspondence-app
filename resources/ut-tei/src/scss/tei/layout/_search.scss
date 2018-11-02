@@ -1,0 +1,142 @@
+#results {
+
+  font-family: $serif-generic !important;
+
+  .reference {
+    border-top: none;
+    display: block;
+    margin-top: 29px;
+    padding-top: 29px;
+    border-top: 1px solid #e0e0e0;
+  }
+
+  tr {
+    display: block;
+    margin: 11px;
+    padding: 6px 29px;
+
+    &.reference:first-of-type {
+      margin-top: 0;
+      border-top: none;
+    }
+
+    &.reference {
+      position: relative;
+      span.number {
+        position: absolute;
+        margin-left: -29px;
+        font-family: $sans;
+        font-size: 15px;
+        color: $smokey;
+      }
+
+      ol.headings {
+        padding: 0;
+        background-color: transparent;
+        > li > a {
+          color: $globe !important;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  td {
+    display: inline;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.62em;
+
+    &.hi {
+      a, a:visited {
+        @extend mark;
+        padding: 0 3px;
+        color: $smokeyx !important;
+      }
+    }
+  }
+}
+
+.search-help {
+
+  .panel {
+    font-family: $sans !important;
+
+    .panel-title {
+      a,
+      a:visited {
+        background-color: $globe;
+        color: $white;
+      }
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    ul {
+      padding-left: 18px;
+
+      li {
+        font-size: 15px;
+        margin-bottom: 11px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    h5 {
+      text-transform: uppercase;
+      font-family: $sans !important;
+      color: $smokey;
+      margin: 18px 0 11px;
+    }
+    .search-help-subhead {
+      display: block;
+      text-transform: uppercase;
+      font-size: 11px;
+      color: $smokey;
+    }
+  }
+}
+
+.search-column-heading {
+  font-family: $sans !important;
+  font-weight: 400;
+  margin: 47px 0 18px;
+  color: $white;
+}
+
+.panel-default.panel,
+.panel-group .panel {
+  border-radius: 0;
+}
+
+.panel.panel-default > .panel-heading {
+  padding: 0;
+
+  .panel-title {
+    padding: 11px;
+
+    a {
+      padding: 11px;
+      margin: -11px;
+      display: block !important;
+      overflow: hidden;
+      font-weight: 700;
+
+      &.collapsed {
+        font-weight: 400;
+      }
+    }
+  }
+
+  background-color: #e0e0e0;
+  font-family: $sans !important;
+
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .documents .header-short {
+    font-family: $sans !important;
+  }
+}

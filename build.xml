@@ -3,6 +3,7 @@
     <xmlproperty file="expath-pkg.xml.tmpl"/>
     <property name="project.app" value="polk-papers"/>
     <property name="build.dir" value="build"/>
+    <property name="node.dir" value="node_modules"/>
 
     <target name="xar" depends="git.rev-count, git.short-hash">
         <mkdir dir="${build.dir}"/>
@@ -16,7 +17,11 @@
                 <filter token="git.short-hash" value="${git.short-hash}"/>
             </filterset>
         </copy>
-        <zip basedir="." destfile="${build.dir}/${project.app}-${git.rev-count}.xar" excludes="${build.dir}/*"/>
+        <exec executable="yarn" failifexecutionfails="true" logError="true"/>
+        <exec executable="yarn" failifexecutionfails="true" logError="true">
+            <arg value="build"/>
+        </exec>
+        <zip basedir="." destfile="${build.dir}/${project.app}-${git.rev-count}.xar" excludes="**${node.dir}/**, ${build.dir}/*"/>
     </target>
 
     <available file=".git" type="dir" property="git.present"/>
@@ -46,4 +51,5 @@
             </and>
         </condition>
     </target>
+
 </project>
