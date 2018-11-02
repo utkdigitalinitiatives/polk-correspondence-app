@@ -1,37 +1,28 @@
 # Polk Correspondence
 
-## Requirements
-- [Yarn](https://yarnpkg.com/lang/en/docs/install)
-- Ant
-
 ## About
 
-This repository contains assets for deploying the Polk Correspondence project in [exist-db](http://exist-db.org/exist/apps/homepage/index.html).
+This repository contains all assets for building and deploying the Polk Correspondence project in [exist-db](http://exist-db.org/exist/apps/homepage/index.html).
+
+## Requirements
+- [Yarn](https://yarnpkg.com/lang/en/docs/install)
+- [Ant](https://ant.apache.org/)
+- [NodeJS](https://nodejs.org/en/)
 
 ## Building the .xar
 
-To build the Polk papers archive:
+To build the Polk papers repository:
 
 1. git clone git@github.com:utkdigitalinitiatives/polk-correspondence-app.git
 2. cd polk-correspondence-app
 3. ant -f build.xml
 
-## Deployment of .xar
+## Deploying your .xar
 
 To deploy:
 
-1. place the .xar file that was created in the autodeploy directory
+1. Visit the **Dashboard** of your Exist instance. (ex. localhost:8080/exist/apps/dashboard/index.html)
+2. Authenticate and click **Package Manager**.
+3. Click the **+** icon to upload a package and select your .xar file from the /build directory.
 
-## React Header to be included in Ant build
-
-### Install Webpack, Babel, and React
-1. Go to root directory of project in terminal.
-2. Run `yarn`
-3. If build process complete, a `node_modules` directory have been generated
-
-### Compiling Custom CSS/JS
-
-- Run webpack build process: 
-`yarn build`
-- Open react app in browser for active development: `yarn start`
 
