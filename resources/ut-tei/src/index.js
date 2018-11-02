@@ -4,6 +4,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './Header';
+import debounce from 'lodash/debounce';
 
 /*
  * Imports non-JSX scripts.
@@ -24,7 +25,7 @@ function run() {
 const loadedStates = ['complete', 'loaded', 'interactive'];
 
 if (loadedStates.includes(document.readyState) && document.body) {
-    run();
+    debounce(run(), 10);
 } else {
     window.addEventListener('DOMContentLoaded', run, false);
 }

@@ -28,7 +28,6 @@ export class Menu extends Component {
             })
             .then(response => response.json())
             .then(data => {
-                // console.log(data);
                 this.setState({menuDrawer: data})
             })
             .catch(err => console.error(this.props.url, err.toString()));
