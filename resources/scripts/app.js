@@ -32,7 +32,6 @@ $(document).ready(function() {
                 dataType: "json",
                 data: params,
                 error: function(xhr, status) {
-                    alert("Not found: " + params);
                     showContent(container, animIn, animOut);
                 },
                 success: function(data) {
