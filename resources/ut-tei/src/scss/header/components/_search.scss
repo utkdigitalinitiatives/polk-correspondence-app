@@ -159,7 +159,7 @@ body.utk-search-open {
   transition: $transition-all;
   top: 34px;
 
-  img {
+  svg {
     height: $type-1 - 2px;
     margin-top: 2px;
   }
@@ -192,13 +192,13 @@ body.utk-search-open {
   }
   #utk-search-toggle-onesearch {
 
-    img.utk-onesearch {
+    .utk-onesearch {
       opacity: 1;
       position: absolute;
       transition: $transition-all;
     }
 
-    img.utk-onesearch-mono {
+    .utk-onesearch-mono {
       opacity: 0;
       transition: $transition-all;
     }
@@ -230,11 +230,11 @@ body.utk-search-open {
 
 .utk-search-onesearch {
   #utk-search-toggle-onesearch {
-    img.utk-onesearch {
+    .utk-onesearch {
       opacity: 1;
     }
 
-    img.utk-onesearch-mono {
+    .utk-onesearch-mono {
       opacity: 0;
     }
   }
@@ -252,11 +252,11 @@ body.utk-search-open {
 
 .utk-search-libraries {
   #utk-search-toggle-onesearch {
-    img.utk-onesearch {
+    .utk-onesearch {
       opacity: 0;
     }
 
-    img.utk-onesearch-mono {
+    .utk-onesearch-mono {
       opacity: 1;
     }
   }

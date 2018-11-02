@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ReactSVG from 'react-svg'
 
 /* libraries */
 import findIndex from "lodash/findIndex"
@@ -11,6 +12,7 @@ import {Search} from "./components/Search";
 import primary_logo from './media/ut-knoxville.svg';
 import square_logo from './media/ut-square.svg';
 import {PolkHero} from "./components/custom/PolkHero";
+import {Placeholder} from "./components/Placeholder";
 
 /* header component */
 class Header extends Component {
@@ -117,8 +119,8 @@ class Header extends Component {
 
                         <div className="utk-logo-wrapper">
                             <a href="https://www.utk.edu">
-                                <img src={primary_logo} className="utk-logo utk-logo-primary" alt="University of Tennessee Libraries" />
-                                <img src={square_logo} className="utk-logo utk-logo-square" alt="University of Tennessee Libraries" />
+                                <ReactSVG src="resources/ut-tei/src/media/ut-knoxville.svg" className="utk-logo utk-logo-primary"  />
+                                <ReactSVG src="resources/ut-tei/src/media/ut-square.svg" className="utk-logo utk-logo-square"  />
                             </a>
                             <a href="https://www.lib.utk.edu" className="utk-logo-unit">Libraries</a>
                         </div>
@@ -178,6 +180,7 @@ class Header extends Component {
             </header>
             <div className="utk-body-overlay"></div>
             <PolkHero key="polk-0" headerCollapse={this.headerCollapse} />
+            <Placeholder key="placeholder-0" />
             </div>
         );
     }

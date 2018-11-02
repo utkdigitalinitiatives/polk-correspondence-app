@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import onesearch from "../media/ut-onesearch.svg";
-import onesearch_mono from "../media/ut-onesearch-mono.svg";
+import ReactSVG from 'react-svg'
 
 export class Search extends Component {
 
@@ -62,12 +61,8 @@ export class Search extends Component {
                     <div className="utk-search-wrapper">
                         <div className="utk-search-options">
                             <label id="utk-search-toggle-onesearch" onClick={this.setSearchOptionOnesearch}>
-                                <img
-                                src={onesearch} className="utk-onesearch"
-                                alt="University of Tennessee Libraries"/>
-                                <img
-                                    src={onesearch_mono} className="utk-onesearch-mono"
-                                    alt="University of Tennessee Libraries"/>
+                                <ReactSVG src="resources/ut-tei/src/media/ut-onesearch.svg" className="utk-onesearch" />
+                                <ReactSVG src="resources/ut-tei/src/media/ut-onesearch-mono.svg" className="utk-onesearch-mono" />
                             </label>
                             <div id="utk-search-toggle" onClick={this.toggleSearchOption}
                                  className="utk-search-toggle utk-search-toggle-onesearch">
