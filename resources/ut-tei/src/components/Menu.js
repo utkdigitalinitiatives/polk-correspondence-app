@@ -1,12 +1,8 @@
 import React, {Component} from 'react';
 import {MenuColumns} from "./MenuColumns";
-import {MenuItems} from "./MenuItems";
-
-import _ from "lodash";
 import {MenuSecondary} from "./MenuSecondary";
 
 const URL = 'https://www.lib.utk.edu';
-// const URL = 'https://utklibrary.test';
 const ENDPOINT = '/assets/wp-json/libmenu';
 const ROUTE = '/drawer';
 
@@ -32,6 +28,7 @@ export class Menu extends Component {
             })
             .then(response => response.json())
             .then(data => {
+                // console.log(data);
                 this.setState({menuDrawer: data})
             })
             .catch(err => console.error(this.props.url, err.toString()));
@@ -62,7 +59,7 @@ export class Menu extends Component {
 
             menuColumns = Object.entries(menuDrawer).map((columns, index) => {
                 return (
-                    <MenuColumns items={columns[1].data} activeMenu={this.setMenu}/>
+                    <MenuColumns key={`column_${index}`} items={columns[1].data} activeMenu={this.setMenu}/>
                 );
             })
             menuSecondary = <div className="utk-secondary-menu"></div>;
@@ -92,7 +89,7 @@ export class Menu extends Component {
                                         <span className="icon-left-open"></span>
                                     </a>
                                 </div>
-                                <MenuSecondary menuId={id} title={title} dropdownItems={dropdownItems}/>
+                                <MenuSecondary key={`ms_${index}`} menuId={id} title={title} dropdownItems={dropdownItems}/>
                             </div>
                         );
                     }

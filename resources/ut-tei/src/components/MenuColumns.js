@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 import {MenuItems} from './MenuItems';
 
-import uniqueId from "lodash/uniqueId"
-import debounce from "lodash/debounce";
-
 export class MenuColumns extends Component {
 
     constructor(props) {
@@ -38,14 +35,14 @@ export class MenuColumns extends Component {
                         let {title, url, classes, target} = link[1];
 
                         return (
-                            <a href={url}>{title}</a>
+                            <a key={index} href={url}>{title}</a>
                         );
 
                     });
                 }
 
                 return (
-                    <MenuItems menuId={id} title={title} dropdownItems={dropdownItems} setMenuAs={this.updateMenu} />
+                    <MenuItems key={`item_${index}`} menuId={id} title={title} dropdownItems={dropdownItems} setMenuAs={this.updateMenu} />
                 )
             });
             return (

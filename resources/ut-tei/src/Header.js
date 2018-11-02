@@ -173,11 +173,11 @@ class Header extends Component {
                         </ul>
                     </div>
                 </div>
-                <Menu active={resourcesClass} />
-                <Search showSearch={showSearch} ref="search" />
+                <Menu key="menu-0" active={resourcesClass} />
+                <Search key="search-0" showSearch={showSearch} ref="search" />
             </header>
             <div className="utk-body-overlay"></div>
-            <PolkHero headerCollapse={this.headerCollapse} />
+            <PolkHero key="polk-0" headerCollapse={this.headerCollapse} />
             </div>
         );
     }
