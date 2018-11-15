@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import PolkBackground from '../../media/custom/james-k-polk-correspondence.jpg';
-import LogoNHPRC from '../../media/custom/nhprc-logo-l.jpg';
-import LogoNEH from '../../media/custom/NEH_h-logo_03_all-black.svg';
-import LogoNewfoundPress from '../../media/custom/newfound-press-logo.svg';
 import debounce from "lodash/debounce";
 
 export class PolkHero extends Component {
@@ -24,21 +21,6 @@ export class PolkHero extends Component {
         this.props.headerCollapse(status);
     }
 
-    buildLandingPage() {
-        if (document.getElementById('document-pane')) {
-        const documentPaneContent = document.getElementById('document-pane').getElementsByClassName('content')[0];
-            const landingPage = document.createElement('div');
-            landingPage.classList.add('polk-logos');
-            landingPage.classList.add('row');
-            landingPage.innerHTML =
-                "<div class='col-sm-4 col-xs-12'><img src='" + LogoNHPRC + "' alt='National Archives: National Historical Publications & Records Commission'/></div>" +
-                "<div class='col-sm-4 col-xs-12'><img src='" + LogoNEH + "' alt='National Endowment for the Humanities'/></div>" +
-                "<div class='col-sm-4 col-xs-12'><img src='" + LogoNewfoundPress + "' alt='Newfound Press'/></div>"
-            ;
-            documentPaneContent.appendChild(landingPage);
-        }
-    }
-
     watchPolk() {
 
         const urlParams = new URLSearchParams(window.location.search);
@@ -51,7 +33,6 @@ export class PolkHero extends Component {
             if (root === defaultRoot) {
                 this.setState({heroShrink: false});
                 this.setState({polkRoot: true});
-                this.buildLandingPage();
                 document.addEventListener('scroll', this.trackScrolling);
             } else {
                 this.setState({heroShrink: true});
@@ -66,7 +47,6 @@ export class PolkHero extends Component {
         } else {
             this.setState({heroShrink: false});
             this.setState({polkRoot: true});
-            this.buildLandingPage();
             document.addEventListener('scroll', this.trackScrolling);
         }
     }
