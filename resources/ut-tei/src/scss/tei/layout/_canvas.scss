@@ -39,20 +39,26 @@
   }
 }
 
-.tei-closer {
+.tei-closer,
+.tei-byline {
   font-size: 23px;
 
-  .tei-signed1 {
+  .tei-signed1,
+  .tei-name {
     display: block;
     color: $smokeyx;
-    margin-bottom: 2rem;
     font-style: normal;
+    text-align: right;
 
     .tei-hi2 {
       font-size: 0.76em;
       font-style: normal;
     }
   }
+}
+
+.teo-closer .tei-signed1 {
+  margin-bottom: 2rem;
 }
 
 #document-wrapper .alternate {
