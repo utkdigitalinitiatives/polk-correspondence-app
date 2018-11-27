@@ -26,7 +26,41 @@
     color: $leconte;
     text-decoration: none;
   }
+
+  > section.tei-div2 {
+
+    > * {
+    }
+
+    .tei-opener {
+    }
+
+    .tei-dateline {
+      float: right;
+      margin: 0 0 -1.5rem;
+      padding: 0;
+      max-width: 60%;
+
+      @include respond(xs) {
+        float: none;
+        max-width: 100%;
+        margin: 0 0 1rem;
+      }
+    }
+
+    .tei-salute2 {
+      margin: 0 0 1rem;
+      padding: 0;
+      clear: right;
+      max-width: 40%;
+
+      @include respond(xs) {
+        max-width: 100%;
+      }
+    }
+  }
 }
+
 .tei-opener {
   font-size: 2rem;
 
@@ -36,6 +70,10 @@
     color: $smokeyx;
     font-style: normal;
     margin-bottom: 2rem;
+
+    @include respond(xs) {
+      font-size: $type-4 !important;
+    }
   }
 }
 
@@ -78,6 +116,21 @@
 .tei-dateline {
   margin: 1rem 0;
   text-align: right !important;
+
+  > div,
+  > span {
+    margin-right: 6px !important;
+    display: inline;
+
+    div, span {
+      display: inherit;
+      white-space: normal;
+    }
+
+    &:last-child {
+      margin-right: 0 !important;
+    }
+  }
 
   @extend p.tei-p;
 }
