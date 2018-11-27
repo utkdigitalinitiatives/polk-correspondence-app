@@ -4,11 +4,11 @@ p.tei-p {
     left: $text-indent;
 
     &::before {
-      content: open-quote;
+      content: '\201c';
     }
 
     &::after {
-      content: close-quote;
+      content: '\201d';
     }
   }
 }
