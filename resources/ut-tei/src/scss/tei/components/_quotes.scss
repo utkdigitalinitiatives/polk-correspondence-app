@@ -1,7 +1,7 @@
 p.tei-p {
   .tei-q2 {
     position: relative;
-    left: 1.5em;
+    left: $text-indent;
 
     &::before {
       content: open-quote;
