@@ -72,100 +72,123 @@
       <div type="ack">
         <pb/>
         <head>Acknowledgments</head>
-        <p>Many organizations and individuals have made this digital volume possible. For financing
-          the <name type="person">James K. Polk</name> Project, I thank the Department of History,
-          the College of Arts and Sciences, and the Office of the Chancellor at the <name type="org">University of Tennessee</name>, <name type="place">Knoxville</name>; the <name type="org">National Historical Publications and Records Commission
-            (<abbr>NHPRC</abbr>)</name>; and the <name type="org">Tennessee Historical Commission
-              (<abbr>THC</abbr>)</name>.</p>
-        <p>Three individuals deserve special recognition. History Department head and <name type="person">Polk</name> Project director <name type="person">Ernest Freeberg</name>,
-          through effective leadership and advocacy, has enabled the project to continue in changing
-          times. <name type="person">Bradley J. Nichols</name> contributed extensively to this
-          volume as an editorial assistant. <name type="person">Holly Mercer</name>, director of
-            <name type="org">Newfound Press</name>, enabled and shepherded its digital publication
-          with enthusiasm, expertise, and originality.</p>
-        <p>Others at the project’s sponsoring institutions have supported it in myriad ways. At the
-            <abbr>NHPRC</abbr>, I thank <name type="person">Lucy Barber</name>, <name type="person">Darrell Meadows</name>, and <name type="person">Annette Paul</name>; at the
-            <abbr>THC</abbr>, <name type="person">Doyal Vaughan</name> and <name type="person">Brenda Vaughan</name>. At the <name type="org">University of Tennessee</name>, I thank
-            <name type="person">Kim Harrison</name>, <name type="person">Bernie Koprince</name>,
-            <name type="person">Mary Beckley</name>, and <name type="person">Margaret Cook
-            Anderson</name>, of the History Department; <name type="person">Scot K. Danforth</name>,
-          of the <name type="org">University of Tennessee Press</name>; <name type="person">Daniel
-            Feller</name>, <name type="person">Thomas Coens</name>, and <name type="person">Laura-Eve Moss</name>, of the Papers of <name type="person">Andrew Jackson</name>;
-            <name type="person">Michael Dodson</name> and <name type="person">Kyle Hovious</name>,
-          of the <name type="org">John C. <pb/>Hodges Library</name>; <name type="person">Tara
-            Halstead</name>, <name type="person">Drew Haswell</name>, and <name type="person">Stacey
-            Wade</name>, of the Office of Sponsored Programs; <name type="person">Teresa
-            Dotson</name>, of the Sponsored Projects Accounting Department; and <name type="person">Catherine Parks</name>, research coordinator in the <name type="org">College of Arts
-            and Sciences</name>.</p>
-        <p>A wide array of archivists, auctioneers, collectors, genealogists, and historians have
-          provided assistance. None deserves more credit than <name type="person">Barbara
-            Bair</name>, of the <name type="org">Library of Congress</name>, whose generosity with
-          her time and knowledge have both rendered accessible and illuminated that institution’s
-            <name type="person">Polk</name> collections. I also thank the staff of the <name type="org">American Antiquarian Society</name>, <name type="place">Worcester,
-            Mass</name>., particularly <name type="person">Ashley Cataldo</name> and <name type="person">Vincent L. Golden</name>; <name type="person">Alex Rankin</name> and <name type="person">Jane A. Silva</name>, of the Howard Gotlieb Archival Research Center,
-            <name type="org">Boston University</name>; <name type="person">Elizabeth Call</name>, of
-          the <name type="org">Brooklyn Historical Society</name>, <name type="place">
-                        <abbr>N.Y.</abbr>
-                    </name>; <name type="person">Jana Meyer</name> and <name type="person">James J. Holmberg</name>, of the <name type="org">Filson Historical
-            Society</name>, <name type="place">Louisville, <abbr>Ky.</abbr>
-                    </name>; <name type="person">James Capobianco</name>, of the Houghton Library, <name type="org">Harvard
-            University</name>, <name type="place">Cambridge, <abbr>Mass.</abbr>
-                    </name>; <name type="person">Sarah Horowitz</name> and <name type="person">Kavita Shroff</name>, of
-            <name type="org">Haverford College Libraries</name>, <name type="place">Haverford,
-              <abbr>Penn.</abbr>
-                    </name>; <name type="person">Anne Olson</name>, of <name type="org">Heritage Auctions</name>, <name type="place">Dallas</name>; <name type="person">David
-            K. Frasier</name> and <name type="person">Isabel Planton</name>, of the Lilly Library,
-            <name type="org">Indiana University</name>, <name type="place">Bloomington</name>; <name type="person">James Stimpert</name>, of the Sheridan Libraries, <name type="org">Johns
-            Hopkins University</name>, <name type="place">Baltimore</name>; the staff of the
-          Manuscript Reading Room at the <name type="org">Library of Congress</name>, <name type="place">Washington, <abbr>D.C.</abbr>
-                    </name>; the staff of the Newspaper &amp;
-          Current Periodical Reading Room at the <name type="org">Library of Congress</name>,
-          particularly <name type="person">Roslyn Pachoca</name>; <name type="person">John
-            Lissandrello</name>, <name type="place">Midland Park, <abbr>N.J.</abbr>
-                    </name>; <name type="person">Annmarie Valdes</name>, of the School of Education at <name type="org">Loyola University</name>
-          <name type="place">Chicago</name>; <name type="person">Jamie Kingman Rice</name>, of the
-          Brown Research <pb/>Library, <name type="org">Maine Historical Society</name>, <name type="place">Portland</name>; the staff of the <name type="org">Massachusetts Historical
-            Society</name>, <name type="place">Boston</name>, particularly <name type="person">Anna
-            J. Clutterbuck-Cook</name> and <name type="person">Elaine Heavey</name>; <name type="person">Cheney J. Schopieray</name>, of the William L. Clements Library, <name type="org">University of Michigan</name>, <name type="person">Ann Arbor</name>; <name type="person">Amanda J. Nelson</name>, of the <name type="org">University of
-            Minnesota</name>, <name type="place">Twin Cities</name>, History Department; the staff
-          of the <name type="org">Gale Family Library of the Minnesota Historical Society</name>,
-            <name type="person">St. Paul</name>, particularly <name type="person">Katie Jean
-            Davey</name>; <name type="person">Molly Kodner</name>, of the <name type="org">Missouri
-            History Museum Library and Research Center</name>, <name type="person">St. Louis</name>;
-            <name type="person">Timothy Salls</name>, of the <name type="org">New England Historic
+            <p>Many organizations and individuals have made this digital volume possible. For financing the
+        James K. Polk Project, I thank the Department of History, the College of Arts and Sciences,
+        and the Office of the Chancellor at the <name type="org">University of Tennessee,
+            Knoxville</name>; the <name type="org">National Historical Publications and Records
+            Commission (<abbr>NHPRC</abbr>)</name>; the <name type="org">National Endowment for the
+            Humanities (<abbr>NEH</abbr>)</name><note place="foot" n="1">Any views, findings,
+            conclusions, or recommendations expressed in this Web resource do not necessarily
+            represent those of the <name type="org">National Endowment for the
+            Humanities</name>.</note>; and the <name type="org">Tennessee Historical Commission
+                (<abbr>THC</abbr>)</name>.</p>
+    <p>Several individuals deserve special recognition. History Department head and Polk Project
+        director <name type="person">Ernest Freeberg</name>, through effective leadership and
+        advocacy, has enabled the project to continue in changing times. <name type="person">Bradley
+            J. Nichols</name> contributed extensively to this volume as an editorial assistant.
+            <name type="person">Holly Mercer</name>, director of <name type="org">Newfound
+            Press</name>, and <name type="person">Mark Patrick Baggett</name> and <name
+            type="person">Mat Jordan</name>, of Digital Initiatives at the <name type="org"
+            >University of Tennessee Libraries</name>, enabled and shepherded its digital
+        publication with enthusiasm, expertise, and originality. Jane Smith copyedited the front
+        matter and notes, and <name type="org">Backstage Library Works</name> encoded the
+        manuscript.</p>
+    <p>Others at the project’s sponsoring institutions have supported it in myriad ways. At the
+            <abbr>NHPRC</abbr>, I thank <name type="person">Lucy Barber</name>, <name type="person"
+            >Darrell Meadows</name>, and <name type="person">Annette Paul</name>; at the
+            <abbr>NEH</abbr>, <name type="person">Jason Boffetti</name>, <name type="person">Caitlin
+            Green</name>, and <name type="person">Peter Scott</name>; at the <abbr>THC</abbr>, <name
+            type="person">Doyal Vaughan</name> and <name type="person">Brenda Vaughan</name>. At the
+            <name type="org">University of Tennessee</name>, I thank <name type="person">Kim
+            Harrison</name>, <name type="person">Bernie Koprince</name>, <name type="person">Mary
+            Beckley</name>, and <name type="person">Margaret Cook Anderson</name>, of the History
+        Department; <name type="person">Scot K. Danforth</name>, of the <name type="org">University
+            of Tennessee Press</name>; <name type="person">Daniel Feller</name>, <name type="person"
+            >Thomas Coens</name>, and <name type="person">Laura-Eve Moss</name>, of the Papers of
+        Andrew Jackson; <name type="person">Michael Dodson</name> and <name type="person">Kyle
+            Hovious</name>, of the <name type="org">John C. Hodges Library</name>; <name
+            type="person">Tara Halstead</name>, <name type="person">Drew Haswell</name>, <name
+            type="person">Greg Tolliver</name>, and <name type="person">Stacey Wade</name>, of the
+        Office of Sponsored Programs; <name type="person">Teresa Dotson</name>, of the Sponsored
+        Projects Accounting Department; and <name type="person">Catherine Parks</name>, formerly
+        research coordinator in the College of Arts and Sciences.</p>
+    <p>A wide array of archivists, auctioneers, collectors, genealogists, and historians have
+        provided assistance. None deserves more credit than <name type="person">Barbara Bair</name>,
+        of the <name type="org">Library of Congress</name>, whose generosity with her time and
+        knowledge have both rendered accessible and illuminated that institution’s Polk collections.
+        I also thank the staff of the <name type="org">American Antiquarian Society</name>, <name
+            type="place">Worcester, <abbr>Mass.</abbr></name>, particularly <name type="person"
+            >Ashley Cataldo</name> and <name type="person">Vincent L. Golden</name>; <name
+            type="person">Alex Rankin</name> and <name type="person">Jane A. Silva</name>, of the
+            <name type="org">Howard Gotlieb Archival Research Center</name>, <name type="org">Boston
+            University</name>; <name type="person">Elizabeth Call</name>, of the <name type="org"
+            >Brooklyn Historical Society</name>, N.Y.; <name type="person">Jana Meyer</name> and
+            <name type="person">James J. Holmberg</name>, of the <name type="org">Filson Historical
+            Society</name>, <name type="type">Louisville, Ky.</name>; <name type="person">James
+            Capobianco</name>, of the <name type="org">Houghton Library</name>, <name type="org"
+            >Harvard University</name>, <name type="place">Cambridge, Mass.</name>; <name
+            type="person">Sarah Horowitz</name> and <name type="person">Kavita Shroff</name>, of
+            <name type="person">Haverford College Libraries</name>, <name type="place">Haverford,
+            Penn.</name>; <name type="person">Anne Olson</name>, of <name type="org">Heritage
+            Auctions</name>, <name type="place">Dallas</name>; <name type="person">David K.
+            Frasier</name> and <name type="person">Isabel Planton</name>, of the <name type="org"
+            >Lilly Library</name>, <name type="org">Indiana University</name>, <name type="place"
+            >Bloomington</name>; <name type="person">James Stimpert</name>, of the <name type="org"
+            >Sheridan Libraries</name>, <name type="org">Johns Hopkins University</name>, <name
+            type="place">Baltimore</name>; the staff of the Manuscript Reading Room at the <name
+            type="place">Library of Congress</name>, <name type="place">Washington, D.C.</name>; the
+        staff of the Newspaper &amp; Current Periodical Reading Room at the <name type="org">Library
+            of Congress</name>, particularly <name type="person">Roslyn Pachoca</name>; <name
+            type="person">John Lissandrello</name>, <name type="place">Midland Park, N.J.</name>;
+            <name type="person">Annmarie Valdes</name>, of the School of Education at <name
+            type="org">Loyola University Chicago</name>; <name type="person">Jamie Kingman
+            Rice</name>, of the <name type="org">Brown Research Library</name>, <name type="org"
+            >Maine Historical Society</name>, <name type="place">Portland</name>; the staff of the
+            <name type="org">Massachusetts Historical Society</name>, <name type="place"
+            >Boston</name>, particularly <name type="person">Anna J. Clutterbuck-Cook</name> and
+            <name type="person">Elaine Heavey</name>; <name type="person">Cheney J.
+            Schopieray</name>, of the <name type="org">William L. Clements Library</name>, <name
+            type="org">University of Michigan</name>, <name type="place">Ann Arbor</name>; <name
+            type="person">Amanda J. Nelson</name>, of the <name type="org">University of Minnesota,
+            Twin Cities</name>, History Department; the staff of the <name type="org">Gale Family
+            Library</name> of the <name type="org">Minnesota Historical Society</name>, <name
+            type="place">St. Paul</name>, particularly <name type="person">Katie Jean Davey</name>;
+            <name type="person">Molly Kodner</name>, of the <name type="org">Missouri History Museum
+            Library and Research Center</name>, <name type="place">St. Louis</name>; <name
+            type="person">Timothy Salls</name>, of the <name type="org">New England Historic
             Genealogical Society</name>, <name type="place">Boston</name>; <name type="person">Kit
             Fluker</name>, of the Brooke Russell Astor Reading Room for Rare Books and Manuscripts,
-            <name type="org">New York Public Library</name>; <name type="person">Vann Evans</name>
-          and <name type="person">Josh Hager</name>, of the <name type="org">State Archives of North
+            <name type="place">New York Public Library</name>; <name type="person">Vann Evans</name>
+        and <name type="person">Josh Hager</name>, of the <name type="org">State Archives of North
             Carolina</name>, <name type="place">Raleigh</name>; <name type="person">Rebecca
-            Williams</name>, of the Louis Round Wilson Special Collections Library, <name type="org">University of North Carolina</name>, <name type="place">Chapel Hill</name>; <name type="person">Aaron L. Mason</name> and <name type="person">Eric J. Schmaltz</name>, of
-          the Institute for Citizenship Studies, <name type="org">Northwestern Oklahoma State
-            University</name>, <name type="place">Alva</name>; <name type="person">Matthew
-            Lyons</name>, of the <name type="org">Historical Society of Pennsylvania</name>, <name type="place">Philadelphia</name>; <name type="person">Christopher Philippo</name>, <name type="place">Glenmont, <abbr>N.Y.</abbr>
-                    </name>; <name type="person">John
-            Holtzapple</name> and <name type="person">Tom Price</name>, of the <name type="person">James K. Polk</name> Home and Museum, <name type="place">Columbia,
-            <abbr>Tenn.</abbr>
-                    </name>; <name type="person">Steven Raab</name>, of the <name type="org">Raab Collection</name>, <name type="place">Ardmore,
-          <abbr>Penn.</abbr>
-                    </name>; <name type="person">Tricia Eaton</name> and <name type="person">Elizabeth Higginbotham</name>, of <name type="org">
-                        <abbr>RR</abbr> Auction</name>,
-            <name type="place">Amherst, <abbr>N.H.</abbr>
-                    </name>; <name type="person">Laura
-            Yntema</name>, of <name type="org">Nate D. Sanders Auctions</name>, <name type="place">Santa Monico, <abbr>Calif.</abbr>
-                    </name>; <name type="person">Andrew M. Ansorge</name>,
-          of <name type="org">Swann Auction Galleries</name>, <name type="place">New York
-            City</name>; <name type="person">George E. Webb</name>, Jr., of <name type="org">Tennessee Books and Autographs</name>, <name type="place">Rogersville</name>; <name type="person">Tom Kanon</name>, of the <name type="org">Tennessee State Library &amp;
-            Archives</name>, <name type="place">Nashville</name>; <name type="person">Sean
-            Benjamin</name>, of the Howard-Tilton Memorial Library, <name type="org">Tulane
-            University</name>, <name type="place">New <pb/>Orleans, <abbr>La.</abbr>
-                    </name>; <name type="person">L. Eileen Parris</name>, of the <name type="org">Virginia Historical
-            Society</name>, <name type="place">Richmond</name>; <name type="person">Susan A.
-            Riggs</name>, of the Earl Gregg Swem Library, <name type="org">College of William and
-            Mary</name>, <name type="place">Williamsburg, <abbr>Va.</abbr>
-                    </name>; <name type="person">Matthew Wynn</name>, <name type="place">Atlanta</name>; and <name type="person">Claryn Spies</name>, of the <name type="org">Yale University
-            Library</name>, <name type="place">New Haven, <abbr>Conn.</abbr>
-                    </name>
-                </p>
+            Williams</name>, of the <name type="org">Louis Round Wilson Special Collections
+            Library</name>, <name type="org">University of North Carolina, Chapel Hill</name>; <name
+            type="person">Aaron L. Mason</name> and <name type="person">Eric J. Schmaltz</name>, of
+        the <name type="org">Institute for Citizenship Studies</name>, <name type="org">Northwestern
+            Oklahoma State University</name>, <name type="place">Alva</name>; <name type="person"
+            >Matthew Lyons</name>, formerly of the <name type="org">Historical Society of
+            Pennsylvania</name>, <name type="place">Philadelphia</name>; <name type="person"
+            >Christopher Philippo</name>, <name type="place">Glenmont, N.Y.</name>; <name
+            type="person">John Holtzapple</name>, of the <name type="org">James K. Polk Home and
+            Museum</name>, <name type="place">Columbia, Tenn.</name>, and <name type="person">Tom
+            Price</name>, formerly of that historic site; <name type="person">Steven Raab</name>, of
+        the Raab Collection, <name type="place">Ardmore, Penn.</name>; <name type="person">Tricia
+            Eaton</name> and <name type="person">Elizabeth Higginbotham</name>, of RR Auction, <name
+            type="place">Amherst, N.H.</name>; <name type="person">Laura Yntema</name>, of Nate D.
+        Sanders Auctions, <name type="place">Santa Monico, Calif.</name>; <name type="person">Andrew
+            M. Ansorge</name>, of Swann Auction Galleries, New York City; <name type="person">George
+            E. Webb, Jr.</name>, of Tennessee Books and Autographs, Rogersville; <name type="person"
+            >Tom Kanon</name> and <name type="person">Susan Gordon</name>, of the <name type="org"
+            >Tennessee State Library &amp; Archives</name>, <name type="place">Nashville</name>;
+            <name type="person">Sean Benjamin</name>, of the <name type="org">Howard-Tilton Memorial
+            Library</name>, <name type="org">Tulane University</name>, <name type="place">New
+            Orleans, La.</name>; <name type="person">L. Eileen Parris</name>, of the <name
+            type="org">Virginia Historical Society</name>, <name type="place">Richmond</name>; <name
+            type="person">Susan A. Riggs</name>, of the <name type="org">Earl Gregg Swem
+            Library</name>, <name type="org">College of William and Mary</name>, <name type="place"
+            >Williamsburg, Va.</name>; <name type="person">Matthew Wynn</name>, <name type="place"
+            >Atlanta</name>; and <name type="person">Claryn Spies</name>, of the <name type="org"
+            >Yale University Library</name>, <name type="place">New Haven, Conn.</name></p>
         <byline>
           <name type="person">M<hi rend="sc">ICHAEL</hi> D<hi rend="sc">AVID</hi> C<hi rend="sc">OHEN</hi>
                     </name>
@@ -237,7 +260,7 @@
           in <date when="1848">1848</date>, had entered a “great Era of Improvement.”<note place="foot" n="6">
                         <name type="person">George C. Wheeler</name> to <name type="person">Polk</name>, <date when="1848-08-28">August 28, 1848</date>, herein.</note> Now the
             <name type="person">James K. Polk</name> Project enters the twenty-first century.</p>
-        <p>Between <date when="1958">1958</date> and <date when="2016">2016</date>, the <name type="person">Polk</name> Project produced thirteen hardcover volumes of the <hi rend="italics">Correspondence of <name type="person">James K. Polk</name>
+        <p>Between <date when="1958">1958</date> and <date when="2017">2017</date>, the <name type="person">Polk</name> Project produced thirteen hardcover volumes of the <hi rend="italics">Correspondence of <name type="person">James K. Polk</name>
                     </hi>.
           Published by <name type="org">Vanderbilt University Press</name> and, since <date when="1993">1993</date>, the <name type="org">University of Tennessee Press</name>, they
           render accessible <name type="person">Polk</name>’s incoming and outgoing letters from
@@ -257,7 +280,7 @@
         <p>The volume you are now reading represents a step further still. Work continues on Volume
           14 of the <hi rend="italics">Correspondence</hi>, which will complete the series. In the
           meantime, as we prepare that volume’s annotation and letter summaries, we see no
-          reason not to share the transcriptions. Here you can read 107 letters that <name type="person">Polk</name> wrote and 266 that he received between <date when="1848-04-01">April 1, 1848</date>, and his death on <date when="1849-06-15">June 15, 1849</date>.
+          reason not to share the transcriptions. Here you can read 104 letters that <name type="person">Polk</name> wrote and 260 that he received between <date when="1848-04-01">April 1, 1848</date>, and his death on <date when="1849-06-15">June 15, 1849</date>.
           They contain few notes, chiefly describing the texts, identifying enclosures, and citing other Polk letters referenced. But they
           are accurate, carefully proofread reproductions of the primary documents.</p>
         <p>
