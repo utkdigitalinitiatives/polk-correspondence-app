@@ -1,0 +1,14 @@
+p.tei-p {
+  .tei-q2 {
+    position: relative;
+    left: 1.5em;
+
+    &::before {
+      content: open-quote;
+    }
+
+    &::after {
+      content: close-quote;
+    }
+  }
+}
