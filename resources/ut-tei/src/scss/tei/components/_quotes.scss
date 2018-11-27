@@ -1,0 +1,14 @@
+p.tei-p {
+  .tei-q2 {
+    position: relative;
+    left: $text-indent;
+
+    &::before {
+      content: '\201c';
+    }
+
+    &::after {
+      content: '\201d';
+    }
+  }
+}
