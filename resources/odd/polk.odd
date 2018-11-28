@@ -63,6 +63,21 @@
                         </outputRendition>
                     </model>
                 </elementSpec>
+                <elementSpec ident="p" mode="change">
+                    <model predicate="not(@role)" behaviour="paragraph" useSourceRendition="true"/>
+                    <model predicate="@role='block'" behaviour="paragraph" useSourceRendition="true">
+                        <outputRendition>
+                            display: block;
+                            text-indent: 0 !important;
+                        </outputRendition>
+                    </model>
+                    <model predicate="@role='right'" behaviour="paragraph" useSourceRendition="true">
+                        <outputRendition>
+                            display: block;
+                            text-indent: 0 !important;
+                        </outputRendition>
+                    </model>
+                </elementSpec>
             </schemaSpec>
         </body>
     </text>

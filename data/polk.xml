@@ -47,7 +47,7 @@
       <div type="sponsors">
         <pb/>
         <head>Sponsored by</head>
-        <p>Department of History, <name type="org">University of Tennessee</name>, <name type="place">Knoxville</name>
+        <p role="block">Department of History, <name type="org">University of Tennessee</name>, <name type="place">Knoxville</name>
                 </p>
         <p>
                     <name type="org">National Historical Publications and Records Commission</name>
@@ -55,7 +55,7 @@
         <p>
                     <name type="org">National Endowment for the Humanities</name>
                 </p>
-        <p>College of Arts and Sciences, <name type="org">University of Tennessee</name>, <name type="place">Knoxville</name>
+        <p role="right">College of Arts and Sciences, <name type="org">University of Tennessee</name>, <name type="place">Knoxville</name>
                 </p>
         <p>Office of the Chancellor, <name type="org">University of Tennessee</name>, <name type="place">Knoxville</name>
                 </p>
