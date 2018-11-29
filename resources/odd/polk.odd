@@ -64,9 +64,9 @@
                     </model>
                 </elementSpec>
                 <elementSpec ident="p" mode="change">
-                    <model predicate="not(@style)" behaviour="paragraph" useSourceRendition="true"/>
-                    <model predicate="@style='block'" behaviour="paragraph" useSourceRendition="true"/>
-                    <model predicate="@style='right'" behaviour="paragraph" useSourceRendition="true"/>
+                    <model predicate="not(@rend)" behaviour="paragraph" useSourceRendition="true"/>
+                    <model predicate="@rend='block'" behaviour="paragraph" useSourceRendition="true"/>
+                    <model predicate="@rend='right'" behaviour="paragraph" useSourceRendition="true"/>
                 </elementSpec>
             </schemaSpec>
         </body>
