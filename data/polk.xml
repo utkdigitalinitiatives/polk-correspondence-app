@@ -3931,7 +3931,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] Any little conveniences that may suggest themselves to your self or
+          <p rend="block">[<abbr>P.S.</abbr>] Any little conveniences that may suggest themselves to your self or
               <name type="person">Mrs. Polk</name> if advised of I will have added &amp; you may
             think of many that would escape me as I shall be much ingaged, this summer.
               <abbr>V.K.S</abbr>
@@ -3939,7 +3939,7 @@
                             <name type="person">Stevenson</name> wrote
               his postscripts sideways on the back of the letter.</note>
                     </p>
-          <p>[<abbr>P.S.</abbr>] I shall draw on you for the 1.000.$ in a few days, as I have no
+          <p rend="block">[<abbr>P.S.</abbr>] I shall draw on you for the 1.000.$ in a few days, as I have no
             money but that pd by Young. <abbr>VKS</abbr>
                     </p>
         </note>
