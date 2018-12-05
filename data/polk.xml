@@ -10165,7 +10165,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] I doubt not <name type="person">Mr Tysons</name> ability to engage
+          <p rend="block">[<abbr>P.S.</abbr>] I doubt not <name type="person">Mr Tysons</name> ability to engage
             with advantage in any other mineral researches. Quicksilver for example is now found in
             that country in very great quantity &amp; is becoming an important article of
             exportation. <hi rend="italics">
@@ -10644,7 +10644,7 @@
                     </signed>
         </closer>
         <note>
-          <p>
+          <p rend="block">
                         <abbr>P.S.</abbr> Nothing has been more common during my term, than to receive
             complaints, often couched in very strong language, because I did not make removals from
             office, and some of these have been made by persons, themselves holding office. I have
