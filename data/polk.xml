@@ -4588,7 +4588,7 @@
                     </signed>
         </closer>
         <note>
-                    <p>
+                    <p rend="block">
                         <abbr>[P.S.]</abbr> My son <name type="person">Jackson</name> will graduate in
               <date>June</date>. May I ask you to speak to <name type="person">Mr Marcy</name> for a
             furlough sufficient to enable him to visit me. He has been a hard student and deserves
@@ -4755,7 +4755,7 @@
                     </signed>
         </closer>
         <note>
-                    <p>[<abbr>P.S.</abbr>] Please throw this in the fire when you read it.</p>
+                    <p rend="block">[<abbr>P.S.</abbr>] Please throw this in the fire when you read it.</p>
                 </note>
         <postscript>
           <p>
@@ -5473,7 +5473,7 @@
                     </signed>
         </closer>
         <note>
-                    <p>[<abbr>P.S.</abbr>] I wanted to get over by the steamer a month ago, but could not
+                    <p rend="block">[<abbr>P.S.</abbr>] I wanted to get over by the steamer a month ago, but could not
             make up a “<hi rend="italics">case</hi>” that would pass as an excuse.</p>
           <p>If things turn out as I hope and expect, I must try and get over and a word from you to
               <name type="person">Mr B.</name> would give me the “chance.[”] I wish too to
@@ -5481,7 +5481,7 @@
             Kiss <name type="person">Rachel</name> for me when you see her. <name type="person">R
               Armstrong</name>
                     </p>
-          <p>[<abbr>P.S.</abbr>] I enclose a Private letter to <name type="person">Mr Walker</name>
+          <p rend="block">[<abbr>P.S.</abbr>] I enclose a Private letter to <name type="person">Mr Walker</name>
             which he will show you, and also a line to <name type="person">Mr. Johnson</name> on
             Willmere &amp; Smiths application.<note place="foot" n="4">Letters to <name type="person">Cave Johnson</name> and, probably, <name type="person">Joseph Knox
                 Walker</name> not found.</note>
@@ -5812,7 +5812,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] <name type="person">Mr Hawkins</name>
+          <p rend="block">[<abbr>P.S.</abbr>] <name type="person">Mr Hawkins</name>
             <name type="person">Mr Ramsey</name> &amp; <name type="person">Mr Walker</name> are well
             of this please inform the ladies. The balloting will commence on tomorrow.</p>
         </note>
