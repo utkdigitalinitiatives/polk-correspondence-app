@@ -13179,7 +13179,7 @@
                     </signed>
         </closer>
         <note>
-          <p>
+          <p rend="block">
                         <abbr>P.S.</abbr> The mail is closing; &amp; in the absence of five minutes’ time to
             write our friend, <name type="person">Cave Johnson</name>, please say to him I am yet
             candidly sanguine as to <name type="person">Tenee</name>. <abbr>J.L.W.</abbr>
@@ -13736,7 +13736,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] Since writing &amp; sealing the within I have recived yours of
+          <p rend="block">[<abbr>P.S.</abbr>] Since writing &amp; sealing the within I have recived yours of
               yesterday.<note place="foot" n="1">Letter not found.</note>
             <abbr>J.K.P.</abbr>
                         <note place="foot" n="2">
@@ -14275,7 +14275,7 @@
                     </signed>
         </closer>
         <note>
-          <p>
+          <p rend="block">
                         <abbr>P.S.</abbr> I have recently seen a letter published that was written by my old
             friend <name type="person">T. O. Larkin</name>, navy agent in <name type="place">Calafrnia</name>. The aurophobia seems to run high in those parts. If the mines are
             half as valuable as they are represented to be by him, The acquisition of that Country,
