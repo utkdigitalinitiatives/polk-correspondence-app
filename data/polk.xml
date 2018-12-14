@@ -16218,7 +16218,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] I have written this letter in the midst of bustle, thinkig it would
+          <p rend="block">[<abbr>P.S.</abbr>] I have written this letter in the midst of bustle, thinkig it would
             be gratifying to hear of the standing of your nephew, though it should put my talent as
             a <hi rend="italics">Scribe</hi> to discount.</p>
         </note>
@@ -16317,7 +16317,7 @@
                     </signed>
         </closer>
         <note>
-          <p>
+          <p rend="block">
                         <abbr>P.S.</abbr> Since writing the foregoing letter <hi rend="italics">
                             <name type="person">Majr Graham</name>
                         </hi>, has sent me your letter to him of the 16th
