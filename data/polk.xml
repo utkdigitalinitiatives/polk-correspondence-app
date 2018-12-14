@@ -18413,7 +18413,7 @@
                     </signed>
         </closer>
         <note>
-          <p>
+          <p rend="block">
                         <abbr>P.S.</abbr> In addition to my immediate family, <hi rend="italics">
                             <name type="person">Mr Walk[er]</name>
                         </hi>
@@ -19003,11 +19003,11 @@
                     </signed>
         </closer>
         <note>
-          <p>
+          <p rend="block">
                         <abbr>P.S.</abbr> Please give my best respects to ye. <name type="person">Hon. James
               Buchanan</name> &amp; to ye. <name type="person">Hon. Robert Walker</name> to whom I
             am personally known.</p>
-          <p>[<abbr>P.S.</abbr>] Hond. Sir, Permit me to add, that I voted for <name type="person">Gen. Washington</name> at his 2d. Election, &amp; ye. first vote I ever gave &amp; I
+          <p rend="block">[<abbr>P.S.</abbr>] Hond. Sir, Permit me to add, that I voted for <name type="person">Gen. Washington</name> at his 2d. Election, &amp; ye. first vote I ever gave &amp; I
             voted for you, &amp; permit me to say I prayed most fervently on the day of your
             Election, that God wd. not permit ye. Ark of our political Safety to have an unhallowed
             touch, by the Election of any other candidate but yourself.</p>
