@@ -15498,7 +15498,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] Refferance <name type="person">Genl J. Wilson</name> at <name type="place">Washington</name> or Mace Moulton, of Manchester<note place="foot" n="1">
+          <p rend="block">[<abbr>P.S.</abbr>] Refferance <name type="person">Genl J. Wilson</name> at <name type="place">Washington</name> or Mace Moulton, of Manchester<note place="foot" n="1">
                             <name type="person">Gregg</name> wrote his postscript to the left of his
               signature.</note>
                     </p>
@@ -15800,7 +15800,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] <name type="person">Mr H</name> is to send your plan immediately
+          <p rend="block">[<abbr>P.S.</abbr>] <name type="person">Mr H</name> is to send your plan immediately
             with all receses &amp; projections of each room with its exact dimensions.</p>
         </note>
         <postscript>
