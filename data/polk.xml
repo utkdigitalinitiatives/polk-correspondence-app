@@ -3931,7 +3931,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] Any little conveniences that may suggest themselves to your self or
+          <p rend="block">[<abbr>P.S.</abbr>] Any little conveniences that may suggest themselves to your self or
               <name type="person">Mrs. Polk</name> if advised of I will have added &amp; you may
             think of many that would escape me as I shall be much ingaged, this summer.
               <abbr>V.K.S</abbr>
@@ -3939,7 +3939,7 @@
                             <name type="person">Stevenson</name> wrote
               his postscripts sideways on the back of the letter.</note>
                     </p>
-          <p>[<abbr>P.S.</abbr>] I shall draw on you for the 1.000.$ in a few days, as I have no
+          <p rend="block">[<abbr>P.S.</abbr>] I shall draw on you for the 1.000.$ in a few days, as I have no
             money but that pd by Young. <abbr>VKS</abbr>
                     </p>
         </note>
@@ -4588,7 +4588,7 @@
                     </signed>
         </closer>
         <note>
-                    <p>
+                    <p rend="block">
                         <abbr>[P.S.]</abbr> My son <name type="person">Jackson</name> will graduate in
               <date>June</date>. May I ask you to speak to <name type="person">Mr Marcy</name> for a
             furlough sufficient to enable him to visit me. He has been a hard student and deserves
@@ -4755,7 +4755,7 @@
                     </signed>
         </closer>
         <note>
-                    <p>[<abbr>P.S.</abbr>] Please throw this in the fire when you read it.</p>
+                    <p rend="block">[<abbr>P.S.</abbr>] Please throw this in the fire when you read it.</p>
                 </note>
         <postscript>
           <p>
@@ -5473,7 +5473,7 @@
                     </signed>
         </closer>
         <note>
-                    <p>[<abbr>P.S.</abbr>] I wanted to get over by the steamer a month ago, but could not
+                    <p rend="block">[<abbr>P.S.</abbr>] I wanted to get over by the steamer a month ago, but could not
             make up a “<hi rend="italics">case</hi>” that would pass as an excuse.</p>
           <p>If things turn out as I hope and expect, I must try and get over and a word from you to
               <name type="person">Mr B.</name> would give me the “chance.[”] I wish too to
@@ -5481,7 +5481,7 @@
             Kiss <name type="person">Rachel</name> for me when you see her. <name type="person">R
               Armstrong</name>
                     </p>
-          <p>[<abbr>P.S.</abbr>] I enclose a Private letter to <name type="person">Mr Walker</name>
+          <p rend="block">[<abbr>P.S.</abbr>] I enclose a Private letter to <name type="person">Mr Walker</name>
             which he will show you, and also a line to <name type="person">Mr. Johnson</name> on
             Willmere &amp; Smiths application.<note place="foot" n="4">Letters to <name type="person">Cave Johnson</name> and, probably, <name type="person">Joseph Knox
                 Walker</name> not found.</note>
@@ -5812,7 +5812,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] <name type="person">Mr Hawkins</name>
+          <p rend="block">[<abbr>P.S.</abbr>] <name type="person">Mr Hawkins</name>
             <name type="person">Mr Ramsey</name> &amp; <name type="person">Mr Walker</name> are well
             of this please inform the ladies. The balloting will commence on tomorrow.</p>
         </note>
@@ -6284,7 +6284,7 @@
                     </signed>
         </closer>
         <note>
-          <p>
+          <p rend="block">
                         <abbr>P.S.</abbr> Should you have to make any new appointments in the Regular Army,
             allow me to present to your Notice the following Officers of 3d Tennessee Regt. (viz)
             Capt D. Trigg of <name type="place">Nashville</name>
@@ -6558,7 +6558,7 @@
                     </signed>
         </closer>
         <note>
-          <p>
+          <p rend="block">
                         <abbr>P.S.</abbr> As <name type="place">Mecklenburg <abbr>N.C.</abbr>
                         </name> is my
             native County I take a lively, intrest in all that concerns, the early history of that
@@ -8313,7 +8313,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] Pray keep down the administrative expenses. They love us in Europe
+          <p rend="block">[<abbr>P.S.</abbr>] Pray keep down the administrative expenses. They love us in Europe
             because we spend so little on the army &amp; navy in time of peace. Let us not lose that
             good name. The papers say the House has voted $11.000.000 for the navy alone. The world
             expects of republicanism economy in army &amp; navy expenditures, as a cardinal
@@ -10165,7 +10165,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] I doubt not <name type="person">Mr Tysons</name> ability to engage
+          <p rend="block">[<abbr>P.S.</abbr>] I doubt not <name type="person">Mr Tysons</name> ability to engage
             with advantage in any other mineral researches. Quicksilver for example is now found in
             that country in very great quantity &amp; is becoming an important article of
             exportation. <hi rend="italics">
@@ -10644,7 +10644,7 @@
                     </signed>
         </closer>
         <note>
-          <p>
+          <p rend="block">
                         <abbr>P.S.</abbr> Nothing has been more common during my term, than to receive
             complaints, often couched in very strong language, because I did not make removals from
             office, and some of these have been made by persons, themselves holding office. I have
@@ -12049,7 +12049,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] Perhaps it might be well to read to the Cabinet my narrative of
+          <p rend="block">[<abbr>P.S.</abbr>] Perhaps it might be well to read to the Cabinet my narrative of
             their statement of the reasons of their advice. I think <name type="person">Marcy</name>, <name type="person">Buchanan</name>, <pb/>
                         <name type="person">Mason</name> &amp; <name type="person">Walker</name> must all remember it. As to
               <name type="person">Johnson</name> I do not so distinctly remember about him on that
@@ -13179,7 +13179,7 @@
                     </signed>
         </closer>
         <note>
-          <p>
+          <p rend="block">
                         <abbr>P.S.</abbr> The mail is closing; &amp; in the absence of five minutes’ time to
             write our friend, <name type="person">Cave Johnson</name>, please say to him I am yet
             candidly sanguine as to <name type="person">Tenee</name>. <abbr>J.L.W.</abbr>
@@ -13736,7 +13736,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] Since writing &amp; sealing the within I have recived yours of
+          <p rend="block">[<abbr>P.S.</abbr>] Since writing &amp; sealing the within I have recived yours of
               yesterday.<note place="foot" n="1">Letter not found.</note>
             <abbr>J.K.P.</abbr>
                         <note place="foot" n="2">
@@ -14275,7 +14275,7 @@
                     </signed>
         </closer>
         <note>
-          <p>
+          <p rend="block">
                         <abbr>P.S.</abbr> I have recently seen a letter published that was written by my old
             friend <name type="person">T. O. Larkin</name>, navy agent in <name type="place">Calafrnia</name>. The aurophobia seems to run high in those parts. If the mines are
             half as valuable as they are represented to be by him, The acquisition of that Country,
@@ -15498,7 +15498,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] Refferance <name type="person">Genl J. Wilson</name> at <name type="place">Washington</name> or Mace Moulton, of Manchester<note place="foot" n="1">
+          <p rend="block">[<abbr>P.S.</abbr>] Refferance <name type="person">Genl J. Wilson</name> at <name type="place">Washington</name> or Mace Moulton, of Manchester<note place="foot" n="1">
                             <name type="person">Gregg</name> wrote his postscript to the left of his
               signature.</note>
                     </p>
@@ -15800,7 +15800,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] <name type="person">Mr H</name> is to send your plan immediately
+          <p rend="block">[<abbr>P.S.</abbr>] <name type="person">Mr H</name> is to send your plan immediately
             with all receses &amp; projections of each room with its exact dimensions.</p>
         </note>
         <postscript>
@@ -16218,7 +16218,7 @@
                     </signed>
         </closer>
         <note>
-          <p>[<abbr>P.S.</abbr>] I have written this letter in the midst of bustle, thinkig it would
+          <p rend="block">[<abbr>P.S.</abbr>] I have written this letter in the midst of bustle, thinkig it would
             be gratifying to hear of the standing of your nephew, though it should put my talent as
             a <hi rend="italics">Scribe</hi> to discount.</p>
         </note>
@@ -16317,7 +16317,7 @@
                     </signed>
         </closer>
         <note>
-          <p>
+          <p rend="block">
                         <abbr>P.S.</abbr> Since writing the foregoing letter <hi rend="italics">
                             <name type="person">Majr Graham</name>
                         </hi>, has sent me your letter to him of the 16th
@@ -18413,7 +18413,7 @@
                     </signed>
         </closer>
         <note>
-          <p>
+          <p rend="block">
                         <abbr>P.S.</abbr> In addition to my immediate family, <hi rend="italics">
                             <name type="person">Mr Walk[er]</name>
                         </hi>
@@ -19003,11 +19003,11 @@
                     </signed>
         </closer>
         <note>
-          <p>
+          <p rend="block">
                         <abbr>P.S.</abbr> Please give my best respects to ye. <name type="person">Hon. James
               Buchanan</name> &amp; to ye. <name type="person">Hon. Robert Walker</name> to whom I
             am personally known.</p>
-          <p>[<abbr>P.S.</abbr>] Hond. Sir, Permit me to add, that I voted for <name type="person">Gen. Washington</name> at his 2d. Election, &amp; ye. first vote I ever gave &amp; I
+          <p rend="block">[<abbr>P.S.</abbr>] Hond. Sir, Permit me to add, that I voted for <name type="person">Gen. Washington</name> at his 2d. Election, &amp; ye. first vote I ever gave &amp; I
             voted for you, &amp; permit me to say I prayed most fervently on the day of your
             Election, that God wd. not permit ye. Ark of our political Safety to have an unhallowed
             touch, by the Election of any other candidate but yourself.</p>
@@ -20458,7 +20458,7 @@
                     </signed>
         </closer>
         <note>
-          <p>
+          <p rend="block">
                         <pb/>[<abbr>P.S.</abbr>] An answer desired</p>
         </note>
         <postscript>
