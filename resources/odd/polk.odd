@@ -68,6 +68,17 @@
                     <model predicate="@rend='block'" behaviour="paragraph" useSourceRendition="true"/>
                     <model predicate="@rend='right'" behaviour="paragraph" useSourceRendition="true"/>
                 </elementSpec>
+                <elementSpec ident="date" mode="change">
+                    <model output="print" predicate="text()" behaviour="inline"/>
+                    <model output="print" predicate="@when and not(text())" behaviour="inline">
+                        <param name="content" value="@when"/>
+                    </model>
+                    <model output="web" predicate="@when" behaviour="inline">
+                        <param name="default" value="."/>
+                        <param name="alternate" value="@when"/>
+                    </model>
+                    <model predicate="text()" behaviour="inline"/>
+                </elementSpec>
             </schemaSpec>
         </body>
     </text>
