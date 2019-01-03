@@ -99,6 +99,33 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFive">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Escape Characters
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="headingFive">
+                                <div class="panel-body">
+                                    <p>There are several characters that have special meaning that must be escaped in
+                                        order to include them in searches. These include: + - &amp;&amp; || ! ( ) { } [
+                                        ] ^ " ~ * ? : \. To include these in a search, use a <strong>\</strong> before
+                                        the character.</p>
+                                    <h5>Examples</h5>
+                                    <ul>
+                                        <li><strong>"Imm\[e\]diately"</strong> will return results where the exact term
+                                            <em>"Imm\[e\]diately"</em> is present.</li>
+                                        <li><strong>Imm\[e\]diately</strong> will return results where any parts
+                                        of the term <em>Imm\[e\]diately</em> is present.</li>
+                                        <li><strong>Imm[e]diately</strong> will return an error or no results.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
