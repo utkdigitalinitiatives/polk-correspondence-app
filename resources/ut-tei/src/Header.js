@@ -159,19 +159,19 @@ class Header extends Component {
                             </div>
 
                             <div className="utk-header-actions--item utk-header-actions--resources">
-                                <a href="#menuopen" onClick={this.toggleResources} className={`utk-menu-trigger utk-header-expand`}  tabIndex="4">
+                                <a onClick={this.toggleResources} className={`utk-menu-trigger utk-header-expand`}  tabIndex="4">
                                     <span className="icon-menu"></span>
                                     <em>Menu</em>
                                 </a>
 
-                                <a href="#menuclose" onClick={this.closeResourcesMenu} className={`utk-menu-trigger utk-header-collapse`}  tabIndex="4">
+                                <a onClick={this.closeResourcesMenu} className={`utk-menu-trigger utk-header-collapse`}  tabIndex="4">
                                     <span className="icon-cancel"></span>
                                     <em>Menu</em>
                                 </a>
                             </div>
 
                             <div className="utk-header-actions--item utk-header-actions--search">
-                                <a href="#search" onClick={this.toggleSearch} className={searchClass}  tabIndex="5">
+                                <a onClick={this.toggleSearch} className={searchClass}  tabIndex="5">
                                     <span className="icon-search"></span>
                                     <span className="icon-cancel"></span>
                                     <em>Search</em>
