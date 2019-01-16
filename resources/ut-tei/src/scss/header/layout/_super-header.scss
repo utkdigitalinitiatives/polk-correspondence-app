@@ -1,4 +1,8 @@
 .utk-header-super {
+  @include respond(xs) {
+    display: none;
+  }
+
   &--url {
     position: absolute;
     left: -2000px;
@@ -34,8 +38,7 @@
         line-height: $golden-ratio-4;
         padding: 0 $golden-ratio-1;
         font-size: $type-2;
-        font-weight: 700;
-        text-transform: uppercase;
+        font-weight: 400;
         display: block;
         color: $smokey;
         text-decoration: none !important;

@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import {MenuItems} from './MenuItems';
 
+import uniqueId from "lodash/uniqueId"
+import debounce from "lodash/debounce";
+
 export class MenuColumns extends Component {
 
     constructor(props) {
@@ -17,7 +20,7 @@ export class MenuColumns extends Component {
         if (setMenuId !== activeMenu) {
             this.props.activeMenu(setMenuId);
         }
-    };
+    }
 
     render() {
 
@@ -35,14 +38,14 @@ export class MenuColumns extends Component {
                         let {title, url, classes, target} = link[1];
 
                         return (
-                            <a key={index} href={url}>{title}</a>
+                            <a href={url} tabIndex="4">{title}</a>
                         );
 
                     });
                 }
 
                 return (
-                    <MenuItems key={`item_${index}`} menuId={id} title={title} dropdownItems={dropdownItems} setMenuAs={this.updateMenu} />
+                    <MenuItems menuId={id} title={title} dropdownItems={dropdownItems} setMenuAs={this.updateMenu} />
                 )
             });
             return (

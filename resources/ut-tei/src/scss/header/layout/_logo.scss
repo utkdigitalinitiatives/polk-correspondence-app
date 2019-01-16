@@ -9,7 +9,6 @@
   .utk-logo {
     padding: 47px;
     height: 47px;
-    width: 209px;
     opacity: 1;
     box-sizing: content-box;
     transition: $transition-all;
@@ -17,15 +16,40 @@
     background-color: $white;
     top: 0;
     box-shadow: $box-shadow;
+
+    @include respond(sm) {
+      margin-top: -100px;
+      -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+      transform: scale(0);
+      opacity: 1;
+    }
   }
 
   .utk-logo-square {
-    width: 47px;
+    width: $golden-ratio-4;
+    height: $golden-ratio-4;
     padding: 0;
     box-shadow: none;
     position: absolute;
     left: -2000px;
-    top: 47px;
+    top: 46px;
+
+    @include respond(xs) {
+      width: 30px;
+      height: 30px;
+      left: 0;
+      margin-top: 0 !important;
+      transform: scale(1) !important;
+    }
+
+    @include respond(sm) {
+      width: $golden-ratio-4;
+      height: $golden-ratio-4;
+      left: 0;
+      margin-top: 0 !important;
+      transform: scale(1) !important;
+    }
   }
 
   a.utk-logo-unit,
@@ -43,10 +67,34 @@
     left: 303px;
     transition: $transition-all;
     color: $smokey !important;
+
+    @include respond(xs) {
+      left: $golden-ratio-2;
+      font-size: $type-4;
+      height: 60px;
+      line-height: 60px;
+    }
+
+    @include respond(sm) {
+      left: 36px;
+    }
   }
 }
 
 body.utk-menu-open {
+
+  .utk-header-super {
+    height: 47px !important;
+  }
+
+  .utk-header-main {
+    margin-top: 47px !important;
+
+    @include respond(xs) {
+      margin-top: 0 !important;
+    }
+  }
+
   .utk-logo-wrapper {
     .utk-logo-primary {
       top: -3000px;
@@ -54,11 +102,17 @@ body.utk-menu-open {
     }
 
     .utk-logo-square {;
-      left: 47px;
+      left: 0 !important;
     }
 
     .utk-logo-unit {
-      left: 76px;
+      left: 47px !important;
+      padding-left: 18px !important;
+
+      @include respond(xs) {
+        left: 30px !important;
+        padding-left: 17px !important;
+      }
     }
   }
 }
@@ -67,7 +121,7 @@ body.utk-menu-open {
   .utk-logo-wrapper {
     .utk-logo {
       margin-top: 0;
-      padding: 88px 47px 47px;
+      padding: 0;
 
       @include respond(xs, sm, md) {
         margin-top: -100px;
@@ -164,8 +218,12 @@ body.utk-menu-open {
       .utk-menu-trigger {
         padding: calc((47px - 6px - 15px) / 2) 11px;
 
+        @include respond(xs, sm, md) {
+          padding: calc((47px - 6px - 15px) / 2) 3px;
+        }
+
         .icon-cancel {
-          margin-left: -38px;
+          margin-left: -32px;
         }
       }
 
@@ -174,7 +232,7 @@ body.utk-menu-open {
         padding: calc((47px - 6px - 15px) / 2) 11px;
 
         .icon-cancel {
-          margin-left: -33px;
+          margin-left: -40px;
         }
       }
 
@@ -206,5 +264,11 @@ body.utk-menu-open {
     }
 
 
+  }
+}
+
+body.utk-search-open {
+  .utk-search {
+    z-index: 999;
   }
 }
