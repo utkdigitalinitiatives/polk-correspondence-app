@@ -196,7 +196,7 @@ class Header extends Component {
             </header>
             <div className="utk-body-overlay"></div>
             <PolkHero key="polk-0" headerCollapse={this.headerCollapse} />
-            <Placeholder key="ph-0" />
+            {/*<Placeholder key="ph-0" />*/}
             </div>
         );
     }
