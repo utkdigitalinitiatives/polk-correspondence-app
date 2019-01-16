@@ -1,6 +1,10 @@
 html {
   margin-top: 205px;
   font-size: $type-3;
+
+  @include respond(xs) {
+    margin-top: 142px;
+  }
 }
 
 .utk-custom-hero {
@@ -11,55 +15,81 @@ html {
   z-index: 2;
   margin-top: -76px;
 
+  @include respond(xs) {
+    height: $golden-ratio-8;
+  }
+
   > .container {
     height: inherit;
   }
 }
 
-.utk-custom-hero--wrap {
-  //margin-left: calc(304px + #{$golden-ratio-3});
-  position: absolute;
-  z-index: 1;
-  bottom: $golden-ratio-5;
-  width: 61.8%;
-  text-align: center;
-  color: $limestone;
-
-  h1,
-  h2 {
+#utk-lib-header {
+  .utk-custom-hero--wrap {
+    //margin-left: calc(304px + #{$golden-ratio-3});
+    position: absolute;
+    z-index: 1;
+    bottom: $golden-ratio-5;
+    width: 61.8%;
+    text-align: center;
     color: $white;
-    font-weight: 400;
-  }
 
-  h1 {
-    font-size: $type-5;
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
-    font-family: $serif-generic !important;
-    margin-bottom: 4rem;
-    color: $limestone;
-    letter-spacing: 0.02em;
-
-    > .font-script {
-      text-transform: none;
-      margin-top: 3rem;
-      font-size: 6rem;
-      line-height: 1rem;
+    @include respond(xs) {
+      width: 100%;
       display: block;
-      letter-spacing: 0;
+      left: 0;
+      bottom: $golden-ratio-2;
+    }
+
+    h1,
+    h2 {
+      color: $white;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: $type-4;
+      font-weight: 400;
+      margin: 0;
+      padding: 0;
+      font-family: $serif-generic !important;
+      margin-bottom: $golden-ratio-3;
+      color: $white;
+      font-style: italic;
+
+      @include respond(xs) {
+        font-size: $type-3;
+        margin-bottom: $golden-ratio-1;
+      }
+
+      > em {
+        text-transform: none;
+        margin-top: $golden-ratio-1;
+        font-size: $type-6 !important;
+        display: block;
+        letter-spacing: 0;
+        font-style: normal;
+        font-weight: 700;
+
+        @include respond(xs) {
+          margin-top: 0;
+          font-size: $type-5 !important;
+        }
+      }
+    }
+
+    h2 {
+      font-size: $type-3;
+      margin: 0;
+      font-family: $serif-generic !important;
+      text-transform: uppercase;
+      opacity: 0.76;
+
+      @include respond(xs) {
+        font-size: $type-2 !important;
+      }
     }
   }
-
-  h2 {
-    font-size: $type-3;
-    margin: 0;
-    font-family: $sans !important;
-    letter-spacing: 0.02em;
-    opacity: 0.76;
-    text-transform: uppercase;
-  }
-
 }
 
 .utk-custom-hero--background {
@@ -73,57 +103,83 @@ html {
   background-position: 75% 45%;
   background-size: auto 375px;
   background-color: $polk;
-}
 
-.utk-custom-hero.utk-custom-hero-shrink {
-  height: $golden-ratio-5;
-  background-color: $polk;
-  position: fixed;
-  top: 129px;
-  margin-top: 0;
-
-  .utk-custom-hero--wrap {
-    margin-left: calc(#{304px + $golden-ratio-3});
-    bottom: auto;
-    text-align: left !important;
-
-    h1 {
-      margin: 0;
-      margin-top: 13px;
-      font-size: $type-4;
-      font-weight: 400;
-      padding: 0;
-      font-family: $serif;
-      color: $limestone;
-      letter-spacing: 0.02em;
-      display: block;
-    }
-
-    h1 > em {
-      font-size: $type-7;
-      font-weight: 400;
-      margin: 0;
-      font-weight: 400 !important;
-      padding: 0;
-      font-style: normal;
-      color: $limestone;
-      letter-spacing: 0;
-      display: inline;
-    }
-
-    h2 {
-      margin-top: 5px;
-      font-size: $type-2;
-      color: $limestone;
-    }
+  @include respond(md) {
+    background-position: 120% 45%;
   }
 
-  .utk-custom-hero--background {
-    background-size: auto $golden-ratio-7;
-    background-position: 105% 0;
-    opacity: 0;
-    background-color: $polk;
+  @include respond(sm) {
+    background-position: 100% 45%;
+  }
 
+  @include respond(xs) {
+    background-position: 60% 0;
+    background-size: auto $golden-ratio-8;
+  }
+}
+
+#utk-lib-header {
+  .utk-custom-hero.utk-custom-hero-shrink {
+    height: $golden-ratio-5;
+    background-color: $polk;
+    position: fixed;
+    top: 129px;
+    margin-top: 0;
+
+    @include respond(xs) {
+      top: 66px;
+    }
+
+    .utk-custom-hero--wrap {
+      margin-left: calc(#{304px + $golden-ratio-3});
+      bottom: 14px !important;
+      text-align: left !important;
+
+      @include respond(xs, sm) {
+        margin-left: 0 !important;
+      }
+
+      @include respond(xs) {
+        padding-left: 15px;
+      }
+
+      h1 {
+        font-size: $type-3;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+        font-family: $serif-generic !important;
+        margin-bottom: 11px !important;
+        color: $white;
+        font-style: italic;
+
+        > em {
+          text-transform: none;
+          margin-top: 0;
+          font-size: $type-3 !important;
+          display: inline;
+          letter-spacing: 0;
+          font-style: normal;
+          font-weight: 700;
+        }
+      }
+
+      h2 {
+        font-size: $type-2;
+        margin: 0;
+        font-family: $serif-generic !important;
+        text-transform: uppercase;
+        opacity: 0.76;
+      }
+    }
+
+    .utk-custom-hero--background {
+      background-size: auto $golden-ratio-7;
+      background-position: 105% 0;
+      opacity: 0;
+      background-color: $polk;
+
+    }
   }
 }
 

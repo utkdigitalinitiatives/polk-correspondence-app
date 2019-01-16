@@ -184,10 +184,6 @@ class Header extends Component {
                 <div className="utk-header-super">
                     <div className="container">
                         <ul className="utk-header-super--menu">
-                            {/*<li><a><strong>Today's Hours <span className='icon-angle-right'></span></strong></a></li>*/}
-                            {/*<li><a>Hodges: 24 Hours</a></li>*/}
-                            {/*<li><a>Pendergrass: 8pm-6pm</a></li>*/}
-                            {/*<li><a>DeVine: 8pm-5pm</a></li>*/}
                             <li><a href="#" tabIndex="2">Hours</a></li>
                             <li><a href="#" tabIndex="2">Locations</a></li>
                             <li><a href="#" tabIndex="2">Databases</a></li>
@@ -195,11 +191,12 @@ class Header extends Component {
                         </ul>
                     </div>
                 </div>
-                <Menu active={resourcesClass} />
-                <Search showSearch={showSearch} ref="search" />
+                <Menu key="menu-0"  active={resourcesClass} />
+                <Search key="search-0" showSearch={showSearch} ref="search" />
             </header>
             <div className="utk-body-overlay"></div>
             <PolkHero key="polk-0" headerCollapse={this.headerCollapse} />
+            <Placeholder key="ph-0" />
             </div>
         );
     }

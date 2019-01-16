@@ -44,8 +44,8 @@ $accent:      $orange;
  */
 
 $sans: "Gotham SSm 2r", "Gotham SSm A", "Gotham SSm B", "Gotham-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$serif: "clarendon-text-pro", Georgia, Times, 'Times New Roman', serif;
 $serif-generic: Georgia, Times, 'Times New Roman', serif;
+$serif: "clarendon-text-pro", $serif-generic;
 $script: "bickham-script-pro-3", $serif;
 
 /*

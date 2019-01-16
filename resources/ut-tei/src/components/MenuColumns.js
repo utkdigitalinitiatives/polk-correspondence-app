@@ -38,14 +38,14 @@ export class MenuColumns extends Component {
                         let {title, url, classes, target} = link[1];
 
                         return (
-                            <a href={url} tabIndex="4">{title}</a>
+                            <a key={index} href={url} tabIndex="4">{title}</a>
                         );
 
                     });
                 }
 
                 return (
-                    <MenuItems menuId={id} title={title} dropdownItems={dropdownItems} setMenuAs={this.updateMenu} />
+                    <MenuItems key={`item_${index}`} menuId={id} title={title} dropdownItems={dropdownItems} setMenuAs={this.updateMenu} />
                 )
             });
             return (

@@ -41,8 +41,6 @@ export class Hours extends Component {
 
         const {locations} = this.state;
 
-        console.log(locations);
-
         if (Object.keys(locations).length !== 0)
             return (
                 <div className="utk-hours">

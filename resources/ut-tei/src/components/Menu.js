@@ -62,7 +62,7 @@ export class Menu extends Component {
 
             menuColumns = Object.entries(menuDrawer).map((columns, index) => {
                 return (
-                    <MenuColumns items={columns[1].data} activeMenu={this.setMenu}/>
+                    <MenuColumns key={`column_${index}`} items={columns[1].data} activeMenu={this.setMenu}/>
                 );
             })
             menuSecondary = <div className="utk-secondary-menu"></div>;
@@ -92,7 +92,7 @@ export class Menu extends Component {
                                         <span className="icon-left-open"></span>
                                     </a>
                                 </div>
-                                <MenuSecondary menuId={id} title={title} dropdownItems={dropdownItems}/>
+                                <MenuSecondary key={`ms_${index}`} menuId={id} title={title} dropdownItems={dropdownItems}/>
                             </div>
                         );
                     }
