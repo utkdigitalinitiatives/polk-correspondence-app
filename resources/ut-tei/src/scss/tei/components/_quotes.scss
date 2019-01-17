@@ -1,14 +1,22 @@
-p.tei-p {
-  .tei-q2 {
-    position: relative;
-    left: $text-indent;
+.tei-q1,
+.tei-q2,
+.tei-q3,
+.tei-q4 {
+  position: relative;
 
-    &::before {
-      content: '\201c';
-    }
-
-    &::after {
-      content: '\201d';
-    }
+  &::before {
+    content: '\201c';
   }
+
+  &::after {
+    content: '\201d';
+  }
+}
+
+.tei-q3 {
+  text-align: right;
+}
+
+.tei-q4 {
+  left: $text-indent;
 }
