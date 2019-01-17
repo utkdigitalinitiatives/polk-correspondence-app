@@ -1,8 +1,8 @@
 .tei-q1,
 .tei-q2,
-.tei-q3,
-.tei-q4 {
+.tei-q3 {
   position: relative;
+  left: $text-indent;
 
   &::before {
     content: '\201c';
@@ -13,10 +13,11 @@
   }
 }
 
-.tei-q3 {
-  text-align: right;
+.tei-q2 {
+  left: auto;
 }
 
-.tei-q4 {
-  left: $text-indent;
+.tei-q3 {
+  left: auto;
+  text-align: right;
 }

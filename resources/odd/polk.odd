@@ -72,7 +72,6 @@
                     <model predicate="not(@rend)" behaviour="inline" useSourceRendition="true"/>
                     <model predicate="@rend='block'" behaviour="inline" useSourceRendition="true"/>
                     <model predicate="@rend='right'" behaviour="inline" useSourceRendition="true"/>
-                    <model predicate="@rend='indent'" behaviour="inline" useSourceRendition="true"/>
                 </elementSpec>
                 <elementSpec ident="date" mode="change">
                     <model output="print" predicate="text()" behaviour="inline"/>
