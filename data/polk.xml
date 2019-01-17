@@ -5055,11 +5055,22 @@
                     </signed>
         </closer>
         <note>
-                    <p>
-                        <abbr>N.B.</abbr> Direct your letter to <name type="person">James Wirick</name>
-            <name type="place">Paw Paw Lee County Ill</name>
-                    </p>
-                </note>
+            <p rend="block">
+                <abbr>N.B.</abbr> Direct your letter to
+            </p>
+            <p rend="block">
+                <name type="person">James Wirick</name>
+            </p>
+            <p rend="block">
+                <name type="place">Paw Paw</name>
+            </p>
+            <p rend="block">
+                <name type="place">Lee County</name>
+            </p>
+            <p rend="block">
+                <name type="place">Ill</name>
+            </p>
+        </note>
         <postscript>
           <p>
                         <abbr>ALS. DLC–JKP</abbr>. Addressed to <name type="place">Washington City</name>. From
