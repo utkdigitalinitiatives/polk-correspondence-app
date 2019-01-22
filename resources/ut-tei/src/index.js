@@ -1,6 +1,15 @@
 /*
+ * Polyfills for backwards compatibility
+*/
+import 'core-js/es7/symbol';
+import 'core-js/es7/object';
+import 'core-js/es7/array';
+import 'url-search-params-polyfill';
+
+/*
  * Imports the React goodies
  */
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './Header';

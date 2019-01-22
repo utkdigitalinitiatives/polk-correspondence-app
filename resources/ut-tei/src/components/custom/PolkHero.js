@@ -26,7 +26,6 @@ export class PolkHero extends Component {
         const urlParams = new URLSearchParams(window.location.search);
         const defaultRoot = '1.4.2.4';
         const urlLocation = window.location.pathname;
-        const searchFile = 'search.html';
 
         if (urlParams.has('root')) {
             let root = urlParams.get('root');
@@ -39,9 +38,6 @@ export class PolkHero extends Component {
                 this.setState({polkRoot: false});
             }
         } else if (urlParams.has('id')) {
-            this.setState({heroShrink: true});
-            this.setState({polkRoot: false});
-        } else if (urlLocation.includes(searchFile)) {
             this.setState({heroShrink: true});
             this.setState({polkRoot: false});
         } else {

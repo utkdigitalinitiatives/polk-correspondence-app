@@ -56,6 +56,8 @@ import LogoNHPRC from '../media/custom/nhprc-logo-l.jpg';
 import LogoNEH from '../media/custom/NEH_h-logo_03_all-black.svg';
 import LogoNewfoundPress from '../media/custom/newfound-press-logo.svg';
 
+console.log('yolo');
+
 const urlParams = new URLSearchParams(window.location.search);
 const defaultRoot = '1.4.2.4';
 

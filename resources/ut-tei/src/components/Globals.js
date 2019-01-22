@@ -10,6 +10,12 @@ const Globals = [];
 const productionUrl = 'https://www.lib.utk.edu/';
 
 const menuContainerElement = document.getElementById('utk-lib-header');
+
+console.log('testing...');
+console.log(productionUrl);
+console.log(menuContainerElement);
+console.log('end...');
+
 const SubsiteGlobals = {
     'siteURL': menuContainerElement.getAttribute('data-url'),
 };
