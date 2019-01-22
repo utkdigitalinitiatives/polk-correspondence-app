@@ -5,6 +5,13 @@ import 'core-js/es7/symbol';
 import 'core-js/es7/object';
 import 'core-js/es7/array';
 import 'url-search-params-polyfill';
+import 'whatwg-fetch';
+import Promise from 'promise-polyfill';
+
+// To add to window
+if (!window.Promise) {
+    window.Promise = Promise;
+}
 
 /*
  * Imports the React goodies
