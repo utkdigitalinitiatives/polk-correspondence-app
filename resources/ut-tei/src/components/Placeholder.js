@@ -4,7 +4,9 @@ export class Placeholder extends Component {
 
     render () {
         return (
-            <div id="placeholder"></div>
+            <div id="placeholder">
+
+            </div>
         )
     }
 

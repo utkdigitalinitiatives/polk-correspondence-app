@@ -1,52 +1,37 @@
 .utk-menu-open  {
   .utk-menu-help {
     opacity: 1;
-    bottom: $golden-ratio-2;
+    bottom: 15px;
+    left: -7px;
+    right: auto;
     position: fixed;
+    width: auto;
   }
 
-  @include respond(sm, md) {
-
-    .utk-menu-options {
-      opacity: 1;
-      bottom: $golden-ratio-2;
-      position: fixed;
-      right: 0;
-      z-index: 10;
-
-      .utk-resources-close {
-        bottom: 9px !important;
-        right: 25px !important;
-        z-index: 11;
-      }
-    }
-
-    .utk-menu-help {
-      opacity: 1;
-      bottom: auto;
-      position: relative;
-      padding-right: 76px;
-    }
-  }
-
-  @include respond(xs) {
-
-    .utk-menu-help {
-      opacity: 1;
-      bottom: 15px;
-      left: -5px;
-      right: auto;
-      position: fixed;
-      width: auto;
-    }
+  .utk-menu-options {
+    opacity: 1;
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    z-index: 10;
+    background-color: $smokeyx;
+    width: 100%;
+    height: 69px;
 
     .utk-resources-close {
-      position: fixed;
-      bottom: 24px !important;
-      right: 25px !important;
+      bottom: 11px !important;
+      right: 11px !important;
       z-index: 11;
+      position: fixed;
     }
   }
+
+    .utk-menu-help {
+      opacity: 1;
+      bottom: 11px;
+      position: fixed;
+      padding-right: 76px;
+    }
 }
 
 .utk-menu-help {
@@ -54,28 +39,30 @@
   width: 100%;
   bottom: -200px;
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: flex-end;
   opacity: 0;
   transition: $transition-all;
   max-width:  1199px;
   z-index: 10;
 
   &--item {
-    display: block;
+    display: flex;
     height: $golden-ratio-4;
-    background-color: $white;
     box-shadow: $box-shadow-float;
     border-radius: $golden-ratio-4;
     margin-left: $golden-ratio-2;
     position: relative;
     line-height: $golden-ratio-4;
-    padding: 0 $golden-ratio-4 0 $golden-ratio-2;
+    border-radius: $golden-ratio-4;
+    overflow: hidden;
+    background-color: $white;
 
     > h4 {
-      text-transform: uppercase;
       margin: 0;
-      padding: 0;
+      padding: 0 $golden-ratio-2;
       font-size: $type-2;
+      color: $smokeyx;
+      text-transform: none !important;
 
       > em {
         font-weight: 400;
@@ -84,20 +71,20 @@
     }
 
     &--icon {
-      position: absolute;
-      right: 9px;
-      top: 9px;
-      width: $golden-ratio-3;
-      height: $golden-ratio-3;
-      border-radius: $golden-ratio-3;
-      background-color: $rock;
+      width: $golden-ratio-4;
+      height: $golden-ratio-4;
+      line-height: $golden-ratio-4;
       text-align: center;
+      background-color: $rock;
+      clip-path: polygon(6px 0,100% 0,100% 100%,0 100%);
+
 
       > span {
-        color: $white;
         display: block;
-        margin-top: 6px;
-        margin-left: 1px;
+        color: $white;
+        align-content: center;
+        text-align: center;
+        font-size: 18px;
       }
     }
   }
@@ -105,7 +92,7 @@
 
 .utk-menu-help--help-me {
   .utk-menu-help--item--icon {
-    background-color: $globe;
+    background-color: $orange;
   }
 }
 

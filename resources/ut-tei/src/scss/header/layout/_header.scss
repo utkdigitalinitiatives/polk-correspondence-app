@@ -2,7 +2,6 @@
   position: fixed;
   left: 0;
   top: 0;
-  height: 129px;
   z-index: 100;
   width: 100%;
   border-top: 6px solid $orange;
@@ -15,11 +14,15 @@
     background-color: $white;
     height: 76px;
     width: 100%;
-    box-shadow: $box-shadow;
     top: 0;
     z-index: 97;
     transition: $transition-all;
     margin-top: $golden-ratio-4;
+
+    @include respond(xs) {
+      margin-top: 0;
+      height: 60px !important;
+    }
 
     > .container {
     }
@@ -32,27 +35,9 @@
     z-index: 96;
     top: 0px;
     overflow: hidden;
+    transition: $transition-all;
   }
 }
-
-body.utk-menu-open {
-  .utk-header-super {
-    background-color: $white;
-
-    &--url {
-      left: 20px;
-    }
-
-    .utk-header-super--menu--options {
-      right: 0;
-      opacity: 1;
-      width: auto;
-      margin-left: $golden-ratio-2;
-    }
-  }
-}
-
-
 
 @include respond(xs, sm, md) {
   .utk-header.utk-header-expand-menu .utk-header-actions {
@@ -71,17 +56,28 @@ body.utk-menu-open {
   padding-top: 3px;
   height: $golden-ratio-5;
 
+  @include respond(xs) {
+    right: 0;
+    margin-top: 0 !important;
+    height: 60px;
+  }
+
   .utk-header-actions {
     &--item {
       display: block;
-      width: auto; /* Or whatever */
-      height: auto; /* Or whatever */
-      margin: auto; /* Magic! */
+      width: auto;
+      height: auto;
+      margin: auto;
       font-weight: 400;
       line-height: $type-3;
-      font-size: $type-3;
+      font-size: $type-2;
+      text-transform: uppercase;
 
-      @include respond(xs) {
+      &.utk-header-actions--home {
+        text-transform: none;
+      }
+
+      @include respond(xs, sm) {
         &.utk-header-actions--utk {
           display: none;
         }

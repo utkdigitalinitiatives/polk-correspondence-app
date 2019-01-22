@@ -2,11 +2,31 @@
   width: 100%;
   background-color: $white;
   transition: none !important;
-  top: -600px;
-  opacity: 1;
-  z-index: 98;
+  z-index: 999;
   position: fixed;
+  display: none;
   box-shadow: $box-shadow;
+  padding: $golden-ratio-3 0 0;
+  overflow: scroll;
+  height: calc(100vh  - 66px);
+  padding-bottom: $golden-ratio-6;
+
+  @include respond(xs, sm, md, lg, xl) {
+    background-color: $white;
+    box-shadow: inset $box-shadow;
+  }
+
+  @include respond(xs) {
+    padding-bottom: $golden-ratio-5;
+  }
+
+  > .container {
+    display: flex;
+
+    @include respond(md, xs) {
+      flex-direction: column;
+    }
+  }
 
   &::before {
     width: 100%;
@@ -15,51 +35,8 @@
     position: absolute;
   }
 
-  /*
-   * menu on tablet and down
-   */
-
-  @include respond(xs, sm, md) {
-    height: 100vh;
-    background-color: $gray-0;
-    max-width: 100%;
-    transition: none !important;
-    width: $golden-ratio-8;
-    right: 0;
-    top: 0;
-    padding-top: 81px;
-    right: -$golden-ratio-8;
-
-    &.utk-menu-depth--1 {
-      background-color: $gray-2;
-    }
-
-    > .container {
-      padding: 0;
-    }
-  }
-
   &.utk-header-expand-menu {
-    top: 53px;
-    opacity: 1;
-
-    @include respond(xs, sm, md) {
-      height: 100vh;
-      right: 0;
-      top: 0;
-      padding-top: 81px;
-      background-color: $gray-0;
-    }
-
-    @include respond(xs) {
-      width: 100% !important;
-      margin-left: 25px;
-      right: calc(-25px);
-    }
-
-    .utk-resources-contact {
-      height: auto;
-    }
+    display: block;
   }
 }
 
@@ -68,25 +45,30 @@
 }
 
 .utk-resources-menu {
-  position: relative;
-  width: 100%;
-  max-width: 819px;
-  margin-left: 380px;
+  width: auto;
   display: flex;
+  flex-grow: 1;
   flex-direction: row;
-  padding: 33px 0 3rem;
+  padding: 0;
+  padding-bottom: $golden-ratio-4;
 
-  @include respond(md, sm, xs) {
-    margin-left: 0;
+  @include respond(md) {
+    width: 100%;
+  }
+
+  @include respond(sm, xs) {
     display: block;
-    padding: 25px;
+  }
+
+  @include respond(xs) {
+    padding-bottom: $golden-ratio-2;
   }
 
   &--col {
-    width: 33%;
     display: block;
+    flex-grow: 1;
 
-    @include respond(md, sm, xs) {
+    @include respond(sm, xs) {
       width: 100%;
 
       .utk-resources-menu--submenu {
@@ -96,19 +78,26 @@
     }
 
     .utk-resources-menu--section {
+      margin-top: $golden-ratio-2;
+      margin-bottom: $golden-ratio-2;
+
+      @include respond(xs) {
+        margin-top: 0;
+        margin-bottom: 20px !important;
+      }
+
       > h3 {
-        margin: 1rem 0 0.25rem;
-        font-weight: 400;
-        font-family: $sans;
+        margin: 0 0 6px;
         padding: 0;
+        font-weight: 700;
+        font-family: $sans;
+        text-transform: none;
         font-size: $type-3;
-        color: $smokey;
+        color: $smokeyx;
 
         @include respond(md, sm, xs) {
           margin-top: 0;
-          margin-bottom: $type-4;
           cursor: pointer;
-
         }
       }
 
@@ -122,16 +111,17 @@
       a:visited {
         color: $globe;
         display: block;
-        line-height: 1.6rem;
         font-size: $type-2;
-        padding: 0.25rem 0 0.125rem;
-        font-weight: 700;
         font-family: $sans;
       }
 
       a:focus,
       a:hover {
         color: $leconte;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
       }
     }
   }
@@ -143,36 +133,36 @@
 }
 
 .utk-resources-contact {
-  position: fixed;
-  max-width: 360px;
-  margin: 0 47px;
-  top: 170px;
-  transition: $transition-all;
+  max-width: 303px;
   opacity: 0;
   z-index: 1;
-  height: 0;
+  height: auto;
   overflow: hidden;
+  padding: 0 0 $golden-ratio-4 $golden-ratio-4;
+  border-left: 2px solid $gray-0;
+  margin-top: $golden-ratio-2;
 
-  @include respond(xs, sm, md) {
-    display: none;
-    //top: 88px;
-    //left: 33%;
-    //max-width: 66%;
-    //width: 66%;
-    //display: flex;
-    //flex-direction: row;
+  @include respond(xs) {
+    margin-top: 0;
+    padding: 0 15px !important;
+    background-color: $gray-0;
+    margin: -15px;
+    width: calc(100% + 30px) !important;
+  }
+
+  @include respond(md, xs) {
+    width: 100%;
+    padding: 0;
+    border-left: 0;
+    flex: 1;
+    max-width: 200%;
   }
 
   p {
     margin: 0;
     padding: 0;
-    line-height: 1.5rem;
-    font-size: $type-2;
-    font-weight: 300;
-
-    @include respond(xs, sm, md) {
-      //width: 50%;
-    }
+    line-height: 1.65em;
+    font-size: $type-1;
 
     > a {
       display: inline-block;
@@ -183,19 +173,14 @@
     margin-top: $golden-ratio-4;
     margin-left: -0.35rem;
 
-    @include respond(xs, sm, md) {
-      //margin-top: $golden-ratio-2;
-      //width: 50%;
-    }
-
     > a,
     > a:visited {
-      color: $smokey;
-      padding: 0.35rem;
+      color: $smokeyx;
+      padding: $golden-ratio-1;
       font-size: $type-4;
 
       &:first-child {
-        margin-left: -0.5rem;
+        margin-left: -$golden-ratio-1;
       }
     }
 
@@ -213,24 +198,25 @@
   a:hover,
   a:focus {
     font-weight: 700;
-    color: $smokey !important;
+    color: $smokeyx !important;
   }
 
   .icon-menu {
     opacity: 1;
-    font-size: 15px;
-    margin-right: 2px;
+    margin-right: 6px;
     transition: $transition-all;
+    font-size: 15px;
   }
 
   .icon-cancel {
     opacity: 0;
     transition: $transition-all;
-    position: absolute;
-    margin-left: -26px;
+    margin-right: 6px;
+    font-size: 15px;
   }
 
-  .utk-header-expand-menu {
+  .utk-header-collapse {
+    display: none !important;
 
     .icon-menu {
       opacity: 0;
@@ -239,8 +225,18 @@
 
     .icon-cancel {
       opacity: 1;
-      color: $rock;
+      color: $torch;
     }
+  }
+}
+
+.utk-menu-open {
+  .utk-header-collapse {
+    display: inline-block !important;
+  }
+
+  .utk-header-expand {
+    display: none !important;
   }
 }
 
@@ -287,6 +283,7 @@
   display: block;
   width: $golden-ratio-4;
   height: $golden-ratio-4;
+  line-height: $golden-ratio-4;
   background-color: $torch;
   position: absolute;
   right: 50%;
@@ -294,7 +291,6 @@
   bottom: calc(-#{$golden-ratio-4 / 2});
   border-radius: $golden-ratio-4;
   text-align: center;
-  padding-top: 15px;
   box-shadow: $box-shadow-float;
   cursor: pointer;
   z-index: 1;
@@ -302,6 +298,9 @@
   span {
     font-size: $type-3;
     color: $white;
+    display: block;
+    width: $golden-ratio-4;
+    height: $golden-ratio-4;
   }
 }
 

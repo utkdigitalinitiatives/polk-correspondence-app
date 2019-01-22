@@ -25,6 +25,7 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "4.5.3",
+    "parse-domain": "^2.1.7",
     "prop-types": "^15.6.2",
     "react": "15.5.4",
     "react-dom": "15.5.4",
