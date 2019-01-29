@@ -19370,15 +19370,11 @@
         <opener>
           <title>FROM JOHN DUNCAN</title>
         </opener>
-        <dateline>
-          <address>
-            <addrLine>Southern Telegraph</addrLine>
-          </address>
-        </dateline>
-        <p>The following communication was received at the Columbus [Ga.]<note place="foot" n="1">State here and below identified through content analysis.</note> office, at 8 o’clock,
+        <p rend="center">Southern Telegraph</p>
+        <p rend="right">The following communication was received at the<lb/> Columbus [Ga.]<note place="foot" n="1">State here and below identified through content analysis.</note> office, at 8 o’clock,
           35 min. <abbr>A.M.</abbr>
                 </p>
-        <p>Dated Macon [Ga.] <date when="1849-03-15">March 15th 1849</date>
+        <p rend="right">Dated Macon [Ga.] <date when="1849-03-15">March 15th 1849</date>
                 </p>
         <p>
                     <pb/>
