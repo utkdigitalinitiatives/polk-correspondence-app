@@ -33,6 +33,16 @@ p {
     text-indent: 0;
   }
 
+  /*
+   * @rend=center
+   */
+  &.tei-p4 {
+    font-family: $serif-generic;
+    line-height: 1.62em;
+    text-align: center;
+    text-indent: 0;
+  }
+
   * {
     text-indent: 0 !important;
   }
