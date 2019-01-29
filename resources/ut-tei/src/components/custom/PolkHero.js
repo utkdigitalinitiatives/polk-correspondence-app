@@ -97,7 +97,7 @@ export class PolkHero extends Component {
                     <div className="utk-custom-hero--wrap">
                         <div className="utk-custom-hero--title">
                             <h1>Correspondence of <em>James K. Polk</em></h1>
-                            <h2>Transcriptions April 1848–June 1849</h2>
+                            <h2>Transcriptions, April 1848–June 1849</h2>
                         </div>
                     </div>
                 </div>
