@@ -8533,7 +8533,7 @@
         <p>I beg that you will stay long enough at Bedford to renovate your health. <hi rend="italics">Greived</hi> as I may be at your absense, (don’t think I am jesting) I do
           not wish you to leave there before Monday week, a shorter time can not benefit you. How
           often do you intend to write me?</p>
-        <p>Your affectionate Wife</p>
+        <p rend="right">Your affectionate Wife</p>
         <closer>
           <signed>S<hi rend="sc">ARAH</hi> P<hi rend="sc">OLK</hi>
                     </signed>
@@ -9148,7 +9148,7 @@
               Knox Walker</name> to <name type="person">Polk</name>, <date when="1848-08-23">August
               23, 1848</date>.</note>
                 </p>
-        <p>Your affectionate [Husband]</p>
+        <p rend="right">Your affectionate [Husband]</p>
         <closer>
           <signed>[J<hi rend="sc">AMES</hi> K. P<hi rend="sc">OLK</hi>]<note place="foot" n="3">Signature and end of closing cut out of letter.</note>
                     </signed>
