@@ -4081,7 +4081,7 @@
           home. If nothing happens I will <hi rend="italics">be</hi> home Wednesday &amp; I will
           write you from there. Give my love to aunt <name type="person">Sarah</name>. Excuse my
           writing for I have a bad pen &amp; my head aches miserably.</p>
-        <p>Your affectionate nephew</p>
+        <p rend="right">Your affectionate nephew</p>
         <closer>
           <signed>M<hi rend="sc">ARSHALL</hi> T. P<hi rend="sc">OLK</hi>
                     </signed>
@@ -5344,7 +5344,7 @@
           places and he has received their aprobation of his course as the only one liable to
           releive her. I would not leave her for perhaps I may never see her again &amp; it would be
           hard not to be by the death bed of my only remaining parent. Give my love to aunt <name type="person">Sarah</name>. Ma &amp; father send their love to you &amp; aunt.</p>
-        <p>Yours affectionately</p>
+        <p rend="right">Yours affectionately</p>
         <closer>
           <signed>M<hi rend="sc">ARSHALL</hi> T. P<hi rend="sc">OLK</hi>
                     </signed>
