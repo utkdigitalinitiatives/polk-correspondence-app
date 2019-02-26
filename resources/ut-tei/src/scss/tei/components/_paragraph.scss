@@ -43,6 +43,14 @@ p {
     text-indent: 0;
   }
 
+  &.tei-p5 {
+    font-family: $serif-generic;
+    line-height: 1.62em;
+    text-align: right;
+    text-indent: 0;
+    border-bottom: 1px solid $smokey;
+  }
+
   * {
     text-indent: 0 !important;
   }
