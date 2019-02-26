@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<div data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+<html data-template="pages:app-root">
+<head data-template="templates:include" data-template-path="templates/head.html"/>
+<body xmlns:i18n="http://exist-db.org/xquery/i18n">
+<div data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content" data-template-using="body">
     <div data-template="pages:load">
         <!-- Navigation -->
         <div data-template="templates:include" data-template-path="templates/menu.html"/>
         <!-- Toolbar -->
         <div data-template="templates:include" data-template-path="templates/toolbar.html"/>
-        <section id="tp-canvas" xmlns:i18n="http://exist-db.org/xquery/i18n">
+        <section id="tp-canvas">
             <!-- Table of contents -->
-            <nav id="sidebar" class="toc offcanvas">
+            <nav id="sidebar" class="toc offcanvas" xmlns:i18n="http://exist-db.org/xquery/i18n">
                 <h3>
                     <i18n:text key="contents">Contents</i18n:text>
                 </h3>
@@ -35,179 +38,180 @@
                             <ul></ul>
                         </li>
                     </ul>
-
                 </div>
             </nav>
+            <div class="container">
+                <main xmlns:i18n="http://exist-db.org/xquery/i18n" class="row search">
+                <div class="col-md-4 col-md-push-8">
+                    <div class="search-help">
+                        <h3 class="search-column-heading">Search Guide</h3>
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                           aria-expanded="true" aria-controls="collapseOne">
+                                            Multi-word, Exact Phrase Searching
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                                     aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <p>Wrapping quote characters can be included to narrow results when searching for locations, names of persons, or other exact phrases.</p>
+                                        <h5>Examples</h5>
+                                        <ul>
+                                            <li><strong>"San Francisco"</strong> will yield results where the exact phrase, <em>San Francisco</em>, exists, excluding results that may also include the word <em>San</em>.</li>
+                                            <li><strong>"Missouri Compromise"</strong> will yield more specific results than <em>Missouri Compromise</em>, excluding results that may also include the use of <em>Missouri</em> and <em>Compromise</em> independent of each other.</li>
+                                            <li><strong>"James Buchanan"</strong> will yield more specific results than <em>James Buchanan</em>, excluding results that may also include other persons with a first name <em>James</em>.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                           href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Wildcard Searching
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                     aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <p>Using asterisks can expand results to include words that include a portion of the substring being searched.</p>
+                                        <h5>Examples</h5>
+                                        <ul>
+                                            <li><strong class="search-help-subhead">Suffix searching:</strong> searching <strong>annex*</strong> would include results where the word <em>annexation</em> and <em>annexed</em> are also included.</li>
+                                            <li><strong class="search-help-subhead">Prefix searching:</strong> searching <strong>*charge</strong> would include results where the word <em>discharge</em> is also included.</li>
+                                            <li><strong class="search-help-subhead">Words that contain substrings:</strong> Searching for <strong>*slave*</strong> would also include results where the word <em>slaves</em>, <em>enslaved</em> and <em>slavery</em> are mentioned.</li>
+                                            <li><strong class="search-help-subhead">Single character wildcard searches:</strong> Searching for <strong>te?t</strong> will include results where the term <em>test</em> or <em>text</em> appears.</li>
+                                            <li><strong class="search-help-subhead">Multi character wildcard searches:</strong> Searching for <strong>ch*ss</strong> will include results where the term <em>Childress</em> or <em>cheapness</em> appear.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                           href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Boolean Operators
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                     aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                        <p>The following boolean operators can be used to refine your search:  AND, OR, NOT, +, and -.</p>
+                                        <h5>Examples</h5>
+                                        <ul>
+                                            <li><strong>Eliza Caldwell AND mule</strong> will yield results where both the term <em>Caldwell</em> and the term <em>mule</em> are present in the document.</li>
+                                            <li><strong>Caldwell OR mule</strong> will yield results where the term <em>Caldwell</em> or the term <em>mule</em> are present in the document.</li>
+                                            <li><strong>Caldwell NOT mule</strong> will yield results where the term <em>Caldwell</em> is present in the document but not the term <em>mule</em>.</li>
+                                            <li>The <strong>(+)</strong>, or required operator, requires that the term after the <em>“+”</em> symbol exist somewhere in the document. (i.e. <strong>+Caldwell mule</strong>)</li>
+                                            <li>The <strong>(-)</strong>, or prohibit operator, excludes documents that include the term or phrase that appears after the <em>“-”</em> symbol. (i.e. <strong>Caldwell -mule</strong>)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingFour">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                           href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            Groupings
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                                     aria-labelledby="headingFour">
+                                    <div class="panel-body">
+                                        <p>Parentheses around groupings can be used to control the boolean logic of a query.</p>
+                                        <h5>Examples</h5>
+                                        <ul>
+                                            <li><strong>(Mississippi OR “New Orleans”) AND Walker</strong> will return results where the term <em>Mississippi</em> or the phrase <em>New Orleans</em> is present and the term <em>Walker</em> is required.</li>
+                                            <li><strong>(Mississippi AND “New Orleans”) OR Walker</strong> will return results where the term <em>Mississippi</em> and the phrase <em>New Orleans</em> are present but the term <em>Walker</em> is optional.</li>
+                                            <li><strong>(Mississippi OR “New Orleans”) NOT Walker</strong> will return results where the term <em>Mississippi</em> or the phrase <em>New Orleans</em> is present but the term <em>Walker</em> is prohibited.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingFive">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                           href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            Escape Characters
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
+                                     aria-labelledby="headingFive">
+                                    <div class="panel-body">
+                                        <p>There are several characters that have special meaning that must be escaped in
+                                            order to include them in searches. These include: + - &amp;&amp; || ! ( ) { } [
+                                            ] ^ " ~ * ? : \. To include these in a search, use a <strong>\</strong> before
+                                            the character.</p>
+                                        <h5>Examples</h5>
+                                        <ul>
+                                            <li><strong>"Imm\[e\]diately"</strong> will return results where the exact term
+                                                <em>"Imm\[e\]diately"</em> is present.</li>
+                                            <li><strong>Imm\[e\]diately</strong> will return results where any parts
+                                                of the term <em>Imm\[e\]diately</em> is present.</li>
+                                            <li><strong>Imm[e]diately</strong> will return an error or no results.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-md-pull-4">
+                    <h3 class="search-column-heading">Search Results</h3>
+                    <div class="panel panel-default">
+                        <div class="search:query">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <i18n:text key="found">Found</i18n:text>
+                                    <strong><span id="hit-count" data-template="browse:hit-count"/></strong> result(s) for
+                                    <em><span id="query-text" data-template="browse:show-query-text"/></em>
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="hidden-md hidden-lg hidden-sm">
+                                    <ul class="pagination" data-template="browse:paginate" data-template-per-page="20"
+                                        data-template-max-pages="5" data-template-min-hits="21"/>
+                                </div><!-- pagination for larger device -->
+                                <div class="hidden-xs">
+                                    <ul class="pagination" data-template="browse:paginate" data-template-per-page="20"
+                                        data-template-max-pages="9" data-template-min-hits="21"/>
+                                </div><!-- query results -->
+                                <table id="results" class="col-md-12 table">
+                                    <colgroup>
+                                        <col class="previous"/>
+                                        <col class="hi"/>
+                                        <col class="next"/>
+                                    </colgroup>
+                                    <tbody data-template="search:show-hits" data-template-per-page="20"/>
+                                </table><!-- bottom pagination for small device -->
+                                <div class="hidden-md hidden-lg hidden-sm">
+                                    <ul class="pagination" data-template="browse:paginate" data-template-per-page="20"
+                                        data-template-max-pages="5" data-template-min-hits="21"/>
+                                </div><!-- bottom pagination for larger device -->
+                                <div class="hidden-xs">
+                                    <ul class="pagination" data-template="browse:paginate" data-template-per-page="20"
+                                        data-template-max-pages="9" data-template-min-hits="21"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            </div>
         </section>
     </div>
-    <section class="container">
-        <main xmlns:i18n="http://exist-db.org/xquery/i18n" class="row search">
-            <div class="col-md-4 col-md-push-8">
-                <div class="search-help">
-                    <h3 class="search-column-heading">Search Guide</h3>
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-                                       aria-expanded="true" aria-controls="collapseOne">
-                                        Multi-word, Exact Phrase Searching
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
-                                 aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    <p>Wrapping quote characters can be included to narrow results when searching for locations, names of persons, or other exact phrases.</p>
-                                    <h5>Examples</h5>
-                                    <ul>
-                                        <li><strong>"San Francisco"</strong> will yield results where the exact phrase, <em>San Francisco</em>, exists, excluding results that may also include the word <em>San</em>.</li>
-                                        <li><strong>"Missouri Compromise"</strong> will yield more specific results than <em>Missouri Compromise</em>, excluding results that may also include the use of <em>Missouri</em> and <em>Compromise</em> independent of each other.</li>
-                                        <li><strong>"James Buchanan"</strong> will yield more specific results than <em>James Buchanan</em>, excluding results that may also include other persons with a first name <em>James</em>.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                       href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Wildcard Searching
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-                                 aria-labelledby="headingTwo">
-                                <div class="panel-body">
-                                    <p>Using asterisks can expand results to include words that include a portion of the substring being searched.</p>
-                                    <h5>Examples</h5>
-                                    <ul>
-                                        <li><strong class="search-help-subhead">Suffix searching:</strong> searching <strong>annex*</strong> would include results where the word <em>annexation</em> and <em>annexed</em> are also included.</li>
-                                        <li><strong class="search-help-subhead">Prefix searching:</strong> searching <strong>*charge</strong> would include results where the word <em>discharge</em> is also included.</li>
-                                        <li><strong class="search-help-subhead">Words that contain substrings:</strong> Searching for <strong>*slave*</strong> would also include results where the word <em>slaves</em>, <em>enslaved</em> and <em>slavery</em> are mentioned.</li>
-                                        <li><strong class="search-help-subhead">Single character wildcard searches:</strong> Searching for <strong>te?t</strong> will include results where the term <em>test</em> or <em>text</em> appears.</li>
-                                        <li><strong class="search-help-subhead">Multi character wildcard searches:</strong> Searching for <strong>ch*ss</strong> will include results where the term <em>Childress</em> or <em>cheapness</em> appear.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                       href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Boolean Operators
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                                 aria-labelledby="headingThree">
-                                <div class="panel-body">
-                                    <p>The following boolean operators can be used to refine your search:  AND, OR, NOT, +, and -.</p>
-                                    <h5>Examples</h5>
-                                    <ul>
-                                        <li><strong>Eliza Caldwell AND mule</strong> will yield results where both the term <em>Caldwell</em> and the term <em>mule</em> are present in the document.</li>
-                                        <li><strong>Caldwell OR mule</strong> will yield results where the term <em>Caldwell</em> or the term <em>mule</em> are present in the document.</li>
-                                        <li><strong>Caldwell NOT mule</strong> will yield results where the term <em>Caldwell</em> is present in the document but not the term <em>mule</em>.</li>
-                                        <li>The <strong>(+)</strong>, or required operator, requires that the term after the <em>“+”</em> symbol exist somewhere in the document. (i.e. <strong>+Caldwell mule</strong>)</li>
-                                        <li>The <strong>(-)</strong>, or prohibit operator, excludes documents that include the term or phrase that appears after the <em>“-”</em> symbol. (i.e. <strong>Caldwell -mule</strong>)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFour">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                       href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Groupings
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
-                                 aria-labelledby="headingFour">
-                                <div class="panel-body">
-                                    <p>Parentheses around groupings can be used to control the boolean logic of a query.</p>
-                                    <h5>Examples</h5>
-                                    <ul>
-                                        <li><strong>(Mississippi OR “New Orleans”) AND Walker</strong> will return results where the term <em>Mississippi</em> or the phrase <em>New Orleans</em> is present and the term <em>Walker</em> is required.</li>
-                                        <li><strong>(Mississippi AND “New Orleans”) OR Walker</strong> will return results where the term <em>Mississippi</em> and the phrase <em>New Orleans</em> are present but the term <em>Walker</em> is optional.</li>
-                                        <li><strong>(Mississippi OR “New Orleans”) NOT Walker</strong> will return results where the term <em>Mississippi</em> or the phrase <em>New Orleans</em> is present but the term <em>Walker</em> is prohibited.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFive">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                       href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        Escape Characters
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
-                                 aria-labelledby="headingFive">
-                                <div class="panel-body">
-                                    <p>There are several characters that have special meaning that must be escaped in
-                                        order to include them in searches. These include: + - &amp;&amp; || ! ( ) { } [
-                                        ] ^ " ~ * ? : \. To include these in a search, use a <strong>\</strong> before
-                                        the character.</p>
-                                    <h5>Examples</h5>
-                                    <ul>
-                                        <li><strong>"Imm\[e\]diately"</strong> will return results where the exact term
-                                            <em>"Imm\[e\]diately"</em> is present.</li>
-                                        <li><strong>Imm\[e\]diately</strong> will return results where any parts
-                                        of the term <em>Imm\[e\]diately</em> is present.</li>
-                                        <li><strong>Imm[e]diately</strong> will return an error or no results.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-8 col-md-pull-4">
-                <h3 class="search-column-heading">Search Results</h3>
-                <div class="panel panel-default">
-                    <div class="search:query">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">
-                                <i18n:text key="found">Found</i18n:text>
-                                <strong><span id="hit-count" data-template="browse:hit-count"/></strong> result(s) for
-                                <em><span id="query-text" data-template="browse:show-query-text"/></em>
-                            </h3>
-                        </div>
-                        <div class="panel-body">
-                            <div class="hidden-md hidden-lg hidden-sm">
-                                <ul class="pagination" data-template="browse:paginate" data-template-per-page="20"
-                                    data-template-max-pages="5" data-template-min-hits="21"/>
-                            </div><!-- pagination for larger device -->
-                            <div class="hidden-xs">
-                                <ul class="pagination" data-template="browse:paginate" data-template-per-page="20"
-                                    data-template-max-pages="9" data-template-min-hits="21"/>
-                            </div><!-- query results -->
-                            <table id="results" class="col-md-12 table">
-                                <colgroup>
-                                    <col class="previous"/>
-                                    <col class="hi"/>
-                                    <col class="next"/>
-                                </colgroup>
-                                <tbody data-template="search:show-hits" data-template-per-page="20"/>
-                            </table><!-- bottom pagination for small device -->
-                            <div class="hidden-md hidden-lg hidden-sm">
-                                <ul class="pagination" data-template="browse:paginate" data-template-per-page="20"
-                                    data-template-max-pages="5" data-template-min-hits="21"/>
-                            </div><!-- bottom pagination for larger device -->
-                            <div class="hidden-xs">
-                                <ul class="pagination" data-template="browse:paginate" data-template-per-page="20"
-                                    data-template-max-pages="9" data-template-min-hits="21"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </section>
 </div>
+</body>
+</html>
