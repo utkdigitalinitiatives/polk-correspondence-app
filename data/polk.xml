@@ -20064,28 +20064,25 @@
         <p>To Saml P Walker.</p>
         <table rows="5" cols="2">
           <row>
-            <cell>To cash paid for you for 3 girls—</cell>
-            <cell>1800.</cell>
+            <cell><p rend="block">To cash paid for you for 3 girls—</p></cell>
+            <cell><p rend="right">1800.</p></cell>
           </row>
           <row>
-            <cell>" " " " " 3 boys—</cell>
-            <cell>1475.</cell>
+            <cell><p rend="block">" " " " " 3 boys—</p></cell>
+            <cell><p rend="right">1475.</p></cell>
           </row>
           <row>
-            <cell>" " " " 2 Mules—</cell>
-            <cell>180.</cell>
+            <cell><p rend="block">" " " " 2 Mules—</p></cell>
+            <cell><p rend="right">180.</p></cell>
           </row>
           <row>
-            <cell>Wagon Expences &amp;c—</cell>
-            <cell>
-                            <hi rend="underline">91.25</hi>
-                        </cell>
+            <cell><p rend="block">Wagon Expences &amp;c—</p></cell>
+            <cell><p rend="ledger">91.25</p></cell>
           </row>
           <row>
-            <cell> </cell>
-            <cell>$3546.25.<note place="foot" n="1">tk See scan for guidance on how this table
-                should look.</note>
-                        </cell>
+            <cell></cell>
+            <cell><p rend="right">$3546.25.</p>
+            </cell>
           </row>
         </table>
         <p>I dont know the amt of the bal to your credit at <name type="place">New Orleans</name>
