@@ -14,4 +14,4 @@ before_script:
 
 script:
   - cd tests
-  - source "validate_polk.sh"
+  - ./validate_polk.sh
