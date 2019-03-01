@@ -9,10 +9,9 @@ addons:
       - shunit2
 
 before_script:
-  - pwd
-  - curl "http://diglib.lib.utk.edu/dlc/standards/tei/tei_lite_di_v3.rng" > tei_lite_di_v3.rng
-  - pwd
+  - cd data && curl "http://diglib.lib.utk.edu/dlc/standards/tei/tei_lite_di_v3.rng" > tei_lite_di_v3.rng
 
 script:
   - pwd
-  - cd ../tests && ./validate_polk.sh
+  - cd tests
+  - source "validate_polk.sh"
