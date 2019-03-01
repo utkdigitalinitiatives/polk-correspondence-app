@@ -14,7 +14,9 @@ Example:
 
 # How should this be tested?
 
-Describe what steps to take to test this change.
+Describe what steps to take to test this change. 
+
+**Does this modify polk.xml? If so, is the document valid?**
 
 # Additional Notes:
 Any additional information that you think would be helpful when reviewing this PR.
