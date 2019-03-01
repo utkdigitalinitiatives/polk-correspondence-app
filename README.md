@@ -1,5 +1,7 @@
 # Polk Correspondence
 
+![Travis Badge](https://travis-ci.org/utkdigitalinitiatives/polk-correspondence-app.png)
+
 ## About
 
 This repository contains all assets for building and deploying the Polk Correspondence project in [exist-db](http://exist-db.org/exist/apps/homepage/index.html).
