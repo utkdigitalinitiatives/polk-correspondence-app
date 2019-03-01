@@ -10,8 +10,8 @@ addons:
 
 before_script:
   - cd data && curl "http://diglib.lib.utk.edu/dlc/standards/tei/tei_lite_di_v3.rng" > tei_lite_di_v3.rng
+  - cd ../
 
 script:
-  - pwd
   - cd tests
   - source "validate_polk.sh"
