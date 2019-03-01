@@ -9,9 +9,10 @@ addons:
       - shunit2
 
 before_script:
-  - curl -L "http://downloads.sourceforge.net/shunit2/shunit2-2.0.3.tgz" > data/shunit2-2.0.3.tgz
-  - cd data && tar -xzvf shunit2-2.0.3.tgz
+  - pwd
   - curl "http://diglib.lib.utk.edu/dlc/standards/tei/tei_lite_di_v3.rng" > tei_lite_di_v3.rng
+  - pwd
 
 script:
-  - cd tests && ./validate_polk.sh
+  - pwd
+  - cd ../tests && ./validate_polk.sh
