@@ -14,4 +14,4 @@ before_script:
   - curl "http://diglib.lib.utk.edu/dlc/standards/tei/tei_lite_di_v3.rng" > tei_lite_di_v3.rng
 
 script:
-  - cd tests && validate_polk.sh
+  - bash tests/validate_polk.sh
