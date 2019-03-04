@@ -75,6 +75,9 @@ declare function teis:get-parent-section($node as node()) {
 declare function teis:get-breadcrumbs($config as map(*), $hit as element(), $parent-id as xs:string) {
     let $work := root($hit)/*
     let $work-title := nav:get-document-title($config, $work)
+    let $date-of-letter := if($hit/tei:dateline/tei:date)
+                           then (', ' || $hit/tei:dateline/tei:date/text())
+                           else ()
     let $title-of-document := if($hit/tei:opener/tei:title)
                               then ($hit/tei:opener/tei:title/text())
                               else ($hit/tei:head[1]/text())
@@ -97,7 +100,7 @@ declare function teis:get-breadcrumbs($config as map(*), $hit as element(), $par
                 )
                 return
                     <li>
-                        <a href="{$parent-id}?action=search&amp;root={$id}&amp;view={$config?view}&amp;odd={$config?odd}" class="letter">{$title-of-document}</a>
+                        <a href="{$parent-id}?action=search&amp;root={$id}&amp;view={$config?view}&amp;odd={$config?odd}" class="letter">{$title-of-document}{$date-of-letter}</a>
                     </li>
             }
         </ol>
