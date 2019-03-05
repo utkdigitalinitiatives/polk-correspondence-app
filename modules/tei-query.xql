@@ -76,7 +76,11 @@ declare function teis:get-breadcrumbs($config as map(*), $hit as element(), $par
     let $work := root($hit)/*
     let $work-title := nav:get-document-title($config, $work)
     let $date-of-letter := if($hit/tei:dateline/tei:date)
-                           then (', ' || $hit/tei:dateline/tei:date/text())
+                           then (
+                                if($hit/tei:dateline/tei:date/@when)
+                                    then(', ' || $hit/tei:dateline/tei:date/@when)
+                                else($hit/tei:dateline/tei:date)
+                                )
                            else ()
     let $title-of-document := if($hit/tei:opener/tei:title)
                               then ($hit/tei:opener/tei:title/text())
