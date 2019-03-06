@@ -25,6 +25,8 @@ import module namespace config="http://www.tei-c.org/tei-simple/config" at "conf
 import module namespace nav="http://www.tei-c.org/tei-simple/navigation/tei" at "navigation-tei.xql";
 import module namespace console="http://exist-db.org/xquery/console" at "java:org.exist.console.xquery.ConsoleModule";
 
+import module namespace bds = "http://some.url.net/utk-tei-helpers" at "utk-tei-helpers.xql";
+
 declare variable $teis:QUERY_OPTIONS :=
     <options>
         <leading-wildcard>yes</leading-wildcard>
@@ -78,7 +80,7 @@ declare function teis:get-breadcrumbs($config as map(*), $hit as element(), $par
     let $date-of-letter := if($hit/tei:dateline/tei:date)
                            then (
                                 if($hit/tei:dateline/tei:date/@when)
-                                    then(', ' || $hit/tei:dateline/tei:date/@when)
+                                    then(', ' || bds:format-search-result-date($hit/tei:dateline/tei:date/@when))
                                 else($hit/tei:dateline/tei:date)
                                 )
                            else ()
