@@ -25,7 +25,7 @@ import module namespace config="http://www.tei-c.org/tei-simple/config" at "conf
 import module namespace nav="http://www.tei-c.org/tei-simple/navigation/tei" at "navigation-tei.xql";
 import module namespace console="http://exist-db.org/xquery/console" at "java:org.exist.console.xquery.ConsoleModule";
 
-import module namespace bds = "http://some.url.net" at "utk-tei-helpers.xql";
+import module namespace bds = "http://some.url.net/utk-tei-helpers" at "utk-tei-helpers.xql";
 
 declare variable $teis:QUERY_OPTIONS :=
     <options>
