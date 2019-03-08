@@ -9,7 +9,7 @@ addons:
       - shunit2
       - git
 
-servies:
+services:
   - docker
 
 before_script:
