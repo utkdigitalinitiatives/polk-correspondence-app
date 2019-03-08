@@ -1,4 +1,9 @@
 /*
+ * master UT Libraries header
+ */
+@import "../vendor/utk_lib_header/header.css";
+
+/*
  * global
  */
 @import "global/variables";
@@ -11,9 +16,11 @@
 @import "utilities/helpers";
 
 /*
- * UT Header (w/ Polk) styling
+ * custom subheader and misc. styling
  */
-@import "header/header";
+@import "subheader/polk-override";
+@import "subheader/polk-hero";
+@import "subheader/polk-landing-page";
 
 /*
  * TEI publisher styling
