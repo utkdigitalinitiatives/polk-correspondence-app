@@ -7,6 +7,10 @@ addons:
     packages:
       - libxml2-utils
       - shunit2
+      - git
+
+services:
+  - docker
 
 before_script:
   - cd data && curl "http://diglib.lib.utk.edu/dlc/standards/tei/tei_lite_di_v3.rng" > tei_lite_di_v3.rng
@@ -15,3 +19,4 @@ before_script:
 script:
   - cd tests
   - ./validate_polk.sh
+  - ./test_build.sh
