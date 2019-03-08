@@ -15,6 +15,7 @@ servies:
 before_script:
   - cd data && curl "http://diglib.lib.utk.edu/dlc/standards/tei/tei_lite_di_v3.rng" > tei_lite_di_v3.rng
   - cd ../
+  - echo $(git rev-parse --abbrev-ref HEAD)
 
 script:
   - cd tests
