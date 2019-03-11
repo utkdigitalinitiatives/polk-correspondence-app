@@ -1,10 +1,10 @@
 nav.navbar {
-  
+
 }
 
 .utk_header {
   .navbar {
-    background-color: #e0e0e0;
+    background-color:$gray-1 !important;
     padding-top: 6px;
     height: auto;
 
@@ -48,9 +48,36 @@ nav.navbar {
       z-index: 0;
     }
 
-    #searchPageForm .input-group .form-group,
-    #searchPageForm .input-group .form-group input{
-      width: calc(100% - 30px);
+    #searchPageForm {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+
+      i.glyphicon-search {
+        top: 9px;
+      }
+
+      .form-group {
+        flex-grow: 1;
+
+        .search-input {
+          width: 100% !important;
+          border-bottom: 1px solid $gray-3;
+          background-image: none !important;
+          height: 2.5em;
+        }
+      }
+
+      .button {
+        margin-left: 1em;
+        width: auto !important;
+        padding-left: 1em;
+        padding-right: 1em;
+
+        &.button-secondary {
+          background-color: $smokey !important;
+        }
+      }
     }
 
     input {

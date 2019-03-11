@@ -25,14 +25,11 @@ $fountain:    #2197a9;
 $eureka:      #ebea64;
 
 // alt grays
-$smokeyx:     #333;
+$smokeyx:    #333;
 $gray-0:      #f6f6f6;
 $gray-1:      #e0e0e0;
 $gray-2:      #cacaca;
 $gray-3:      #b6b6b6;
-
-// custom
-$polk:        #240000;
 
 // brand
 $action:      $globe;
@@ -44,8 +41,8 @@ $accent:      $orange;
  */
 
 $sans: "Gotham SSm 2r", "Gotham SSm A", "Gotham SSm B", "Gotham-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$serif-generic: Georgia, Times, 'Times New Roman', serif;
-$serif: "clarendon-text-pro", $serif-generic;
+$serif: Georgia, Times, 'Times New Roman', serif;
+$serif-generic: $serif;
 $script: "bickham-script-pro-3", $serif;
 
 /*
@@ -62,14 +59,10 @@ $type-6: 39px; // large
 $type-7: 47px; // extra large
 
 /*
- * font-size
+ * golden ratio
  */
-$rem-standard:    $type-3;
 
-/*
- * text-indention standards
- */
-$text-indent: 2em;
+$phi: 1.6180339887499;
 
 /*
  * incremental spacers by golden ratio
@@ -99,8 +92,8 @@ $transition-all-fast: all 110ms ease-in-out;
  * box-shadows
  */
 
-$box-shadow: 0 5px 10px rgba($smokeyx, 0.05);
-$box-shadow-float: 0 5px 10px rgba($smokeyx, 0.15);
+$box-shadow: 0 3px 7px rgba($smokeyx, 0.15);
+$box-shadow-float: 0 4px 10px rgba($smokeyx, 0.15);
 
 /*
  * bootstrap 4 overrides
