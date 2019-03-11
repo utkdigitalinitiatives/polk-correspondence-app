@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import PolkBackground from '../../media/custom/james-k-polk-correspondence.jpg';
-import debounce from "lodash/debounce";
+import PolkBackground from '../media/custom/james-k-polk-correspondence.jpg';
 
 export class PolkHero extends Component {
 
@@ -25,7 +24,6 @@ export class PolkHero extends Component {
 
         const urlParams = new URLSearchParams(window.location.search);
         const defaultRoot = '1.4.2.4';
-        const urlLocation = window.location.pathname;
 
         if (urlParams.has('root')) {
             let root = urlParams.get('root');

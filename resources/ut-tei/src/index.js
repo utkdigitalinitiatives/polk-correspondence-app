@@ -19,8 +19,14 @@ if (!window.Promise) {
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Header';
+import CustomSubheader from './CustomSubheader';
 import debounce from 'lodash/debounce';
+
+/*
+ * Import UT Libraries Header
+ */
+
+import './vendor/utk_lib_header/header.js';
 
 /*
  * Imports non-JSX scripts.
@@ -35,7 +41,7 @@ import './vendor/bootstrap/bootstrap-grid.scss';
 import './vendor/fontello/css/fontello.scss';
 
 function run() {
-    ReactDOM.render(<Header />, document.getElementById('utk-lib-header'));
+    ReactDOM.render(<CustomSubheader />, document.getElementById('utk-custom-subheader'));
 }
 
 const loadedStates = ['complete', 'loaded', 'interactive'];
