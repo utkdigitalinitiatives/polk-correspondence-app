@@ -28,7 +28,7 @@
     <msg key="select-files">Select files...</msg>
     <msg key="upload">Upload</msg>
     <msg key="uploaded-files">Uploaded Files</msg>
-    <msg key="search-query-attr">Search For What?</msg>
+    <msg key="search-query-attr">Search Letters, ex: "Missouri Compromise"</msg>
     <msg key="search-part">Search Which Document Part?</msg>
     <msg key="documents">Documents</msg>
     <msg key="browse-author">Author</msg>

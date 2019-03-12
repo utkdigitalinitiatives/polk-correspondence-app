@@ -10,6 +10,14 @@
 @import "global/bootstrap-vars";
 
 /*
+ * custom vars
+ */
+
+$polk:          #240000;
+$rem-standard:  $type-3;
+$text-indent:   2em;
+
+/*
  * utilities
  */
 @import "utilities/mixins";
