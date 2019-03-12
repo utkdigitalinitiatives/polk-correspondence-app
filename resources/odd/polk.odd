@@ -33,15 +33,18 @@
     </teiHeader>
     <text>
         <body>
-            <schemaSpec start="TEI teiCorpus" ident="polk" source="teipublisher.odd"> 
+            <schemaSpec start="TEI teiCorpus" ident="polk" source="teipublisher.odd">
                 <elementSpec ident="ref" mode="change">
                     <model predicate="not(@target)" behaviour="inline"/>
                     <model predicate="not(text())" behaviour="link">
                         <param name="content" value="@target"/>
                         <param name="uri" value="@target"/>
                     </model>
-                    <model behaviour="link">
+                    <model predicate="not(@rend)" behaviour="link">
                         <param name="link" value="concat('?id=', @target)"/>
+                    </model>
+                    <model predicate="@rend='external'" behaviour="link">
+                        <param name="link" value="@target"/>
                     </model>
                 </elementSpec>
             <elementSpec ident="pb" mode="change">
