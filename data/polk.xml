@@ -184,7 +184,7 @@
             <name type="person">Sean Benjamin</name>, of the <name type="org">Howard-Tilton Memorial
             Library</name>, <name type="org">Tulane University</name>, <name type="place">New
             Orleans, La.</name>; <name type="person">L. Eileen Parris</name>, of the <name
-            type="org">Virginia Historical Society</name>, <name type="place">Richmond</name>; 
+            type="org">Virginia Historical Society</name>, <name type="place">Richmond</name>;
             <name type="person">Alexandra C. Lane</name>, of the White House Historical Association, Washington, D.C.; <name
             type="person">Susan A. Riggs</name>, of the <name type="org">Earl Gregg Swem
             Library</name>, <name type="org">College of William and Mary</name>, <name type="place"
@@ -274,8 +274,8 @@
           found on a single bookshelf.</p>
         <p>Now we go further. Working with Newfound Press, the digital imprint of <pb/>the <name type="org">University of Tennessee Libraries</name>, the <name type="person">Polk</name>
           Project is making the eleventh president’s letters even easier to find. As of January
-            <date when="2016">2016</date>, the first twelve volumes of the <hi rend="italics">Correspondence</hi> are available, at no charge to the user, at <ref target="http://trace.tennessee.edu/utk_polk/">http://trace.tennessee.edu/utk_polk/</ref>. (They also can be found through our project
-          website, <ref target="http://polkproject.utk.edu">http://polkproject.utk.edu</ref>.)
+            <date when="2016">2016</date>, the first twelve volumes of the <hi rend="italics">Correspondence</hi> are available, at no charge to the user, at <ref rend="external" target="http://trace.tennessee.edu/utk_polk/">http://trace.tennessee.edu/utk_polk/</ref>. (They also can be found through our project
+          website, <ref rend="external" target="http://polkproject.utk.edu">http://polkproject.utk.edu</ref>.)
           Volume 13, only recently published in hardcover, will join them in late <date when="2018">2018</date>. These <abbr>PDF</abbr> volumes include all contents of the hardcover ones,
           plus they are full-text searchable. Users can download them to any device with access to
           the World Wide Web.</p>
