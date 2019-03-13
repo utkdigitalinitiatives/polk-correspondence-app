@@ -72,6 +72,7 @@
                     <model predicate="@rend='right'" behaviour="paragraph" useSourceRendition="true"/>
                     <model predicate="@rend='center'" behaviour="paragraph" useSourceRendition="true"/>
                     <model predicate="@rend='ledger'" behaviour="paragraph" useSourceRendition="true"/>
+                    <model predicate="@rend='right-signature'" behaviour="paragraph" useSourceRendition="true"/>
                 </elementSpec>
                 <elementSpec ident="q" mode="change">
                     <model predicate="not(@rend)" behaviour="inline" useSourceRendition="true"/>
