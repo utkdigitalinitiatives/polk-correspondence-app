@@ -63,7 +63,7 @@ function search:query($node as node()*, $model as map(*), $query as xs:string?, 
                 "error_title": "Advanced Search",
                 "error": "For help using advanced search, please refer to our search guide."
             }
-        else if (matches($query, ''))
+        else if (string-length($query) = 0)
         then
             map {
                 "hits" : session:set-attribute("apps.simple", map{}),
