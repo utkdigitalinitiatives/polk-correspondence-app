@@ -3198,7 +3198,7 @@
             imagination.” <abbr>DLC–JKP.</abbr>
                     </note>
                 </p>
-        <p>“Revd. &amp; Dr Sir,</p>
+        <p rend="block">“Revd. &amp; Dr Sir,</p>
         <p>Permit me to introduce to your friendly notice the bearer of this letter, <name type="person">Doctor John Thomas</name>, President of the <name type="org">Scientific
             and Eclectic Medical Institute</name> of <name type="place">Virginia</name>, who visits
             <name type="place">England</name> on Professional Business.</p>
@@ -3212,7 +3212,7 @@
           intelligent American and a liberal citizen.</p>
         <p>With my best wishes for the continued success of your labors, which we all highly value
           in the New World, believe me, . . . .</p>
-        <p>M. M. Nosh”</p>
+        <p rend="right-signature">M. M. Nosh”</p>
         <p>As I wish to set out in about three weeks, a response to this as early as possible will
           confer a favor on, Sir, . . . .</p>
         <closer>
@@ -8362,7 +8362,7 @@
             by <name type="person">Peter Peterson</name> and chartered by Wyllie &amp; Egana, of
             <name type="place">New Orleans</name>, agents for Rubio, Brother &amp; <abbr>Co.</abbr>, a firm
             of Spaniards in <name type="place">Mexico</name>. Ownership of at least the cotton
-            transferred, en route, to Barron, Forbes &amp; <abbr>Co.</abbr>, a British firm in <name type="place">Tepic, Mexico</name>. On <date when="1847-04-07">April 7, 1847</date>, 
+            transferred, en route, to Barron, Forbes &amp; <abbr>Co.</abbr>, a British firm in <name type="place">Tepic, Mexico</name>. On <date when="1847-04-07">April 7, 1847</date>,
             <name type="person">Cmdr. John A. Montgomery</name>, of the <abbr>USS</abbr> <hi rend="italics">Portsmouth</hi>, seized the ship and cargo at <name type="place">San José de Cabo, Baja California,
               Mexico</name>. He charged the owners, charterers, and captain with the intention illegally to
             deliver the cargo to <name type="place">San Blas, Mexico</name>. After the <abbr>U.S.</abbr> Court of Admiralty. . . .</note>

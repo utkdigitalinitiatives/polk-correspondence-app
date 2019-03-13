@@ -43,6 +43,10 @@ p {
     text-indent: 0;
   }
 
+
+  /*
+   * @rend=ledger
+   */
   &.tei-p5 {
     font-family: $serif-generic;
     line-height: 1.62em;
@@ -50,6 +54,19 @@ p {
     text-indent: 0;
     border-bottom: 1px solid $smokey;
   }
+
+
+  /*
+   * @rend=right-signature
+   */
+  &.tei-p6 {
+    font-family: $serif-generic;
+    line-height: 1.62em;
+    text-align: right;
+    text-indent: 0;
+    font-variant: small-caps;
+  }
+
 
   * {
     text-indent: 0 !important;
