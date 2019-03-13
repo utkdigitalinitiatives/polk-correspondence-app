@@ -59,14 +59,27 @@ function search:query($node as node()*, $model as map(*), $query as xs:string?, 
                 "hits" : session:get-attribute("apps.simple"),
                 "hitCount" : session:get-attribute("apps.simple.hitCount"),
                 "query" : session:get-attribute("apps.simple.query"),
-                "docs" : session:get-attribute("apps.simple.docs")
+                "docs" : session:get-attribute("apps.simple.docs"),
+                "error_title": "Advanced Search",
+                "error": "For help using advanced search, please refer to our search guide."
+            }
+        else if (matches($query, ''))
+        then
+            map {
+                "hits" : session:set-attribute("apps.simple", map{}),
+                "hitCount": 0,
+                "error_title": "Advanced Search",
+                "error": "For help using advanced search, please refer to our search guide.",
+                "query" : $query,
+                "docs" : session:set-attribute("apps.simple.docs", "")
             }
         else if (functx:number-of-matches($query, '"') mod 2 != 0)
         then
              map {
                 "hits" : session:set-attribute("apps.simple", map{}),
                 "hitCount": 0,
-                "error": "Invalid query!  Try again.",
+                "error_title": "Invalid Search",
+                "error": 'There is something wrong with the phrase you searched for. If using quotes for multi-word, exact phrase searching, please check that you have properly closed the quotes around the phrase, ex: "San Francisco", and then try again.',
                 "query" : $query,
                 "docs" : session:set-attribute("apps.simple.docs", "")
              }
@@ -112,7 +125,7 @@ declare
 function search:show-hits($node as node()*, $model as map(*), $start as xs:integer, $per-page as xs:integer, $view as xs:string?) {
     if ($model?error)
         then
-            let $loc := <div id="error-message" role="alert"><strong>Invalid Search</strong><p>There is something wrong with the phrase you searched for. If using quotes for multi-word, exact phrase searching, please check that you have properly closed the quotes around the phrase, ex: "San Francisco", and then try again.</p></div>
+            let $loc := <div id="error-message" role="alert"><strong>{$model?error_title}</strong><p>{$model?error}</p></div>
             return ($loc)
     else
     for $hit at $p in subsequence($model("hits"), $start, $per-page)
