@@ -2,6 +2,11 @@
   margin-top: 123px;
   margin-bottom: 76px;
 
+  @include respond(xs, sm, md, lg, xl) {
+    flex-wrap: nowrap !important;
+  }
+
+
   > div[class*=' col-'] {
     text-align: center;
     position: relative;
