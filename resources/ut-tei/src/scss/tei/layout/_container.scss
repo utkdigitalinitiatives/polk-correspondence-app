@@ -35,6 +35,9 @@ body {
   }
 }
 
+/*
+ * safari specific fix for flex-wrap issue with bootstrap.
+ */
 @include respond(sm, md, lg, xl) {
   main.row {
     flex-wrap: nowrap !important;

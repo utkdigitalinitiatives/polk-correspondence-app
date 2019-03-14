@@ -1,7 +1,10 @@
 .content .polk-logos {
   margin-top: 123px;
   margin-bottom: 76px;
-
+  
+  /*
+   * safari specific fix for flex-wrap issue with bootstrap.
+   */
   @include respond(sm, md, lg, xl) {
     flex-wrap: nowrap !important;
   }
