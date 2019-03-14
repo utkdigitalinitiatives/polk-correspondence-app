@@ -34,3 +34,9 @@ body {
     background-color: $white;
   }
 }
+
+@include respond(sm, md, lg, xl) {
+  main.row {
+    flex-wrap: nowrap !important;
+  }
+}
