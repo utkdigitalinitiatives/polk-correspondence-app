@@ -75,9 +75,9 @@ function buildLandingPage () {
         landingPage.classList.add('polk-logos');
         landingPage.classList.add('row');
         landingPage.innerHTML =
-            "<div class='col-sm-4 col-xs-12'><a href='https://www.archives.gov/nhprc' target='_blank'><img src='" + LogoNHPRC + "' alt='National Archives: National Historical Publications & Records Commission'/></a></div>" +
-            "<div class='col-sm-4 col-xs-12'><a href='https://www.neh.gov/' target='_blank'><img src='" + LogoNEH + "' alt='National Endowment for the Humanities'/></a></div>" +
-            "<div class='col-sm-4 col-xs-12'><a href='https://newfoundpress.utk.edu/' target='_blank'><img src='" + LogoNewfoundPress + "' alt='Newfound Press'/></a></div>"
+            "<div class='col-md-4 col-sm-12'><a href='https://www.archives.gov/nhprc' target='_blank'><img src='" + LogoNHPRC + "' alt='National Archives: National Historical Publications & Records Commission'/></a></div>" +
+            "<div class='col-md-4 col-sm-12'><a href='https://www.neh.gov/' target='_blank'><img src='" + LogoNEH + "' alt='National Endowment for the Humanities'/></a></div>" +
+            "<div class='col-md-4 col-sm-12'><a href='https://newfoundpress.utk.edu/' target='_blank'><img src='" + LogoNewfoundPress + "' alt='Newfound Press'/></a></div>"
         ;
         documentPaneContent.appendChild(landingPage);
     }

@@ -2,7 +2,7 @@
   margin-top: 123px;
   margin-bottom: 76px;
 
-  @include respond(xs, sm, md, lg, xl) {
+  @include respond(sm, md, lg, xl) {
     flex-wrap: nowrap !important;
   }
 
