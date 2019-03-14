@@ -28,25 +28,16 @@ function checkAdmin() {
 
 window.addEventListener('load', runLoad, false);
 
-
-// reset has after login to avoid looping
+// reset after login to avoid looping dialog
 function loginActions() {
     window.location.hash = '#loginSent';
 }
 
-const el = document.getElementById("loginSubmit");
-window.addEventListener('click', loginActions, false);
+let loginMenuButton = document.getElementById('login-menu-button');
 
-
-// scours for core TEI login button, if it exists, hides ugly admin nav
-let loginExists = document.getElementById("login");
-if (loginExists) {
-    // let navbar = document.getElementsByClassName('navbar');
-    // let iterateNav = Array.prototype.filter.call(navbar, function(nav){
-    //     nav.setAttribute('style', 'display:none !important;');
-    // });
+if (loginMenuButton !== null) {
+    loginActions()
 }
-
 
 /*
  * build logos on landing page
