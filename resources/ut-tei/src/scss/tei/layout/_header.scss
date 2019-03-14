@@ -1,6 +1,15 @@
-nav.navbar {
+/*
+ * start header soft launch hiding
+ */
 
+.utk-header-actions--resources,
+.utk-header-actions--search {
+  display: none !important;
 }
+
+/*
+ * end header soft launch hiding
+ */
 
 .utk_header {
   .navbar {
