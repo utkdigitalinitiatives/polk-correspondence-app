@@ -59,9 +59,7 @@ function search:query($node as node()*, $model as map(*), $query as xs:string?, 
                 "hits" : session:get-attribute("apps.simple"),
                 "hitCount" : session:get-attribute("apps.simple.hitCount"),
                 "query" : session:get-attribute("apps.simple.query"),
-                "docs" : session:get-attribute("apps.simple.docs"),
-                "error_title": "Advanced Search",
-                "error": "For help using advanced search, please refer to our search guide."
+                "docs" : session:get-attribute("apps.simple.docs")
             }
         else if (string-length($query) = 0)
         then
