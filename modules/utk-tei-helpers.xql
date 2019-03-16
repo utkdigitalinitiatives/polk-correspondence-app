@@ -29,9 +29,9 @@ declare function bds:format-search-result-date(
 	if ($date)
 	then (
 		functx:month-name-en(xs:date($date)) ||
-		", " ||
-		fn:day-from-date(xs:date($date)) ||
 		" " ||
+		fn:day-from-date(xs:date($date)) ||
+		", " ||
 		fn:year-from-date(xs:date($date))
 	)
 	else ()
