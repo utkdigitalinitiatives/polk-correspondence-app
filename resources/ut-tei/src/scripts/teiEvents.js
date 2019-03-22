@@ -62,6 +62,14 @@ if (urlParams.has('root')) {
 function buildLandingPage () {
     if (document.getElementById('document-pane')) {
         const documentPaneContent = document.getElementById('document-pane').getElementsByClassName('content')[0];
+        const photoCredit = document.createElement('div');
+        photoCredit.classList.add('polk-photo-credit');
+        photoCredit.classList.add('row');
+        photoCredit.innerHTML =
+            "<div class='col-md-2 col-lg-1'><a href='https://www.whitehousehistory.org/photos/james-k-polk' target='_blank'><img src='https://newfoundpress.utk.edu/wp-content/uploads/2019/03/James-Polk-228x300.jpg' alt='Portrait of James K. Polk&#65279; by by George P. A. Healy (1858)' srcset='https://newfoundpress.utk.edu/wp-content/uploads/2019/03/James-Polk-228x300.jpg 228w, https://newfoundpress.utk.edu/wp-content/uploads/2019/03/James-Polk-768x1012.jpg 768w, https://newfoundpress.utk.edu/wp-content/uploads/2019/03/James-Polk-777x1024.jpg 777w, https://newfoundpress.utk.edu/wp-content/uploads/2019/03/James-Polk.jpg 1040w' sizes='(max-width: 228px) 100vw, 228px'/></a></div>" +
+            "<div class='col-md-8 col-lg-4'>" +
+            "<p><a href='https://www.whitehousehistory.org/photos/james-k-polk' target='_blank'>Portrait by George P. A. Healy (1858) <br/> <em>Credit: White House Collection/White House Historical Association.</em></a></p>" +
+            "</div>";
         const landingPage = document.createElement('div');
         landingPage.classList.add('polk-logos');
         landingPage.classList.add('row');
@@ -70,6 +78,7 @@ function buildLandingPage () {
             "<div class='col-md-4 col-sm-12'><a href='https://www.neh.gov/' target='_blank'><img src='" + LogoNEH + "' alt='National Endowment for the Humanities'/></a></div>" +
             "<div class='col-md-4 col-sm-12'><a href='https://newfoundpress.utk.edu/' target='_blank'><img src='" + LogoNewfoundPress + "' alt='Newfound Press'/></a></div>"
         ;
+        documentPaneContent.appendChild(photoCredit);
         documentPaneContent.appendChild(landingPage);
     }
 }
