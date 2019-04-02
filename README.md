@@ -6,10 +6,14 @@
 
 This repository contains all assets for building and deploying the Polk Correspondence project in [exist-db](http://exist-db.org/exist/apps/homepage/index.html).
 
-## Requirements
+## Build Requirements
 - [Yarn](https://yarnpkg.com/lang/en/docs/install)
 - [Ant](https://ant.apache.org/)
 - [NodeJS](https://nodejs.org/en/)
+
+## eXist Requirements
+- [eXist](http://exist-db.org)
+- [TEI Publisher: Processing Model Libraries](http://exist-db.org/exist/apps/public-repo/public/tei-publisher-lib-2.6.0.xar) 2.6.0
 
 ## Building the .xar
 
