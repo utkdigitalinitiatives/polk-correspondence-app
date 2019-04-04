@@ -87,6 +87,16 @@ function buildLandingPage () {
     if (window.document.getElementById('document-pane')) {
         let documentPaneContent = window.document.getElementById('document-pane').getElementsByClassName('content')[0];
 
+        let byline = window.document.createElement('div');
+        byline.classList.add('polk-editor-publisher');
+        byline.classList.add('row');
+        byline.innerHTML =
+            "<div class='col-md-12'>" +
+            "<p class='tei-p2 editor'>Michael David Cohen</p>" +
+            "<p class='tei-p2 assistant-editor'>Bradley J. Nichols</p>" +
+            "<p class='tei-p2 publisher'>2019 Newfound Press Knoxville, Tennessee</p>"
+            "</div>";
+
         let photoCredit = window.document.createElement('div');
         photoCredit.classList.add('polk-photo-credit');
         photoCredit.classList.add('row');
@@ -105,18 +115,8 @@ function buildLandingPage () {
             "<div class='col-md-4 col-sm-12'><a href='https://newfoundpress.utk.edu/' target='_blank'><img src='" + LogoNewfoundPress + "' alt='Newfound Press'/></a></div>"
         ;
 
+        documentPaneContent.prepend(byline);
         documentPaneContent.append(photoCredit);
         documentPaneContent.append(landingPage);
     }
 }
-
-
-{/*<byline>*/}
-    {/*<name type="editor">MICHAEL DAVID COHEN</name>*/}
-    {/*<name type="assistant_editor">Bradley J. Nichols</name>*/}
-{/*</byline>*/}
-{/*<docImprint rend="center">*/}
-    {/*<date when="2019">2019</date>*/}
-{/*<publisher>Newfound Press</publisher>*/}
-{/*<pubPlace>Knoxville, Tennessee</pubPlace>*/}
-{/*</docImprint>*/}
