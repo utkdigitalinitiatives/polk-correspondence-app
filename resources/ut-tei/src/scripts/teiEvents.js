@@ -5,6 +5,7 @@
 function runLoad() {
     doModal();
     checkAdmin();
+    checkPolkParams();
 }
 
 // set modal popup on URL visit w/ #loginDialog
@@ -48,21 +49,55 @@ import LogoNEH from '../media/custom/NEH_h-logo_03_all-black.svg';
 import LogoNewfoundPress from '../media/custom/newfound-press-logo.svg';
 
 const urlParams = new URLSearchParams(window.location.search);
-const defaultRoot = '1.4.2.4';
+const defaultRoot = '2.4.2.4';
+const pushState = history.pushState;
 
-if (urlParams.has('root')) {
-    let root = urlParams.get('root');
-    if (root === defaultRoot) {
-        buildLandingPage();
+history.pushState = function () {
+    pushState.apply(history, arguments);
+    fireEvents('pushState', arguments);  // Some event-handling function
+};
+
+function fireEvents(state, arguements) {
+    let urlString = arguements[2];
+    let urlSanitized = urlString.replace('polk.xml','');
+    let updateUrlParams = new URLSearchParams(urlSanitized);
+    checkPolkParams(updateUrlParams, 'dynamic');
+}
+
+function checkPolkParams (url = urlParams, method = 'default') {
+    if (url.has('root') || url.has('id')) {
+        let root = url.get('root');
+        if (root === defaultRoot) {
+            if (method !== 'dynamic') {
+                buildLandingPage();
+            } else {
+                location.reload();
+            }
+        }
+    } else {
+        if (method !== 'dynamic') {
+            buildLandingPage();
+        } else {
+            location.reload();
+        }
     }
-} else {
-    buildLandingPage();
 }
 
 function buildLandingPage () {
-    if (document.getElementById('document-pane')) {
-        const documentPaneContent = document.getElementById('document-pane').getElementsByClassName('content')[0];
-        const photoCredit = document.createElement('div');
+    if (window.document.getElementById('document-pane')) {
+        let documentPaneContent = window.document.getElementById('document-pane').getElementsByClassName('content')[0];
+
+        let byline = window.document.createElement('div');
+        byline.classList.add('polk-editor-publisher');
+        byline.classList.add('row');
+        byline.innerHTML =
+            "<div class='col-md-12'>" +
+            "<p class='tei-p2 editor'>Michael David Cohen</p>" +
+            "<p class='tei-p2 assistant-editor'>Bradley J. Nichols</p>" +
+            "<p class='tei-p2 publisher'>2019 Newfound Press Knoxville, Tennessee</p>"
+            "</div>";
+
+        let photoCredit = window.document.createElement('div');
         photoCredit.classList.add('polk-photo-credit');
         photoCredit.classList.add('row');
         photoCredit.innerHTML =
@@ -70,7 +105,8 @@ function buildLandingPage () {
             "<div class='col-md-8 col-lg-4'>" +
             "<p><a href='https://www.whitehousehistory.org/photos/james-k-polk' target='_blank'>Portrait by George P. A. Healy (1858) <br/> <em>Credit: White House Collection/White House Historical Association.</em></a></p>" +
             "</div>";
-        const landingPage = document.createElement('div');
+
+        let landingPage = window.document.createElement('div');
         landingPage.classList.add('polk-logos');
         landingPage.classList.add('row');
         landingPage.innerHTML =
@@ -78,7 +114,9 @@ function buildLandingPage () {
             "<div class='col-md-4 col-sm-12'><a href='https://www.neh.gov/' target='_blank'><img src='" + LogoNEH + "' alt='National Endowment for the Humanities'/></a></div>" +
             "<div class='col-md-4 col-sm-12'><a href='https://newfoundpress.utk.edu/' target='_blank'><img src='" + LogoNewfoundPress + "' alt='Newfound Press'/></a></div>"
         ;
-        documentPaneContent.appendChild(photoCredit);
-        documentPaneContent.appendChild(landingPage);
+
+        documentPaneContent.prepend(byline);
+        documentPaneContent.append(photoCredit);
+        documentPaneContent.append(landingPage);
     }
 }

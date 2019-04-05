@@ -16,7 +16,7 @@
       <publicationStmt>
         <publisher>Newfound Press</publisher>
         <pubPlace>Knoxville, Tennessee</pubPlace>
-        <date when="2017">2017</date>
+        <date when="2019">2019</date>
       </publicationStmt>
       <sourceDesc>
         <p>Document created in electronic form.</p>
@@ -39,7 +39,7 @@
           <name type="assistant_editor">Bradley J. Nichols</name>
         </byline>
         <docImprint rend="center">
-          <date when="2017">2017</date>
+          <date when="2019">2019</date>
           <publisher>Newfound Press</publisher>
           <pubPlace>Knoxville, Tennessee</pubPlace>
         </docImprint>
@@ -62,12 +62,6 @@
         <p rend="block">
                     <name type="org">Tennessee Historical Commission</name>
                 </p>
-        <!--<figure>-->
-          <!--<graphic url="nationalarchives.jpg"/>-->
-        <!--</figure>-->
-        <!--<figure>-->
-          <!--<graphic url="humanities.jpg"/>-->
-        <!--</figure>-->
       </div>
       <div type="ack">
         <pb/>
