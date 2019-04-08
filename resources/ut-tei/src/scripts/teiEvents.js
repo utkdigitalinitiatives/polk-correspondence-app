@@ -65,6 +65,8 @@ function fireEvents(state, arguements) {
 }
 
 function checkPolkParams (url = urlParams, method = 'default') {
+    let pathname = window.location.pathname;
+
     if (url.has('root') || url.has('id')) {
         let root = url.get('root');
         if (root === defaultRoot) {
@@ -74,6 +76,11 @@ function checkPolkParams (url = urlParams, method = 'default') {
                 location.reload();
             }
         }
+
+    } else if (pathname === '/exist/apps/polk-papers/') {
+        const redirectUrl = window.location.href + 'polk.xml?odd=polk.odd';
+        location.replace(redirectUrl);
+
     } else {
         if (method !== 'dynamic') {
             buildLandingPage();
