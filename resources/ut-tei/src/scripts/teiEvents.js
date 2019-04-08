@@ -92,8 +92,8 @@ function buildLandingPage () {
         byline.classList.add('row');
         byline.innerHTML =
             "<div class='col-md-12'>" +
-            "<p class='tei-p2 editor'>Michael David Cohen</p>" +
-            "<p class='tei-p2 assistant-editor'>Bradley J. Nichols</p>" +
+            "<p class='tei-p2 editor'>Michael David Cohen, Editor</p>" +
+            "<p class='tei-p2 assistant-editor'>Bradley J. Nichols, Editorial Assistant</p>" +
             "<p class='tei-p2 publisher'>2019 Newfound Press Knoxville, Tennessee</p>"
             "</div>";
 
