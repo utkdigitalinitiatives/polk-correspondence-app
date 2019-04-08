@@ -13,10 +13,10 @@
 }
 
 .content  {
-  padding: $golden-ratio-4 0 $golden-ratio-5;
+  padding: $golden-ratio-5 0 $golden-ratio-6;
 
   @include respond(xs) {
-    padding: $golden-ratio-3 0 $golden-ratio-4;
+    padding: $golden-ratio-4 0 $golden-ratio-5;
   }
 
   a,
