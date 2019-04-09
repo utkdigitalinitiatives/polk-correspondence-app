@@ -13,7 +13,11 @@
 }
 
 .content  {
-  padding: 4rem 0 8rem;
+  padding: $golden-ratio-5 0 $golden-ratio-6;
+
+  @include respond(xs) {
+    padding: $golden-ratio-4 0 $golden-ratio-5;
+  }
 
   a,
   a:visited {

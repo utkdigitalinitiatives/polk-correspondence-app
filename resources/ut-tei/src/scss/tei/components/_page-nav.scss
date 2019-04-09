@@ -12,6 +12,8 @@ footer.tp-footer-nav {
   a.page-nav:visited {
     height: 2rem;
     width: 2rem;
+    bottom: 50% !important;
+    position: fixed;
 
     i {
       color: inherit !important;
@@ -48,7 +50,7 @@ footer.tp-footer-nav {
       }
     }
 
-    @include respond(md, lg, xl) {
+    @include respond(xs, sm, md, lg, xl) {
       background-color: $globe !important;
       border-radius: 0 !important;
       color: $white;
