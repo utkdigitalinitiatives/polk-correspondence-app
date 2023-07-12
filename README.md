@@ -9,7 +9,7 @@ This repository contains all assets for building and deploying the Polk Correspo
 ## Build Requirements
 - [Yarn](https://yarnpkg.com/lang/en/docs/install)
 - [Ant](https://ant.apache.org/)
-- [NodeJS](https://nodejs.org/en/)
+- [NodeJS](https://nodejs.org/en/) v8
 
 ## eXist Requirements
 - [eXist](http://exist-db.org)

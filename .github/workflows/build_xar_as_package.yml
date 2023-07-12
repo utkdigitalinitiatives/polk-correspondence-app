@@ -1,0 +1,41 @@
+name: Build XAR as Release Package
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 8.x
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+      - name: Is Git Present
+        run: |
+          pwd
+          git remote -v
+          git log -1 --pretty="%H%n%an%n%B" | cat
+          git rev-list --count HEAD
+      - name: Build with Ant
+        run: ant -f build.xml
+      - name: Create Release Package
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          artifacts: "build/*.xar"
+          commit: master
+          draft: true
+          prerelease: true
+          removeArtifacts: true
+          replacesArtifacts: true
+          tag: latest
