@@ -1,4 +1,4 @@
-name: Build XAR
+name: Test Build Xar
 
 on: [push]
 
