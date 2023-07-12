@@ -30,4 +30,5 @@ jobs:
           commit: build_xar_with_actions
           draft: true
           prerelease: true
+          replacesArtifacts: true
           tag: v0.0.1
