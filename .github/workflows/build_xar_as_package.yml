@@ -3,7 +3,7 @@ name: Build XAR as Release Package
 on:
   push:
     branches:
-      - build_xar_with_actions
+      - master
 
 jobs:
   build:
@@ -33,9 +33,9 @@ jobs:
         with:
           allowUpdates: true
           artifacts: "build/*.xar"
-          commit: build_xar_with_actions
+          commit: master
           draft: true
           prerelease: true
           removeArtifacts: true
           replacesArtifacts: true
-          tag: v0.0.1
+          tag: latest
