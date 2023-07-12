@@ -22,6 +22,9 @@ jobs:
           distribution: 'temurin'
       - name: Is Git Present
         run: |
+          pwd
+          git remote -v
+          git log -1 --pretty="%H%n%an%n%B" | cat
           git rev-list --count HEAD
       - name: Build with Ant
         run: ant -f build.xml
