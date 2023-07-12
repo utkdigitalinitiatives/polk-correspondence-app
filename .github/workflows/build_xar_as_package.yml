@@ -22,7 +22,7 @@ jobs:
           distribution: 'temurin'
       - name: Is Git Present
         run: |
-          echo "git rev-list --count HEAD"
+          git rev-list --count HEAD
       - name: Build with Ant
         run: ant -f build.xml
       - name: Create Release Package
