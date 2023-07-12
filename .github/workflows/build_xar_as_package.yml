@@ -27,3 +27,4 @@ jobs:
         with:
           artifacts: "*.xar"
           commit: build_xar_with_actions
+          tag: v0.0.1
