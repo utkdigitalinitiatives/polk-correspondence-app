@@ -25,6 +25,9 @@ jobs:
       - name: Create Release Package
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "*.xar"
+          allowUpdates: true
+          artifacts: "build/*.xar"
           commit: build_xar_with_actions
+          draft: true
+          prerelease: true
           tag: v0.0.1
