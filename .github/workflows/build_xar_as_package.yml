@@ -8,9 +8,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
@@ -34,8 +35,8 @@ jobs:
           allowUpdates: true
           artifacts: "build/*.xar"
           commit: master
-          draft: true
-          prerelease: true
+          draft: false
+          prerelease: false
           removeArtifacts: true
           replacesArtifacts: true
           tag: latest
